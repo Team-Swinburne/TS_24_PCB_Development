@@ -1,0 +1,9 @@
+Removed Member From Class: ClassName=Isolation Member=R37
+Change Net Name : Old Net Name=BPPS_1 New Net Name=BPPS_1_F
+Change Net Name : Old Net Name=BPPS_2 New Net Name=BPPS_2_F
+Added Pin To Net: NetName=BPPS_1 Pin=P6-3
+Added Pin To Net: NetName=BPPS_1 Pin=R30-1
+Added Net: Name=BPPS_1
+Added Pin To Net: NetName=BPPS_2 Pin=P6-4
+Added Pin To Net: NetName=BPPS_2 Pin=R37-1
+Added Net: Name=BPPS_2
