@@ -1,0 +1,212 @@
+Change Footprint: Footprint Not Found TDK 4-PC Pad
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found SMD Test Point 1mm
+Added Component: Designator=U4_TB1(AD 16-SOIC)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analogue Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ADUM5401"; VariantName = "[No Variations]"
+Added Component: Designator=U4_TB2(AD 16-SOIC)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analogue Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ADUM5401"; VariantName = "[No Variations]"
+Added Component: Designator=U4_TB3(AD 16-SOIC)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analogue Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ADUM5401"; VariantName = "[No Variations]"
+Added Component: Designator=U4_TB4(AD 16-SOIC)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analogue Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ADUM5401"; VariantName = "[No Variations]"
+Added Component: Designator=U4_TB5(AD 16-SOIC)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analogue Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ADUM5401"; VariantName = "[No Variations]"
+Added Component: Designator=U4_TB6(AD 16-SOIC)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analogue Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ADUM5401"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found AD SOIC-W 20
+Add Pin To Net: Unknown Pin: Pin L3-3
+Add Pin To Net: Unknown Pin: Pin L3-4
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Pin To Net: Unknown Pin: Pin P1-3
+Add Pin To Net: Unknown Pin: Pin P1-4
+Add Pin To Net: Unknown Pin: Pin P1-5
+Add Pin To Net: Unknown Pin: Pin P1-6
+Add Pin To Net: Unknown Pin: Pin P1-7
+Add Pin To Net: Unknown Pin: Pin P1-8
+Add Pin To Net: Unknown Pin: Pin P1-9
+Add Pin To Net: Unknown Pin: Pin P1-10
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin P2-3
+Add Pin To Net: Unknown Pin: Pin P2-4
+Add Pin To Net: Unknown Pin: Pin P2-5
+Add Pin To Net: Unknown Pin: Pin P2-6
+Add Pin To Net: Unknown Pin: Pin P2-7
+Add Pin To Net: Unknown Pin: Pin P2-8
+Add Pin To Net: Unknown Pin: Pin P2-9
+Add Pin To Net: Unknown Pin: Pin P2-10
+Add Pin To Net: Unknown Pin: Pin P4-1
+Add Pin To Net: Unknown Pin: Pin P4-2
+Add Pin To Net: Unknown Pin: Pin P4-3
+Add Pin To Net: Unknown Pin: Pin P4-4
+Add Pin To Net: Unknown Pin: Pin P4-5
+Add Pin To Net: Unknown Pin: Pin P4-6
+Add Pin To Net: Unknown Pin: Pin P4-7
+Add Pin To Net: Unknown Pin: Pin P4-8
+Add Pin To Net: Unknown Pin: Pin P4-9
+Add Pin To Net: Unknown Pin: Pin P4-10
+Add Pin To Net: Unknown Pin: Pin P5-1
+Add Pin To Net: Unknown Pin: Pin P5-2
+Add Pin To Net: Unknown Pin: Pin P5-3
+Add Pin To Net: Unknown Pin: Pin P5-4
+Add Pin To Net: Unknown Pin: Pin P5-5
+Add Pin To Net: Unknown Pin: Pin P5-6
+Add Pin To Net: Unknown Pin: Pin P5-7
+Add Pin To Net: Unknown Pin: Pin P5-8
+Add Pin To Net: Unknown Pin: Pin P5-9
+Add Pin To Net: Unknown Pin: Pin P5-10
+Add Pin To Net: Unknown Pin: Pin P6-1
+Add Pin To Net: Unknown Pin: Pin P6-2
+Add Pin To Net: Unknown Pin: Pin P6-3
+Add Pin To Net: Unknown Pin: Pin P6-4
+Add Pin To Net: Unknown Pin: Pin P6-5
+Add Pin To Net: Unknown Pin: Pin P6-6
+Add Pin To Net: Unknown Pin: Pin P6-7
+Add Pin To Net: Unknown Pin: Pin P6-8
+Add Pin To Net: Unknown Pin: Pin P6-9
+Add Pin To Net: Unknown Pin: Pin P6-10
+Add Pin To Net: Unknown Pin: Pin P7-1
+Add Pin To Net: Unknown Pin: Pin P7-2
+Add Pin To Net: Unknown Pin: Pin P7-3
+Add Pin To Net: Unknown Pin: Pin P7-4
+Add Pin To Net: Unknown Pin: Pin P7-5
+Add Pin To Net: Unknown Pin: Pin P7-6
+Add Pin To Net: Unknown Pin: Pin P7-7
+Add Pin To Net: Unknown Pin: Pin P7-8
+Add Pin To Net: Unknown Pin: Pin P7-9
+Add Pin To Net: Unknown Pin: Pin P7-10
+Add Pin To Net: Unknown Pin: Pin RS1-1
+Added Pin To Net: NetName=5V_(ISO) Pin=U4_TB1-1
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB1-2
+Added Pin To Net: NetName=NetU4_TB1_3 Pin=U4_TB1-3
+Added Pin To Net: NetName=NetU4_TB1_4 Pin=U4_TB1-4
+Added Pin To Net: NetName=NetU4_TB1_5 Pin=U4_TB1-5
+Added Pin To Net: NetName=NetU4_TB1_6 Pin=U4_TB1-6
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB1-8
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB1-9
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB1-10
+Added Pin To Net: NetName=MISO_ADC_TB1 Pin=U4_TB1-11
+Added Pin To Net: NetName=CS_ADC_TB1 Pin=U4_TB1-12
+Added Pin To Net: NetName=CLK_ADC_TB1 Pin=U4_TB1-13
+Added Pin To Net: NetName=MOSI_ADC_TB1 Pin=U4_TB1-14
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB1-15
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB1-16
+Added Pin To Net: NetName=5V_(ISO) Pin=U4_TB2-1
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB2-2
+Added Pin To Net: NetName=NetU4_TB2_3 Pin=U4_TB2-3
+Added Pin To Net: NetName=NetU4_TB2_4 Pin=U4_TB2-4
+Added Pin To Net: NetName=NetU4_TB2_5 Pin=U4_TB2-5
+Added Pin To Net: NetName=NetU4_TB2_6 Pin=U4_TB2-6
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB2-8
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB2-9
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB2-10
+Added Pin To Net: NetName=MISO_ADC_TB2 Pin=U4_TB2-11
+Added Pin To Net: NetName=CS_ADC_TB2 Pin=U4_TB2-12
+Added Pin To Net: NetName=CLK_ADC_TB2 Pin=U4_TB2-13
+Added Pin To Net: NetName=MOSI_ADC_TB2 Pin=U4_TB2-14
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB2-15
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB2-16
+Added Pin To Net: NetName=5V_(ISO) Pin=U4_TB3-1
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB3-2
+Added Pin To Net: NetName=NetU4_TB3_3 Pin=U4_TB3-3
+Added Pin To Net: NetName=NetU4_TB3_4 Pin=U4_TB3-4
+Added Pin To Net: NetName=NetU4_TB3_5 Pin=U4_TB3-5
+Added Pin To Net: NetName=NetU4_TB3_6 Pin=U4_TB3-6
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB3-8
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB3-9
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB3-10
+Added Pin To Net: NetName=MISO_ADC_TB3 Pin=U4_TB3-11
+Added Pin To Net: NetName=CS_ADC_TB3 Pin=U4_TB3-12
+Added Pin To Net: NetName=CLK_ADC_TB3 Pin=U4_TB3-13
+Added Pin To Net: NetName=MOSI_ADC_TB3 Pin=U4_TB3-14
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB3-15
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB3-16
+Added Pin To Net: NetName=5V_(ISO) Pin=U4_TB4-1
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB4-2
+Added Pin To Net: NetName=NetU4_TB4_3 Pin=U4_TB4-3
+Added Pin To Net: NetName=NetU4_TB4_4 Pin=U4_TB4-4
+Added Pin To Net: NetName=NetU4_TB4_5 Pin=U4_TB4-5
+Added Pin To Net: NetName=NetU4_TB4_6 Pin=U4_TB4-6
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB4-8
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB4-9
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB4-10
+Added Pin To Net: NetName=MISO_ADC_TB4 Pin=U4_TB4-11
+Added Pin To Net: NetName=CS_ADC_TB4 Pin=U4_TB4-12
+Added Pin To Net: NetName=CLK_ADC_TB4 Pin=U4_TB4-13
+Added Pin To Net: NetName=MOSI_ADC_TB4 Pin=U4_TB4-14
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB4-15
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB4-16
+Added Pin To Net: NetName=5V_(ISO) Pin=U4_TB5-1
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB5-2
+Added Pin To Net: NetName=NetU4_TB5_3 Pin=U4_TB5-3
+Added Pin To Net: NetName=NetU4_TB5_4 Pin=U4_TB5-4
+Added Pin To Net: NetName=NetU4_TB5_5 Pin=U4_TB5-5
+Added Pin To Net: NetName=NetU4_TB5_6 Pin=U4_TB5-6
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB5-8
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB5-9
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB5-10
+Added Pin To Net: NetName=MISO_ADC_TB5 Pin=U4_TB5-11
+Added Pin To Net: NetName=CS_ADC_TB5 Pin=U4_TB5-12
+Added Pin To Net: NetName=CLK_ADC_TB5 Pin=U4_TB5-13
+Added Pin To Net: NetName=MOSI_ADC_TB5 Pin=U4_TB5-14
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB5-15
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB5-16
+Added Pin To Net: NetName=5V_(ISO) Pin=U4_TB6-1
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB6-2
+Added Pin To Net: NetName=NetU4_TB6_3 Pin=U4_TB6-3
+Added Pin To Net: NetName=NetU4_TB6_4 Pin=U4_TB6-4
+Added Pin To Net: NetName=NetU4_TB6_5 Pin=U4_TB6-5
+Added Pin To Net: NetName=NetU4_TB6_6 Pin=U4_TB6-6
+Added Pin To Net: NetName=0V_(ISO) Pin=U4_TB6-8
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB6-9
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB6-10
+Added Pin To Net: NetName=MISO_ADC_TB6 Pin=U4_TB6-11
+Added Pin To Net: NetName=CS_ADC_TB6 Pin=U4_TB6-12
+Added Pin To Net: NetName=CLK_ADC_TB6 Pin=U4_TB6-13
+Added Pin To Net: NetName=MOSI_ADC_TB6 Pin=U4_TB6-14
+Added Pin To Net: NetName=TEMP_GND Pin=U4_TB6-15
+Added Pin To Net: NetName=3V3_TEMP Pin=U4_TB6-16
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-9
+Add Pin To Net: Unknown Pin: Pin U6-10
+Add Pin To Net: Unknown Pin: Pin U6-11
+Add Pin To Net: Unknown Pin: Pin U6-12
+Add Pin To Net: Unknown Pin: Pin U6-13
+Add Pin To Net: Unknown Pin: Pin U6-15
+Add Pin To Net: Unknown Pin: Pin U6-16
+Add Pin To Net: Unknown Pin: Pin U6-17
+Add Pin To Net: Unknown Pin: Pin U6-18
+Add Pin To Net: Unknown Pin: Pin U6-19
+Add Pin To Net: Unknown Pin: Pin U6-20
+Add Class Member: Failed to add class member : Component P1 39293106
+Add Class Member: Failed to add class member : Component P2 39293106
+Add Class Member: Failed to add class member : Component P4 39293106
+Add Class Member: Failed to add class member : Component P5 39293106
+Add Class Member: Failed to add class member : Component P6 39293106
+Add Class Member: Failed to add class member : Component P7 39293106
+Add Class Member: Failed to add class member : Component RS1 RS
+Added Member To Class: ClassName=TB1 Member=Component U4_TB1 (U4) ADUM5401
+Added Member To Class: ClassName=TB2 Member=Component U4_TB2 (U4) ADUM5401
+Added Member To Class: ClassName=TB3 Member=Component U4_TB3 (U4) ADUM5401
+Added Member To Class: ClassName=TB4 Member=Component U4_TB4 (U4) ADUM5401
+Added Member To Class: ClassName=TB5 Member=Component U4_TB5 (U4) ADUM5401
+Added Member To Class: ClassName=TB6 Member=Component U4_TB6 (U4) ADUM5401
+Add Class Member: Failed to add class member : Component U6 ADM3053

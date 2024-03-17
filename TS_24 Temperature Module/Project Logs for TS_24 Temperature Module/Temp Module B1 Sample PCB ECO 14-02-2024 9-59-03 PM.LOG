@@ -1,0 +1,17 @@
+Added Component: Designator=U2(24-DIP Module, 7 Leads)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com/products/en?keywords=%20JTC0424S05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "JTC0424S05-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Efficiency"; Value = "0.79"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Voltage"; Value = "9V-36V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Isolation"; Value = "Isolated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "XP Power"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Power"; Value = "4W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage"; Value = "5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "JTC0424S05"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=0V Pin=U2-2
+Added Pin To Net: NetName=0V Pin=U2-3
+Added Pin To Net: NetName=5V Pin=U2-14
+Added Pin To Net: NetName=0V_(ISO) Pin=U2-16
+Added Pin To Net: NetName=VBAT_F Pin=U2-22
+Added Pin To Net: NetName=VBAT_F Pin=U2-23
+Added Member To Class: ClassName=U_Power Supply Member=Component U2 JTC0424S05

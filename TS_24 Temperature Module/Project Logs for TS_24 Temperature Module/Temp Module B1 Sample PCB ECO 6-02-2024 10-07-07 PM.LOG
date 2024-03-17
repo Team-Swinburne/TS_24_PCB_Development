@@ -1,0 +1,728 @@
+Removed Pin From Net: NetName=0V_(ISO) Pin=U?_TB1-8
+Removed Pin From Net: NetName=MISO_ADC_TB1 Pin=U?_TB1-11
+Removed Pin From Net: NetName=TEMP_GND Pin=U?_TB1-15
+Removed Pin From Net: NetName=0V_(ISO) Pin=U?_TB2-8
+Removed Pin From Net: NetName=MISO_ADC_TB2 Pin=U?_TB2-11
+Removed Pin From Net: NetName=TEMP_GND Pin=U?_TB2-15
+Removed Pin From Net: NetName=0V_(ISO) Pin=U?_TB3-8
+Removed Pin From Net: NetName=MISO_ADC_TB3 Pin=U?_TB3-11
+Removed Pin From Net: NetName=TEMP_GND Pin=U?_TB3-15
+Removed Pin From Net: NetName=MISO_ADC_TB4 Pin=U?_TB4-11
+Removed Pin From Net: NetName=TEMP_GND Pin=U?_TB4-15
+Removed Pin From Net: NetName=0V_(ISO) Pin=U?_TB5-8
+Removed Pin From Net: NetName=MISO_ADC_TB5 Pin=U?_TB5-11
+Removed Pin From Net: NetName=TEMP_GND Pin=U?_TB5-15
+Removed Pin From Net: NetName=MISO_ADC_TB6 Pin=U?_TB6-11
+Removed Pin From Net: NetName=TEMP_GND Pin=U?_TB6-15
+Removed Member From Class: ClassName=U_CAN Member=L2
+Removed Member From Class: ClassName=U_Power Supply Member=R100
+Change Footprint: Footprint Not Found TDK 4-PC Pad
+Change Component Designator: OldDesignator=C14 NewDesignator=C28
+Change Component Designator: OldDesignator=C15 NewDesignator=C29
+Change Component Designator: OldDesignator=C16 NewDesignator=C30
+Change Component Designator: OldDesignator=C17 NewDesignator=C31
+Change Component Designator: OldDesignator=C18 NewDesignator=C32
+Change Component Designator: OldDesignator=C19 NewDesignator=C33
+Change Component Designator: OldDesignator=C20 NewDesignator=C34
+Change Component Designator: OldDesignator=C21 NewDesignator=C35
+Change Component Designator: OldDesignator=C22 NewDesignator=C36
+Change Component Designator: OldDesignator=C23 NewDesignator=C37
+Change Component Designator: OldDesignator=C24 NewDesignator=C38
+Change Component Designator: OldDesignator=C25 NewDesignator=C39
+Change Component Designator: OldDesignator=C26 NewDesignator=C40
+Change Component Designator: OldDesignator=C27 NewDesignator=C41
+Change Component Designator: OldDesignator=C28 NewDesignator=C42
+Change Component Designator: OldDesignator=C29 NewDesignator=C43
+Change Component Designator: OldDesignator=C30 NewDesignator=C44
+Change Component Designator: OldDesignator=C31 NewDesignator=C45
+Change Component Designator: OldDesignator=C32 NewDesignator=C46
+Change Component Designator: OldDesignator=C33 NewDesignator=C47
+Change Component Designator: OldDesignator=C34 NewDesignator=C48
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C13_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C14_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C15_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C16_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C17_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C18_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C19_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C20_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C21_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C22_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C23_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C24_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C25_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C26_TB1
+Change Component Designator: OldDesignator=C?_TB1 NewDesignator=C27_TB1
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C13_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C14_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C15_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C16_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C17_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C18_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C19_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C20_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C21_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C22_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C23_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C24_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C25_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C26_TB2
+Change Component Designator: OldDesignator=C?_TB2 NewDesignator=C27_TB2
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C13_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C14_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C15_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C16_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C17_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C18_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C19_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C20_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C21_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C22_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C23_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C24_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C25_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C26_TB3
+Change Component Designator: OldDesignator=C?_TB3 NewDesignator=C27_TB3
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C13_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C14_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C15_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C16_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C17_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C18_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C19_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C20_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C21_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C22_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C23_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C24_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C25_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C26_TB4
+Change Component Designator: OldDesignator=C?_TB4 NewDesignator=C27_TB4
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C13_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C14_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C15_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C16_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C17_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C18_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C19_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C20_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C21_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C22_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C23_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C24_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C25_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C26_TB5
+Change Component Designator: OldDesignator=C?_TB5 NewDesignator=C27_TB5
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C13_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C14_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C15_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C16_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C17_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C18_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C19_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C20_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C21_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C22_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C23_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C24_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C25_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C26_TB6
+Change Component Designator: OldDesignator=C?_TB6 NewDesignator=C27_TB6
+Change Component Designator: OldDesignator=D3 NewDesignator=D6
+Change Component Designator: OldDesignator=D4 NewDesignator=D7
+Change Component Designator: OldDesignator=L2 NewDesignator=L3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R15
+Change Component Designator: OldDesignator=R6 NewDesignator=R16
+Change Component Designator: OldDesignator=R7 NewDesignator=R17
+Change Component Designator: OldDesignator=R8 NewDesignator=R18
+Change Component Designator: OldDesignator=R9 NewDesignator=R19
+Change Component Designator: OldDesignator=R10 NewDesignator=R20
+Change Component Designator: OldDesignator=R11 NewDesignator=R21
+Change Component Designator: OldDesignator=R12 NewDesignator=R22
+Change Component Designator: OldDesignator=R100 NewDesignator=R3
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R6_TB1
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R7_TB1
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R8_TB1
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R9_TB1
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R10_TB1
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R11_TB1
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R12_TB1
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R13_TB1
+Change Component Designator: OldDesignator=R?_TB1 NewDesignator=R14_TB1
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R6_TB2
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R7_TB2
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R8_TB2
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R9_TB2
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R10_TB2
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R11_TB2
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R12_TB2
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R13_TB2
+Change Component Designator: OldDesignator=R?_TB2 NewDesignator=R14_TB2
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R6_TB3
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R7_TB3
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R8_TB3
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R9_TB3
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R10_TB3
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R11_TB3
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R12_TB3
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R13_TB3
+Change Component Designator: OldDesignator=R?_TB3 NewDesignator=R14_TB3
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R6_TB4
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R7_TB4
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R8_TB4
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R9_TB4
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R10_TB4
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R11_TB4
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R12_TB4
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R13_TB4
+Change Component Designator: OldDesignator=R?_TB4 NewDesignator=R14_TB4
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R6_TB5
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R7_TB5
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R8_TB5
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R9_TB5
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R10_TB5
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R11_TB5
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R12_TB5
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R13_TB5
+Change Component Designator: OldDesignator=R?_TB5 NewDesignator=R14_TB5
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R6_TB6
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R7_TB6
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R8_TB6
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R9_TB6
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R10_TB6
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R11_TB6
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R12_TB6
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R13_TB6
+Change Component Designator: OldDesignator=R?_TB6 NewDesignator=R14_TB6
+Change Component Designator: OldDesignator=U? NewDesignator=U7
+Change Component Designator: OldDesignator=U?_TB1 NewDesignator=U5_TB1
+Change Component Designator: OldDesignator=U?_TB2 NewDesignator=U5_TB2
+Change Component Designator: OldDesignator=U?_TB3 NewDesignator=U5_TB3
+Change Component Designator: OldDesignator=U?_TB4 NewDesignator=U5_TB4
+Change Component Designator: OldDesignator=U?_TB5 NewDesignator=U5_TB5
+Change Component Designator: OldDesignator=U?_TB6 NewDesignator=U5_TB6
+Change Component Designator: OldDesignator=UART? NewDesignator=UART1
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found 39293106
+Add Component: Footprint Not Found SMD Test Point 1mm
+Add Component: Footprint Not Found AD SOIC-W 20
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Pin To Net: Unknown Pin: Pin P1-3
+Add Pin To Net: Unknown Pin: Pin P1-4
+Add Pin To Net: Unknown Pin: Pin P1-5
+Add Pin To Net: Unknown Pin: Pin P1-6
+Add Pin To Net: Unknown Pin: Pin P1-7
+Add Pin To Net: Unknown Pin: Pin P1-8
+Add Pin To Net: Unknown Pin: Pin P1-9
+Add Pin To Net: Unknown Pin: Pin P1-10
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin P2-3
+Add Pin To Net: Unknown Pin: Pin P2-4
+Add Pin To Net: Unknown Pin: Pin P2-5
+Add Pin To Net: Unknown Pin: Pin P2-6
+Add Pin To Net: Unknown Pin: Pin P2-7
+Add Pin To Net: Unknown Pin: Pin P2-8
+Add Pin To Net: Unknown Pin: Pin P2-9
+Add Pin To Net: Unknown Pin: Pin P2-10
+Add Pin To Net: Unknown Pin: Pin P4-1
+Add Pin To Net: Unknown Pin: Pin P4-2
+Add Pin To Net: Unknown Pin: Pin P4-3
+Add Pin To Net: Unknown Pin: Pin P4-4
+Add Pin To Net: Unknown Pin: Pin P4-5
+Add Pin To Net: Unknown Pin: Pin P4-6
+Add Pin To Net: Unknown Pin: Pin P4-7
+Add Pin To Net: Unknown Pin: Pin P4-8
+Add Pin To Net: Unknown Pin: Pin P4-9
+Add Pin To Net: Unknown Pin: Pin P4-10
+Add Pin To Net: Unknown Pin: Pin P5-1
+Add Pin To Net: Unknown Pin: Pin P5-2
+Add Pin To Net: Unknown Pin: Pin P5-3
+Add Pin To Net: Unknown Pin: Pin P5-4
+Add Pin To Net: Unknown Pin: Pin P5-5
+Add Pin To Net: Unknown Pin: Pin P5-6
+Add Pin To Net: Unknown Pin: Pin P5-7
+Add Pin To Net: Unknown Pin: Pin P5-8
+Add Pin To Net: Unknown Pin: Pin P5-9
+Add Pin To Net: Unknown Pin: Pin P5-10
+Add Pin To Net: Unknown Pin: Pin P6-1
+Add Pin To Net: Unknown Pin: Pin P6-2
+Add Pin To Net: Unknown Pin: Pin P6-3
+Add Pin To Net: Unknown Pin: Pin P6-4
+Add Pin To Net: Unknown Pin: Pin P6-5
+Add Pin To Net: Unknown Pin: Pin P6-6
+Add Pin To Net: Unknown Pin: Pin P6-7
+Add Pin To Net: Unknown Pin: Pin P6-8
+Add Pin To Net: Unknown Pin: Pin P6-9
+Add Pin To Net: Unknown Pin: Pin P6-10
+Add Pin To Net: Unknown Pin: Pin P7-1
+Add Pin To Net: Unknown Pin: Pin P7-2
+Add Pin To Net: Unknown Pin: Pin P7-3
+Add Pin To Net: Unknown Pin: Pin P7-4
+Add Pin To Net: Unknown Pin: Pin P7-5
+Add Pin To Net: Unknown Pin: Pin P7-6
+Add Pin To Net: Unknown Pin: Pin P7-7
+Add Pin To Net: Unknown Pin: Pin P7-8
+Add Pin To Net: Unknown Pin: Pin P7-9
+Add Pin To Net: Unknown Pin: Pin P7-10
+Add Pin To Net: Unknown Pin: Pin U4_TB1-1
+Add Pin To Net: Unknown Pin: Pin U4_TB1-2
+Add Pin To Net: Unknown Pin: Pin U4_TB1-8
+Add Pin To Net: Unknown Pin: Pin U4_TB1-9
+Add Pin To Net: Unknown Pin: Pin U4_TB1-10
+Add Pin To Net: Unknown Pin: Pin U4_TB1-11
+Add Pin To Net: Unknown Pin: Pin U4_TB1-12
+Add Pin To Net: Unknown Pin: Pin U4_TB1-13
+Add Pin To Net: Unknown Pin: Pin U4_TB1-14
+Add Pin To Net: Unknown Pin: Pin U4_TB1-15
+Add Pin To Net: Unknown Pin: Pin U4_TB1-16
+Add Pin To Net: Unknown Pin: Pin U4_TB2-1
+Add Pin To Net: Unknown Pin: Pin U4_TB2-2
+Add Pin To Net: Unknown Pin: Pin U4_TB2-8
+Add Pin To Net: Unknown Pin: Pin U4_TB2-9
+Add Pin To Net: Unknown Pin: Pin U4_TB2-10
+Add Pin To Net: Unknown Pin: Pin U4_TB2-11
+Add Pin To Net: Unknown Pin: Pin U4_TB2-12
+Add Pin To Net: Unknown Pin: Pin U4_TB2-13
+Add Pin To Net: Unknown Pin: Pin U4_TB2-14
+Add Pin To Net: Unknown Pin: Pin U4_TB2-15
+Add Pin To Net: Unknown Pin: Pin U4_TB2-16
+Add Pin To Net: Unknown Pin: Pin U4_TB3-1
+Add Pin To Net: Unknown Pin: Pin U4_TB3-2
+Add Pin To Net: Unknown Pin: Pin U4_TB3-8
+Add Pin To Net: Unknown Pin: Pin U4_TB3-9
+Add Pin To Net: Unknown Pin: Pin U4_TB3-10
+Add Pin To Net: Unknown Pin: Pin U4_TB3-11
+Add Pin To Net: Unknown Pin: Pin U4_TB3-12
+Add Pin To Net: Unknown Pin: Pin U4_TB3-13
+Add Pin To Net: Unknown Pin: Pin U4_TB3-14
+Add Pin To Net: Unknown Pin: Pin U4_TB3-15
+Add Pin To Net: Unknown Pin: Pin U4_TB3-16
+Add Pin To Net: Unknown Pin: Pin U4_TB4-1
+Add Pin To Net: Unknown Pin: Pin U4_TB4-2
+Add Pin To Net: Unknown Pin: Pin U4_TB4-8
+Add Pin To Net: Unknown Pin: Pin U4_TB4-9
+Add Pin To Net: Unknown Pin: Pin U4_TB4-10
+Add Pin To Net: Unknown Pin: Pin U4_TB4-11
+Add Pin To Net: Unknown Pin: Pin U4_TB4-12
+Add Pin To Net: Unknown Pin: Pin U4_TB4-13
+Add Pin To Net: Unknown Pin: Pin U4_TB4-14
+Add Pin To Net: Unknown Pin: Pin U4_TB4-15
+Add Pin To Net: Unknown Pin: Pin U4_TB4-16
+Add Pin To Net: Unknown Pin: Pin U4_TB5-1
+Add Pin To Net: Unknown Pin: Pin U4_TB5-2
+Add Pin To Net: Unknown Pin: Pin U4_TB5-8
+Add Pin To Net: Unknown Pin: Pin U4_TB5-9
+Add Pin To Net: Unknown Pin: Pin U4_TB5-10
+Add Pin To Net: Unknown Pin: Pin U4_TB5-11
+Add Pin To Net: Unknown Pin: Pin U4_TB5-12
+Add Pin To Net: Unknown Pin: Pin U4_TB5-13
+Add Pin To Net: Unknown Pin: Pin U4_TB5-14
+Add Pin To Net: Unknown Pin: Pin U4_TB5-15
+Add Pin To Net: Unknown Pin: Pin U4_TB5-16
+Add Pin To Net: Unknown Pin: Pin U4_TB6-1
+Add Pin To Net: Unknown Pin: Pin U4_TB6-2
+Add Pin To Net: Unknown Pin: Pin U4_TB6-8
+Add Pin To Net: Unknown Pin: Pin U4_TB6-9
+Add Pin To Net: Unknown Pin: Pin U4_TB6-10
+Add Pin To Net: Unknown Pin: Pin U4_TB6-11
+Add Pin To Net: Unknown Pin: Pin U4_TB6-12
+Add Pin To Net: Unknown Pin: Pin U4_TB6-13
+Add Pin To Net: Unknown Pin: Pin U4_TB6-14
+Add Pin To Net: Unknown Pin: Pin U4_TB6-15
+Add Pin To Net: Unknown Pin: Pin U4_TB6-16
+Added Pin To Net: NetName=Cell 5_TB1 Pin=U5_TB1-3
+Added Pin To Net: NetName=Cell 6_TB1 Pin=U5_TB1-4
+Added Pin To Net: NetName=Cell 7_TB1 Pin=U5_TB1-5
+Added Pin To Net: NetName=Cell 8_TB1 Pin=U5_TB1-6
+Added Pin To Net: NetName=CS_ADC_TB1 Pin=U5_TB1-11
+Added Pin To Net: NetName=Cell 1_TB1 Pin=U5_TB1-15
+Added Pin To Net: NetName=Cell 5_TB2 Pin=U5_TB2-3
+Added Pin To Net: NetName=Cell 6_TB2 Pin=U5_TB2-4
+Added Pin To Net: NetName=Cell 7_TB2 Pin=U5_TB2-5
+Added Pin To Net: NetName=Cell 8_TB2 Pin=U5_TB2-6
+Added Pin To Net: NetName=CS_ADC_TB2 Pin=U5_TB2-11
+Added Pin To Net: NetName=Cell 1_TB2 Pin=U5_TB2-15
+Added Pin To Net: NetName=Cell 5_TB3 Pin=U5_TB3-3
+Added Pin To Net: NetName=Cell 6_TB3 Pin=U5_TB3-4
+Added Pin To Net: NetName=Cell 7_TB3 Pin=U5_TB3-5
+Added Pin To Net: NetName=Cell 8_TB3 Pin=U5_TB3-6
+Added Pin To Net: NetName=CS_ADC_TB3 Pin=U5_TB3-11
+Added Pin To Net: NetName=Cell 1_TB3 Pin=U5_TB3-15
+Added Pin To Net: NetName=Cell 5_TB4 Pin=U5_TB4-3
+Added Pin To Net: NetName=Cell 6_TB4 Pin=U5_TB4-4
+Added Pin To Net: NetName=Cell 7_TB4 Pin=U5_TB4-5
+Added Pin To Net: NetName=Cell 8_TB4 Pin=U5_TB4-6
+Added Pin To Net: NetName=CS_ADC_TB4 Pin=U5_TB4-11
+Added Pin To Net: NetName=Cell 1_TB4 Pin=U5_TB4-15
+Added Pin To Net: NetName=Cell 5_TB5 Pin=U5_TB5-3
+Added Pin To Net: NetName=Cell 6_TB5 Pin=U5_TB5-4
+Added Pin To Net: NetName=Cell 7_TB5 Pin=U5_TB5-5
+Added Pin To Net: NetName=Cell 8_TB5 Pin=U5_TB5-6
+Added Pin To Net: NetName=CS_ADC_TB5 Pin=U5_TB5-11
+Added Pin To Net: NetName=Cell 1_TB5 Pin=U5_TB5-15
+Added Pin To Net: NetName=Cell 5_TB6 Pin=U5_TB6-3
+Added Pin To Net: NetName=Cell 6_TB6 Pin=U5_TB6-4
+Added Pin To Net: NetName=Cell 7_TB6 Pin=U5_TB6-5
+Added Pin To Net: NetName=Cell 8_TB6 Pin=U5_TB6-6
+Added Pin To Net: NetName=CS_ADC_TB6 Pin=U5_TB6-11
+Added Pin To Net: NetName=Cell 1_TB6 Pin=U5_TB6-15
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-9
+Add Pin To Net: Unknown Pin: Pin U6-10
+Add Pin To Net: Unknown Pin: Pin U6-11
+Add Pin To Net: Unknown Pin: Pin U6-12
+Add Pin To Net: Unknown Pin: Pin U6-13
+Add Pin To Net: Unknown Pin: Pin U6-16
+Add Pin To Net: Unknown Pin: Pin U6-19
+Add Pin To Net: Unknown Pin: Pin U6-20
+Change Net Name : Old Net Name=NetC22_1 New Net Name=NetC36_1
+Change Net Name : Old Net Name=NetC?_TB1_2 New Net Name=NetC16_TB1_2
+Change Net Name : Old Net Name=NetC?_TB2_2 New Net Name=NetC16_TB2_2
+Change Net Name : Old Net Name=NetC?_TB3_2 New Net Name=NetC24_TB3_2
+Change Net Name : Old Net Name=NetC?_TB4_2 New Net Name=NetC25_TB4_2
+Change Net Name : Old Net Name=NetC?_TB5_2 New Net Name=NetC24_TB5_2
+Change Net Name : Old Net Name=NetC?_TB6_2 New Net Name=NetC25_TB6_2
+Change Net Name : Old Net Name=NetR8_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR10_2 New Net Name=NetR20_2
+Change Net Name : Old Net Name=NetU?_39 New Net Name=NetU7_39
+Change Net Name : Old Net Name=NetU?_41 New Net Name=NetU7_41
+Added Pin To Net: NetName=NetC13_TB1_2 Pin=C13_TB1-2
+Added Pin To Net: NetName=NetC13_TB1_2 Pin=R6_TB1-2
+Added Net: Name=NetC13_TB1_2
+Added Pin To Net: NetName=NetC13_TB2_2 Pin=C13_TB2-2
+Added Pin To Net: NetName=NetC13_TB2_2 Pin=R6_TB2-2
+Added Net: Name=NetC13_TB2_2
+Added Pin To Net: NetName=NetC13_TB3_2 Pin=C13_TB3-2
+Added Pin To Net: NetName=NetC13_TB3_2 Pin=R6_TB3-2
+Added Net: Name=NetC13_TB3_2
+Added Pin To Net: NetName=NetC13_TB4_2 Pin=C13_TB4-2
+Added Pin To Net: NetName=NetC13_TB4_2 Pin=R6_TB4-2
+Added Net: Name=NetC13_TB4_2
+Added Pin To Net: NetName=NetC13_TB5_2 Pin=C13_TB5-2
+Added Pin To Net: NetName=NetC13_TB5_2 Pin=R6_TB5-2
+Added Net: Name=NetC13_TB5_2
+Added Pin To Net: NetName=NetC13_TB6_2 Pin=C13_TB6-2
+Added Pin To Net: NetName=NetC13_TB6_2 Pin=R6_TB6-2
+Added Net: Name=NetC13_TB6_2
+Added Pin To Net: NetName=NetC14_TB1_2 Pin=C14_TB1-2
+Added Pin To Net: NetName=NetC14_TB1_2 Pin=R7_TB1-2
+Added Net: Name=NetC14_TB1_2
+Added Pin To Net: NetName=NetC14_TB2_2 Pin=C14_TB2-2
+Added Pin To Net: NetName=NetC14_TB2_2 Pin=R7_TB2-2
+Added Net: Name=NetC14_TB2_2
+Added Pin To Net: NetName=NetC14_TB3_2 Pin=C14_TB3-2
+Added Pin To Net: NetName=NetC14_TB3_2 Pin=R7_TB3-2
+Added Net: Name=NetC14_TB3_2
+Added Pin To Net: NetName=NetC14_TB4_2 Pin=C14_TB4-2
+Added Pin To Net: NetName=NetC14_TB4_2 Pin=R7_TB4-2
+Added Net: Name=NetC14_TB4_2
+Added Pin To Net: NetName=NetC14_TB5_2 Pin=C14_TB5-2
+Added Pin To Net: NetName=NetC14_TB5_2 Pin=R7_TB5-2
+Added Net: Name=NetC14_TB5_2
+Added Pin To Net: NetName=NetC14_TB6_2 Pin=C14_TB6-2
+Added Pin To Net: NetName=NetC14_TB6_2 Pin=R7_TB6-2
+Added Net: Name=NetC14_TB6_2
+Added Pin To Net: NetName=NetC15_TB1_2 Pin=C15_TB1-2
+Added Pin To Net: NetName=NetC15_TB1_2 Pin=R8_TB1-2
+Added Net: Name=NetC15_TB1_2
+Added Pin To Net: NetName=NetC15_TB2_2 Pin=C15_TB2-2
+Added Pin To Net: NetName=NetC15_TB2_2 Pin=R8_TB2-2
+Added Net: Name=NetC15_TB2_2
+Added Pin To Net: NetName=NetC15_TB3_2 Pin=C15_TB3-2
+Added Pin To Net: NetName=NetC15_TB3_2 Pin=R8_TB3-2
+Added Net: Name=NetC15_TB3_2
+Added Pin To Net: NetName=NetC15_TB4_2 Pin=C15_TB4-2
+Added Pin To Net: NetName=NetC15_TB4_2 Pin=R8_TB4-2
+Added Net: Name=NetC15_TB4_2
+Added Pin To Net: NetName=NetC15_TB5_2 Pin=C15_TB5-2
+Added Pin To Net: NetName=NetC15_TB5_2 Pin=R8_TB5-2
+Added Net: Name=NetC15_TB5_2
+Added Pin To Net: NetName=NetC15_TB6_2 Pin=C15_TB6-2
+Added Pin To Net: NetName=NetC15_TB6_2 Pin=R8_TB6-2
+Added Net: Name=NetC15_TB6_2
+Added Pin To Net: NetName=NetC16_TB3_2 Pin=C16_TB3-2
+Added Pin To Net: NetName=NetC16_TB3_2 Pin=R9_TB3-2
+Added Net: Name=NetC16_TB3_2
+Added Pin To Net: NetName=NetC16_TB4_2 Pin=C16_TB4-2
+Added Pin To Net: NetName=NetC16_TB4_2 Pin=R9_TB4-2
+Added Net: Name=NetC16_TB4_2
+Added Pin To Net: NetName=NetC16_TB5_2 Pin=C16_TB5-2
+Added Pin To Net: NetName=NetC16_TB5_2 Pin=R9_TB5-2
+Added Net: Name=NetC16_TB5_2
+Added Pin To Net: NetName=NetC16_TB6_2 Pin=C16_TB6-2
+Added Pin To Net: NetName=NetC16_TB6_2 Pin=R9_TB6-2
+Added Net: Name=NetC16_TB6_2
+Added Pin To Net: NetName=NetC21_TB1_2 Pin=C21_TB1-2
+Added Pin To Net: NetName=NetC21_TB1_2 Pin=R10_TB1-2
+Added Net: Name=NetC21_TB1_2
+Added Pin To Net: NetName=NetC21_TB2_2 Pin=C21_TB2-2
+Added Pin To Net: NetName=NetC21_TB2_2 Pin=R10_TB2-2
+Added Net: Name=NetC21_TB2_2
+Added Pin To Net: NetName=NetC21_TB3_2 Pin=C21_TB3-2
+Added Pin To Net: NetName=NetC21_TB3_2 Pin=R10_TB3-2
+Added Net: Name=NetC21_TB3_2
+Added Pin To Net: NetName=NetC21_TB4_2 Pin=C21_TB4-2
+Added Pin To Net: NetName=NetC21_TB4_2 Pin=R10_TB4-2
+Added Net: Name=NetC21_TB4_2
+Added Pin To Net: NetName=NetC21_TB5_2 Pin=C21_TB5-2
+Added Pin To Net: NetName=NetC21_TB5_2 Pin=R10_TB5-2
+Added Net: Name=NetC21_TB5_2
+Added Pin To Net: NetName=NetC21_TB6_2 Pin=C21_TB6-2
+Added Pin To Net: NetName=NetC21_TB6_2 Pin=R10_TB6-2
+Added Net: Name=NetC21_TB6_2
+Added Pin To Net: NetName=NetC22_TB1_2 Pin=C22_TB1-2
+Added Pin To Net: NetName=NetC22_TB1_2 Pin=R11_TB1-2
+Added Net: Name=NetC22_TB1_2
+Added Pin To Net: NetName=NetC22_TB2_2 Pin=C22_TB2-2
+Added Pin To Net: NetName=NetC22_TB2_2 Pin=R11_TB2-2
+Added Net: Name=NetC22_TB2_2
+Added Pin To Net: NetName=NetC22_TB3_2 Pin=C22_TB3-2
+Added Pin To Net: NetName=NetC22_TB3_2 Pin=R11_TB3-2
+Added Net: Name=NetC22_TB3_2
+Added Pin To Net: NetName=NetC22_TB4_2 Pin=C22_TB4-2
+Added Pin To Net: NetName=NetC22_TB4_2 Pin=R11_TB4-2
+Added Net: Name=NetC22_TB4_2
+Added Pin To Net: NetName=NetC22_TB5_2 Pin=C22_TB5-2
+Added Pin To Net: NetName=NetC22_TB5_2 Pin=R11_TB5-2
+Added Net: Name=NetC22_TB5_2
+Added Pin To Net: NetName=NetC22_TB6_2 Pin=C22_TB6-2
+Added Pin To Net: NetName=NetC22_TB6_2 Pin=R11_TB6-2
+Added Net: Name=NetC22_TB6_2
+Added Pin To Net: NetName=NetC23_TB1_2 Pin=C23_TB1-2
+Added Pin To Net: NetName=NetC23_TB1_2 Pin=R12_TB1-2
+Added Net: Name=NetC23_TB1_2
+Added Pin To Net: NetName=NetC23_TB2_2 Pin=C23_TB2-2
+Added Pin To Net: NetName=NetC23_TB2_2 Pin=R12_TB2-2
+Added Net: Name=NetC23_TB2_2
+Added Pin To Net: NetName=NetC23_TB3_2 Pin=C23_TB3-2
+Added Pin To Net: NetName=NetC23_TB3_2 Pin=R12_TB3-2
+Added Net: Name=NetC23_TB3_2
+Added Pin To Net: NetName=NetC23_TB4_2 Pin=C23_TB4-2
+Added Pin To Net: NetName=NetC23_TB4_2 Pin=R12_TB4-2
+Added Net: Name=NetC23_TB4_2
+Added Pin To Net: NetName=NetC23_TB5_2 Pin=C23_TB5-2
+Added Pin To Net: NetName=NetC23_TB5_2 Pin=R12_TB5-2
+Added Net: Name=NetC23_TB5_2
+Added Pin To Net: NetName=NetC23_TB6_2 Pin=C23_TB6-2
+Added Pin To Net: NetName=NetC23_TB6_2 Pin=R12_TB6-2
+Added Net: Name=NetC23_TB6_2
+Added Pin To Net: NetName=NetC24_TB1_2 Pin=C24_TB1-2
+Added Pin To Net: NetName=NetC24_TB1_2 Pin=R13_TB1-2
+Added Net: Name=NetC24_TB1_2
+Added Pin To Net: NetName=NetC24_TB2_2 Pin=C24_TB2-2
+Added Pin To Net: NetName=NetC24_TB2_2 Pin=R13_TB2-2
+Added Net: Name=NetC24_TB2_2
+Added Pin To Net: NetName=NetC24_TB4_2 Pin=C24_TB4-2
+Added Pin To Net: NetName=NetC24_TB4_2 Pin=R13_TB4-2
+Added Net: Name=NetC24_TB4_2
+Added Pin To Net: NetName=NetC24_TB6_2 Pin=C24_TB6-2
+Added Pin To Net: NetName=NetC24_TB6_2 Pin=R13_TB6-2
+Added Net: Name=NetC24_TB6_2
+Added Pin To Net: NetName=NetC25_TB1_2 Pin=C25_TB1-2
+Added Pin To Net: NetName=NetC25_TB1_2 Pin=U5_TB1-8
+Added Net: Name=NetC25_TB1_2
+Added Pin To Net: NetName=NetC25_TB2_2 Pin=C25_TB2-2
+Added Pin To Net: NetName=NetC25_TB2_2 Pin=U5_TB2-8
+Added Net: Name=NetC25_TB2_2
+Added Pin To Net: NetName=NetC25_TB3_2 Pin=C25_TB3-2
+Added Pin To Net: NetName=NetC25_TB3_2 Pin=U5_TB3-8
+Added Net: Name=NetC25_TB3_2
+Added Pin To Net: NetName=NetC25_TB5_2 Pin=C25_TB5-2
+Added Pin To Net: NetName=NetC25_TB5_2 Pin=U5_TB5-8
+Added Net: Name=NetC25_TB5_2
+Added Pin To Net: NetName=NetC39_2 Pin=C39-2
+Added Pin To Net: NetName=NetC39_2 Pin=D6-2
+Added Net: Name=NetC39_2
+Added Pin To Net: NetName=NetC40_2 Pin=C40-2
+Added Pin To Net: NetName=NetC40_2 Pin=D6-1
+Added Net: Name=NetC40_2
+Added Pin To Net: NetName=NetR16_2 Pin=R16-2
+Added Net: Name=NetR16_2
+Added Net: Name=NetU4_TB1_3
+Added Net: Name=NetU4_TB1_4
+Added Net: Name=NetU4_TB1_5
+Added Net: Name=NetU4_TB1_6
+Added Net: Name=NetU4_TB2_3
+Added Net: Name=NetU4_TB2_4
+Added Net: Name=NetU4_TB2_5
+Added Net: Name=NetU4_TB2_6
+Added Net: Name=NetU4_TB3_3
+Added Net: Name=NetU4_TB3_4
+Added Net: Name=NetU4_TB3_5
+Added Net: Name=NetU4_TB3_6
+Added Net: Name=NetU4_TB4_3
+Added Net: Name=NetU4_TB4_4
+Added Net: Name=NetU4_TB4_5
+Added Net: Name=NetU4_TB4_6
+Added Net: Name=NetU4_TB5_3
+Added Net: Name=NetU4_TB5_4
+Added Net: Name=NetU4_TB5_5
+Added Net: Name=NetU4_TB5_6
+Added Net: Name=NetU4_TB6_3
+Added Net: Name=NetU4_TB6_4
+Added Net: Name=NetU4_TB6_5
+Added Net: Name=NetU4_TB6_6
+Added Pin To Net: NetName=NetU6_4 Pin=U7-45
+Added Net: Name=NetU6_4
+Added Pin To Net: NetName=NetU6_5 Pin=U7-46
+Added Net: Name=NetU6_5
+Added Member To Class: ClassName=TB1 Member=Component C13_TB1 (C13) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C13_TB2 (C13) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C13_TB3 (C13) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C13_TB4 (C13) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C13_TB5 (C13) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C13_TB6 (C13) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C14_TB1 (C14) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C14_TB2 (C14) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C14_TB3 (C14) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C14_TB4 (C14) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C14_TB6 (C14) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C15_TB1 (C15) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C15_TB2 (C15) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C15_TB3 (C15) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C15_TB4 (C15) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C15_TB5 (C15) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C16_TB1 (C16) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C16_TB2 (C16) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C16_TB3 (C16) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C16_TB4 (C16) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C16_TB5 (C16) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C16_TB6 (C16) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C17_TB1 (C17) 1µF
+Added Member To Class: ClassName=TB2 Member=Component C17_TB2 (C17) 1µF
+Added Member To Class: ClassName=TB3 Member=Component C17_TB3 (C17) 1µF
+Added Member To Class: ClassName=TB4 Member=Component C17_TB4 (C17) 1µF
+Added Member To Class: ClassName=TB5 Member=Component C17_TB5 (C17) 1µF
+Added Member To Class: ClassName=TB6 Member=Component C17_TB6 (C17) 1µF
+Added Member To Class: ClassName=TB1 Member=Component C18_TB1 (C18) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C18_TB2 (C18) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C18_TB3 (C18) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C18_TB4 (C18) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C18_TB5 (C18) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C18_TB6 (C18) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C19_TB2 (C19) 1µF
+Added Member To Class: ClassName=TB3 Member=Component C19_TB3 (C19) 1µF
+Added Member To Class: ClassName=TB4 Member=Component C19_TB4 (C19) 1µF
+Added Member To Class: ClassName=TB5 Member=Component C19_TB5 (C19) 1µF
+Added Member To Class: ClassName=TB6 Member=Component C19_TB6 (C19) 1µF
+Added Member To Class: ClassName=TB1 Member=Component C20_TB1 (C20) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C20_TB2 (C20) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C20_TB3 (C20) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C20_TB4 (C20) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C20_TB5 (C20) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C20_TB6 (C20) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C21_TB1 (C21) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C21_TB2 (C21) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C21_TB3 (C21) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C21_TB5 (C21) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C21_TB6 (C21) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C22_TB1 (C22) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C22_TB2 (C22) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C22_TB3 (C22) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C22_TB4 (C22) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C22_TB5 (C22) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C22_TB6 (C22) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C23_TB1 (C23) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C23_TB4 (C23) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C23_TB5 (C23) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C23_TB6 (C23) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C24_TB1 (C24) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C24_TB2 (C24) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C24_TB3 (C24) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C24_TB4 (C24) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C24_TB5 (C24) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C24_TB6 (C24) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C25_TB1 (C25) 1µF
+Added Member To Class: ClassName=TB2 Member=Component C25_TB2 (C25) 1µF
+Added Member To Class: ClassName=TB3 Member=Component C25_TB3 (C25) 1µF
+Added Member To Class: ClassName=TB4 Member=Component C25_TB4 (C25) 1µF
+Added Member To Class: ClassName=TB5 Member=Component C25_TB5 (C25) 1µF
+Added Member To Class: ClassName=TB6 Member=Component C25_TB6 (C25) 1µF
+Added Member To Class: ClassName=TB1 Member=Component C26_TB1 (C26) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C26_TB2 (C26) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C26_TB3 (C26) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C26_TB4 (C26) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C26_TB5 (C26) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C26_TB6 (C26) 100nF
+Added Member To Class: ClassName=TB1 Member=Component C27_TB1 (C27) 100nF
+Added Member To Class: ClassName=TB2 Member=Component C27_TB2 (C27) 100nF
+Added Member To Class: ClassName=TB3 Member=Component C27_TB3 (C27) 100nF
+Added Member To Class: ClassName=TB4 Member=Component C27_TB4 (C27) 100nF
+Added Member To Class: ClassName=TB5 Member=Component C27_TB5 (C27) 100nF
+Added Member To Class: ClassName=TB6 Member=Component C27_TB6 (C27) 100nF
+Added Member To Class: ClassName=U_CAN Member=Component L3 B82787C0104H002
+Add Class Member: Failed to add class member : Component P1 39293106
+Add Class Member: Failed to add class member : Component P2 39293106
+Add Class Member: Failed to add class member : Component P4 39293106
+Add Class Member: Failed to add class member : Component P5 39293106
+Add Class Member: Failed to add class member : Component P6 39293106
+Add Class Member: Failed to add class member : Component P7 39293106
+Added Member To Class: ClassName=U_Power Supply Member=Component R5 1k
+Added Member To Class: ClassName=TB2 Member=Component R6_TB2 (R6) 1k
+Added Member To Class: ClassName=TB3 Member=Component R6_TB3 (R6) 1k
+Added Member To Class: ClassName=TB4 Member=Component R6_TB4 (R6) 1k
+Added Member To Class: ClassName=TB5 Member=Component R6_TB5 (R6) 1k
+Added Member To Class: ClassName=TB6 Member=Component R6_TB6 (R6) 1k
+Added Member To Class: ClassName=TB1 Member=Component R7_TB1 (R7) 1k
+Added Member To Class: ClassName=TB2 Member=Component R7_TB2 (R7) 1k
+Added Member To Class: ClassName=TB3 Member=Component R7_TB3 (R7) 1k
+Added Member To Class: ClassName=TB4 Member=Component R7_TB4 (R7) 1k
+Added Member To Class: ClassName=TB5 Member=Component R7_TB5 (R7) 1k
+Added Member To Class: ClassName=TB6 Member=Component R7_TB6 (R7) 1k
+Added Member To Class: ClassName=TB1 Member=Component R8_TB1 (R8) 1k
+Added Member To Class: ClassName=TB3 Member=Component R8_TB3 (R8) 1k
+Added Member To Class: ClassName=TB4 Member=Component R8_TB4 (R8) 1k
+Added Member To Class: ClassName=TB5 Member=Component R8_TB5 (R8) 1k
+Added Member To Class: ClassName=TB6 Member=Component R8_TB6 (R8) 1k
+Added Member To Class: ClassName=TB1 Member=Component R9_TB1 (R9) 1k
+Added Member To Class: ClassName=TB2 Member=Component R9_TB2 (R9) 1k
+Added Member To Class: ClassName=TB4 Member=Component R9_TB4 (R9) 1k
+Added Member To Class: ClassName=TB5 Member=Component R9_TB5 (R9) 1k
+Added Member To Class: ClassName=TB6 Member=Component R9_TB6 (R9) 1k
+Added Member To Class: ClassName=TB1 Member=Component R10_TB1 (R10) 1k
+Added Member To Class: ClassName=TB2 Member=Component R10_TB2 (R10) 1k
+Added Member To Class: ClassName=TB3 Member=Component R10_TB3 (R10) 1k
+Added Member To Class: ClassName=TB5 Member=Component R10_TB5 (R10) 1k
+Added Member To Class: ClassName=TB1 Member=Component R11_TB1 (R11) 1k
+Added Member To Class: ClassName=TB2 Member=Component R11_TB2 (R11) 1k
+Added Member To Class: ClassName=TB3 Member=Component R11_TB3 (R11) 1k
+Added Member To Class: ClassName=TB4 Member=Component R11_TB4 (R11) 1k
+Added Member To Class: ClassName=TB5 Member=Component R11_TB5 (R11) 1k
+Added Member To Class: ClassName=TB6 Member=Component R11_TB6 (R11) 1k
+Added Member To Class: ClassName=TB1 Member=Component R12_TB1 (R12) 1k
+Added Member To Class: ClassName=TB2 Member=Component R12_TB2 (R12) 1k
+Added Member To Class: ClassName=TB3 Member=Component R12_TB3 (R12) 1k
+Added Member To Class: ClassName=TB4 Member=Component R12_TB4 (R12) 1k
+Added Member To Class: ClassName=TB5 Member=Component R12_TB5 (R12) 1k
+Added Member To Class: ClassName=TB6 Member=Component R12_TB6 (R12) 1k
+Added Member To Class: ClassName=TB1 Member=Component R13_TB1 (R13) 1k
+Added Member To Class: ClassName=TB2 Member=Component R13_TB2 (R13) 1k
+Added Member To Class: ClassName=TB3 Member=Component R13_TB3 (R13) 1k
+Added Member To Class: ClassName=TB4 Member=Component R13_TB4 (R13) 1k
+Added Member To Class: ClassName=TB5 Member=Component R13_TB5 (R13) 1k
+Added Member To Class: ClassName=TB6 Member=Component R13_TB6 (R13) 1k
+Added Member To Class: ClassName=TB1 Member=Component R14_TB1 (R14) 1.2k
+Added Member To Class: ClassName=TB2 Member=Component R14_TB2 (R14) 1.2k
+Added Member To Class: ClassName=TB3 Member=Component R14_TB3 (R14) 1.2k
+Added Member To Class: ClassName=TB4 Member=Component R14_TB4 (R14) 1.2k
+Added Member To Class: ClassName=TB6 Member=Component R14_TB6 (R14) 1.2k
+Add Class Member: Failed to add class member : Component RS1 RS
+Add Class Member: Failed to add class member : Component U4_TB1 (U4) ADUM5401
+Add Class Member: Failed to add class member : Component U4_TB2 (U4) ADUM5401
+Add Class Member: Failed to add class member : Component U4_TB3 (U4) ADUM5401
+Add Class Member: Failed to add class member : Component U4_TB4 (U4) ADUM5401
+Add Class Member: Failed to add class member : Component U4_TB5 (U4) ADUM5401
+Add Class Member: Failed to add class member : Component U4_TB6 (U4) ADUM5401
+Add Class Member: Failed to add class member : Component U6 ADM3053

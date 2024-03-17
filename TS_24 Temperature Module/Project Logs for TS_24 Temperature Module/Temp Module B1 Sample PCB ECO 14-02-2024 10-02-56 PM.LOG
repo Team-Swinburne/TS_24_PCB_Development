@@ -1,0 +1,14 @@
+Added Component: Designator=U2(SPBW06F03)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SPBW06F-03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/spbw06f-03/mean-well-enterprises?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.arrow.com/en/products/spbw06f-03/mean-well-enterprises"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "11.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Mean Well"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SPBW06F-03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "709-SPBW06F-03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/SPBW06F-03?qs=5aG0NVq1C4z4PI70qr7ycg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=0V Pin=U2-1
+Added Pin To Net: NetName=VBAT_F Pin=U2-2
+Added Pin To Net: NetName=5V Pin=U2-6
+Added Pin To Net: NetName=0V_(ISO) Pin=U2-7
+Added Member To Class: ClassName=U_Power Supply Member=Component U2 SPBW06F-03

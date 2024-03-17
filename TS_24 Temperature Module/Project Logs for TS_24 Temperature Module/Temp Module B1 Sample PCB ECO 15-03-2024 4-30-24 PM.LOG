@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C6 Old Footprint=Vishay Radial 1213 New Footprint=CHEMI-CON ELCO
+Change Component Comment : Designator=C6 Old Comment=220uF New Comment=47uF
+Change component parameters: Designator = "C6" ("C6"); Footprint = "Vishay Radial 1213"; UniqueID = "\QRHABFIX\SXOMXZFQ" ("\QRHABFIX\SXOMXZFQ")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "HHXA350ARA470MF61G"; VariantName = "[No Variations]"

@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=NetC40_2 Pin=D6-1
+Removed Pin From Net: NetName=NetC39_2 Pin=D6-2
+Added Pin To Net: NetName=NetC39_2 Pin=D6-1
+Added Pin To Net: NetName=NetC40_2 Pin=D6-2
+Added Room: Name=TB1
+Added Room: Name=TB2
+Added Room: Name=TB3
+Added Room: Name=TB4
+Added Room: Name=TB5
+Added Room: Name=TB6
+Added Room: Name=Top Level
+Added Room: Name=U_CAN
+Added Room: Name=U_Microcontroller
+Added Room: Name=U_Power Supply

@@ -1,0 +1,25 @@
+Add Component: Footprint Not Found 24-DIP Module, 7 Leads
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-14
+Add Pin To Net: Unknown Pin: Pin U2-16
+Add Pin To Net: Unknown Pin: Pin U2-22
+Add Pin To Net: Unknown Pin: Pin U2-23
+Added Pin To Net: NetName=NetU4_TB1_3 Pin=U4_TB2-3
+Added Pin To Net: NetName=NetU4_TB1_4 Pin=U4_TB2-4
+Added Pin To Net: NetName=NetU4_TB1_6 Pin=U4_TB2-6
+Added Pin To Net: NetName=NetU4_TB1_3 Pin=U4_TB3-3
+Added Pin To Net: NetName=NetU4_TB1_4 Pin=U4_TB3-4
+Added Pin To Net: NetName=NetU4_TB1_6 Pin=U4_TB3-6
+Added Pin To Net: NetName=NetU4_TB1_3 Pin=U4_TB4-3
+Added Pin To Net: NetName=NetU4_TB1_4 Pin=U4_TB4-4
+Added Pin To Net: NetName=NetU4_TB1_6 Pin=U4_TB4-6
+Added Pin To Net: NetName=NetU4_TB1_3 Pin=U4_TB5-3
+Added Pin To Net: NetName=NetU4_TB1_4 Pin=U4_TB5-4
+Added Pin To Net: NetName=NetU4_TB1_6 Pin=U4_TB5-6
+Added Pin To Net: NetName=NetU4_TB1_3 Pin=U4_TB6-3
+Added Pin To Net: NetName=NetU4_TB1_4 Pin=U4_TB6-4
+Added Pin To Net: NetName=NetU4_TB1_6 Pin=U4_TB6-6
+Added Member To Class: ClassName=U_Power Supply Member=Component C2 100nF
+Add Class Member: Failed to add class member : Component U2 JTC0424S05
+Added Room: Name=U_Power Supply

@@ -1,0 +1,13 @@
+Added Component: Designator=L3(TDK 4-PC Pad)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "495-4598-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "5.8 kOhms @ 10MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "EPCOS (TDK)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B82787C0104H002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "150mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100µH @ 100kHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_N Pin=L3-1
+Added Pin To Net: NetName=CAN_P Pin=L3-2
+Added Pin To Net: NetName=NetC40_2 Pin=L3-3
+Added Pin To Net: NetName=NetC39_2 Pin=L3-4
+Added Member To Class: ClassName=U_CAN Member=Component L3 B82787C0104H002
