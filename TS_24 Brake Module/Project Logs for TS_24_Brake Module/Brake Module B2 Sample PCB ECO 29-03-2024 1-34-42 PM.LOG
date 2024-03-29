@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GL_IN Pin=P3-1
+Removed Pin From Net: NetName=GL_OUT Pin=P3-2
+Removed Pin From Net: NetName=5kW Pin=P3-3
+Removed Member From Class: ClassName=TopLevel Member=P3

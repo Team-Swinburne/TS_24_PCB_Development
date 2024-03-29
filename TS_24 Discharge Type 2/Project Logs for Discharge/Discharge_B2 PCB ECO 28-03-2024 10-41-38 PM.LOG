@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=5kW Pin=P2-1
+Removed Pin From Net: NetName=GL_IN Pin=P2-3
+Removed Pin From Net: NetName=GL_OUT Pin=P2-4
+Added Pin To Net: NetName=GL_OUT Pin=P2-1
+Added Pin To Net: NetName=5kW Pin=P2-3
+Added Pin To Net: NetName=GL_IN Pin=P2-4

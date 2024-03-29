@@ -1,0 +1,53 @@
+Removed Member From Class: ClassName=Power Supply Member=C23
+Removed Member From Class: ClassName=Power Supply Member=C24
+Removed Member From Class: ClassName=Microcontroller Member=C34
+Removed Member From Class: ClassName=Isolation Member=C44
+Removed Member From Class: ClassName=Safety Loop Member=P9
+Removed Member From Class: ClassName=TopLevel Member=P9
+Removed Member From Class: ClassName=Microcontroller Member=P11
+Removed Member From Class: ClassName=CAN Member=R5
+Removed Member From Class: ClassName=CAN Member=R6
+Removed Member From Class: ClassName=Power Supply Member=R9
+Removed Member From Class: ClassName=Discharge Member=R16
+Removed Member From Class: ClassName=Microcontroller Member=R26
+Removed Member From Class: ClassName=PDOC Member=R31
+Added Pin To Net: NetName=0V Pin=C18-1
+Added Pin To Net: NetName=NetL2_2 Pin=L2-2
+Added Pin To Net: NetName=NetL2_2 Pin=U5-1
+Added Net: Name=NetL2_2
+Added Member To Class: ClassName=Power Supply Member=Component C20 10uF
+Added Member To Class: ClassName=Power Supply Member=Component C21 4.7uF
+Added Member To Class: ClassName=Microcontroller Member=Component C22 100nF
+Added Member To Class: ClassName=Microcontroller Member=Component C25 100nF
+Added Member To Class: ClassName=Microcontroller Member=Component C26 22pF
+Added Member To Class: ClassName=HV SENSE Member=Component C28 100nF
+Added Member To Class: ClassName=HV SENSE Member=Component C29 10uF
+Added Member To Class: ClassName=HV SENSE Member=Component C30 100nF
+Added Member To Class: ClassName=HV SENSE Member=Component C31 10uF
+Added Member To Class: ClassName=HV SENSE Member=Component C32 1µF
+Added Member To Class: ClassName=Isolation Member=Component C48 100nF
+Added Member To Class: ClassName=TopLevel Member=Component P2 T4145415041-001
+Added Member To Class: ClassName=TopLevel Member=Component P3 39300020
+Added Member To Class: ClassName=TopLevel Member=Component P5 39300020
+Added Member To Class: ClassName=Safety Loop Member=Component P7 2.54mm
+Added Member To Class: ClassName=Microcontroller Member=Component P8 2.54mm
+Added Member To Class: ClassName=Microcontroller Member=Component P10 2.54mm
+Added Member To Class: ClassName=CAN Member=Component R3 56R
+Added Member To Class: ClassName=CAN Member=Component R4 56R
+Added Member To Class: ClassName=Power Supply Member=Component R7 1k
+Added Member To Class: ClassName=Safety Loop Member=Component R8 1k
+Added Member To Class: ClassName=Discharge Member=Component R10 PWR263S-35-1001J
+Added Member To Class: ClassName=Discharge Member=Component R12 PWR263S-35-1001J
+Added Member To Class: ClassName=Discharge Member=Component R13 1k
+Added Member To Class: ClassName=Discharge Member=Component R14 PWR263S-35-1001J
+Added Member To Class: ClassName=Discharge Member=Component R15 PWR263S-35-1001J
+Added Member To Class: ClassName=Microcontroller Member=Component R17 500R
+Added Member To Class: ClassName=Microcontroller Member=Component R19 5.1k
+Added Member To Class: ClassName=Microcontroller Member=Component R21 10k
+Added Member To Class: ClassName=Microcontroller Member=Component R23 1.2k
+Added Member To Class: ClassName=Microcontroller Member=Component R24 10k
+Added Member To Class: ClassName=Microcontroller Member=Component R25 10M
+Added Member To Class: ClassName=HV SENSE Member=Component R29 330K
+Added Member To Class: ClassName=PDOC Member=Component R33 2K
+Added Member To Class: ClassName=PDOC Member=Component R39 1.2k
+Added Member To Class: ClassName=PDOC Member=Component U13 ADUM5401

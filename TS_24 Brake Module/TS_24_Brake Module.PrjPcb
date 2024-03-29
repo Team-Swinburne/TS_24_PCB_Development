@@ -270,12 +270,33 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document14]
+DocumentPath=Brake Module B2 Sample.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TKMSMOKZ
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Brake Module Gen 7\Design Rule Check - Brake Module A Sample.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
 DocumentPath=Project Outputs for TS_24_Brake Module\Design Rule Check - Brake Module B1 Sample.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for TS_24_Brake Module\Design Rule Check - Brake Module B2 Sample.html
 DItemRevisionGUID=
 
 [Configuration1]

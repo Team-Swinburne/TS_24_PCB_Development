@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=0V Pin=C35-1
+Removed Pin From Net: NetName=5V Pin=C35-2
+Removed Pin From Net: NetName=HV MC- Pin=C36-1
+Removed Pin From Net: NetName=HVVDD Pin=C36-2
+Removed Pin From Net: NetName=HV MC- Pin=C37-1
+Removed Pin From Net: NetName=HV MC- Pin=C38-1
+Removed Pin From Net: NetName=HVVDD Pin=C38-2
+Removed Pin From Net: NetName=0V Pin=C53-1
+Removed Pin From Net: NetName=0V Pin=C54-1
+Removed Pin From Net: NetName=0V Pin=C55-1
+Removed Pin From Net: NetName=0V Pin=C56-1
+Removed Pin From Net: NetName=5V Pin=C56-2
+Removed Pin From Net: NetName=0V Pin=C57-1
+Removed Pin From Net: NetName=5V Pin=D13-A
+Removed Pin From Net: NetName=5V Pin=D14-K
+Removed Pin From Net: NetName=0V Pin=D16-K
+Removed Pin From Net: NetName=5V Pin=K2-1
+Removed Pin From Net: NetName=0V Pin=K2-4
+Removed Pin From Net: NetName=5V Pin=P11-3
+Removed Pin From Net: NetName=0V Pin=P11-4
+Removed Pin From Net: NetName=0V Pin=Q4-S
+Removed Pin From Net: NetName=0V Pin=Q5-S
+Removed Pin From Net: NetName=0V Pin=Q6-S
+Removed Pin From Net: NetName=HVVDD Pin=R35-2
+Removed Pin From Net: NetName=HV MC- Pin=R38-1
+Removed Pin From Net: NetName=5V Pin=R50-1
+Removed Pin From Net: NetName=0V Pin=R53-2
+Removed Pin From Net: NetName=5V Pin=R54-2
+Removed Pin From Net: NetName=5V Pin=R56-2
+Removed Pin From Net: NetName=5V Pin=R57-1
+Removed Pin From Net: NetName=0V Pin=R57-3
+Removed Pin From Net: NetName=HIGH_SENSE Pin=R58-1
+Removed Pin From Net: NetName=5V Pin=R59-2
+Removed Pin From Net: NetName=5kW Pin=R60-1
+Removed Pin From Net: NetName=0V Pin=R61-1
+Removed Pin From Net: NetName=0V_(ISO) Pin=U8-37
+Removed Pin From Net: NetName=HVVDD Pin=U11-1
+Removed Pin From Net: NetName=HVVDD Pin=U11-3
+Removed Pin From Net: NetName=HV MC- Pin=U11-4
+Removed Pin From Net: NetName=0V Pin=U11-5
+Removed Pin From Net: NetName=0V Pin=U11-7
+Removed Pin From Net: NetName=5V Pin=U11-8
+Removed Pin From Net: NetName=HV MC- Pin=U12-2
+Removed Pin From Net: NetName=NetR30_1 Pin=U12-4
+Removed Pin From Net: NetName=HVVDD Pin=U12-5
+Removed Pin From Net: NetName=0V Pin=U17-1
+Removed Pin From Net: NetName=5V Pin=U17-4
+Removed Pin From Net: NetName=5V Pin=U17-8
+Removed Pin From Net: NetName=0V Pin=U18-2
+Removed Pin From Net: NetName=5V Pin=U18-5
+Removed Member From Class: ClassName=HV SENSE Member=C35
+Removed Member From Class: ClassName=HV SENSE Member=C36
+Removed Member From Class: ClassName=HV SENSE Member=C37
+Removed Member From Class: ClassName=HV SENSE Member=C38
+Removed Member From Class: ClassName=TopLevel Member=P11
+Removed Member From Class: ClassName=HV SENSE Member=R35
+Removed Member From Class: ClassName=HV SENSE Member=R36
+Removed Member From Class: ClassName=HV SENSE Member=R37
+Removed Member From Class: ClassName=HV SENSE Member=R38
+Removed Member From Class: ClassName=HV SENSE Member=U11
+Removed Member From Class: ClassName=HV SENSE Member=U12
+Added Room: Name=CAN
+Added Room: Name=Discharge
+Added Room: Name=HV SENSE
+Added Room: Name=Isolation
+Added Room: Name=Microcontroller
+Added Room: Name=PDOC
+Added Room: Name=Power Supply
+Added Room: Name=Safety Loop
+Added Room: Name=TopLevel

@@ -152,7 +152,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QSVUOZHV
 
 [Document7]
-DocumentPath=..\..\..\GitHub\ts_standard_library\connectors\ts_standard_connectors.DbLib
+DocumentPath=..\..\ts_standard_library\components\ts_standard_library.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -169,7 +169,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\..\..\GitHub\ts_standard_library\components\ts_standard_library.DbLib
+DocumentPath=..\..\ts_20-pcb-development\~ts_20 Library\ts_20-standard-library\ts_20-standard-library.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -186,7 +186,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\..\..\GitHub\ts_20-pcb-development\~ts_20 Library\ts_20-standard-library\ts_20-standard-library.DbLib
+DocumentPath=..\..\TS_24_Components\connectors\ts_standard_connectors.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

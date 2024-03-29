@@ -237,40 +237,23 @@ GenerateClassCluster=0
 DocumentUniqueId=MDFBHLMM
 
 [Document12]
-DocumentPath=TSAL.SchDoc
+DocumentPath=5kW Sensor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=8
+AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WILNZTIP
-
-[Document13]
-DocumentPath=..\..\..\..\GitHub\ts_23_Altium_Projects\BSPD Current Sense Board\230408 BSPD Current Sense Board R2\5kW Sensor.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=9
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GGLDZKFX
 
-[Document14]
+[Document13]
 DocumentPath=Isolation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,8 +270,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MEBHDDNB
 
+[Document14]
+DocumentPath=Discharge_B2.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AHEIAVRV
+
 [Document15]
-DocumentPath=Discharge_B1.PcbDoc
+DocumentPath=..\..\TS_24_Components\components\ts_standard_library.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -305,7 +305,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=Discharge_B2.PcbDoc
+DocumentPath=..\..\TS_24_Components\connectors\ts_standard_connectors.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -319,7 +319,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AHEIAVRV
+DocumentUniqueId=
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Discharge\Design Rule Check - Discharge_A_Sample.html

@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GLV- Pin=P1-1
+Removed Pin From Net: NetName=GLV+ Pin=P1-2
+Removed Pin From Net: NetName=GLV- Pin=P1-3
+Removed Pin From Net: NetName=CAN1_P Pin=P1-4
+Removed Pin From Net: NetName=CAN1_N Pin=P1-5
+Removed Member From Class: ClassName=TopLevel Member=P1
+Added Component: Designator=P?(T4145035051-001)
+Add component (AddParameter): Name = "Angle"; Value = "90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Copper Alloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "T4145035051-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GLV- Pin=P?-1
+Added Pin To Net: NetName=GLV+ Pin=P?-2
+Added Pin To Net: NetName=GLV- Pin=P?-3
+Added Pin To Net: NetName=CAN1_P Pin=P?-4
+Added Pin To Net: NetName=CAN1_N Pin=P?-5
+Added Member To Class: ClassName=TopLevel Member=Component P? T4145035051-001
