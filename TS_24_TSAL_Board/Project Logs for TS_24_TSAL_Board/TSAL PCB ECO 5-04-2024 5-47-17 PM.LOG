@@ -1,0 +1,22 @@
+Change Footprint: Cannot match pads with new footprint in component :P2 Footprint:39293026
+Change Footprint: Cannot match pads with new footprint in component :P3 Footprint:39293026
+Change Component Comment : Designator=P2 Old Comment=39300020 New Comment=39293026
+Change Component Comment : Designator=P3 Old Comment=39300020 New Comment=39293026
+Change component parameters: Designator = "P2" ("P2"); Footprint = "39300020"; UniqueID = "\ZLTWWYZX" ("\ZLTWWYZX")
+Change component parameters (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "WM3843-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "39293026"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P3" ("P3"); Footprint = "39300020"; UniqueID = "\PCZHVDFF" ("\PCZHVDFF")
+Change component parameters (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "WM3843-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "39293026"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"

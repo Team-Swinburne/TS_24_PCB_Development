@@ -1,0 +1,26 @@
+Added Component: Designator=P2(39293026)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM3843-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39293026"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=P3(39293026)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM3843-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39293026"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_A Pin=P2-1
+Added Pin To Net: NetName=NetD1_A Pin=P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Added Pin To Net: NetName=NetD4_A Pin=P3-1
+Added Pin To Net: NetName=NetD4_A Pin=P3-1
+Add Pin To Net: Unknown Pin: Pin P3-2
+Added Member To Class: ClassName=TSAL_Logic Member=Component P2 39293026
+Added Member To Class: ClassName=TSAL_Logic Member=Component P3 39293026
