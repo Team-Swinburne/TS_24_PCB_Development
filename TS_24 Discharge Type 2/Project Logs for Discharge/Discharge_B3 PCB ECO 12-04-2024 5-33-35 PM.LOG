@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=HV MC + Pin=D2-A
+Removed Pin From Net: NetName=HV MC- Pin=D15-A
+Removed Pin From Net: NetName=GLV- Pin=Q3-E
+Removed Pin From Net: NetName=HV MC- Pin=Q8-E
+Removed Pin From Net: NetName=GLV- Pin=R42-1
+Removed Pin From Net: NetName=HV MC- Pin=R45-1
+Removed Member From Class: ClassName=HV SENSE Member=D2
+Removed Member From Class: ClassName=HV SENSE Member=D13
+Removed Member From Class: ClassName=HV SENSE Member=D14
+Removed Member From Class: ClassName=HV SENSE Member=D15
+Removed Member From Class: ClassName=HV SENSE Member=K2
+Removed Member From Class: ClassName=HV SENSE Member=Q3
+Removed Member From Class: ClassName=HV SENSE Member=Q4
+Removed Member From Class: ClassName=HV SENSE Member=Q7
+Removed Member From Class: ClassName=HV SENSE Member=Q8
+Removed Member From Class: ClassName=HV SENSE Member=R5
+Removed Member From Class: ClassName=HV SENSE Member=R40
+Removed Member From Class: ClassName=HV SENSE Member=R41
+Removed Member From Class: ClassName=HV SENSE Member=R42
+Removed Member From Class: ClassName=HV SENSE Member=R43
+Removed Member From Class: ClassName=HV SENSE Member=R44
+Removed Member From Class: ClassName=HV SENSE Member=R45
+Removed Member From Class: ClassName=HV SENSE Member=U17
+Add Pin To Net: Unknown Pin: Pin P12-2
