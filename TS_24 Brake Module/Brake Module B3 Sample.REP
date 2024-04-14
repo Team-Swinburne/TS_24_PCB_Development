@@ -1,12 +1,16 @@
 Teardrop Report Brake Module B3 Sample.PcbDoc
-On 12/04/2024 at 8:28:52 PM
+On 14/04/2024 at 4:28:59 PM
 
-Pads visited                : 480
+Pads visited                : 481
 
-Vias visited                : 354
+Vias visited                : 358
 
 Pad teardrops failed : 0
 
+Pad R5-2(66.47mm,-52.604mm) on Top Layer
+Pad R5-1(64.57mm,-52.604mm) on Top Layer
+Pad R4-2(64.57mm,-57.378mm) on Top Layer
+Pad R4-1(66.47mm,-57.378mm) on Top Layer
 Pad P3-10(23.749mm,-59.782mm) on Top Layer
 Pad P3-6(18.669mm,-59.782mm) on Top Layer
 Pad P3-3(16.129mm,-65.532mm) on Top Layer
@@ -86,8 +90,8 @@ Pad R19-1(73.025mm,-15.191mm) on Top Layer
 Pad R19-2(71.325mm,-15.191mm) on Top Layer
 Pad C32-1(69.469mm,-16.891mm) on Top Layer
 Pad C32-2(69.469mm,-15.191mm) on Top Layer
-Pad C21-1(67.11mm,-54.001mm) on Top Layer
-Pad C21-2(69.01mm,-54.001mm) on Top Layer
+Pad C21-1(64.57mm,-55.017mm) on Top Layer
+Pad C21-2(66.47mm,-55.017mm) on Top Layer
 Pad U16-14(34.163mm,-22.86mm) on Top Layer
 Pad U16-13(35.061mm,-23.758mm) on Top Layer
 Pad U16-12(35.959mm,-24.656mm) on Top Layer
@@ -269,8 +273,9 @@ Pad R27-3(54.229mm,-5.842mm) on Multi-Layer
 Pad R28-1(69.977mm,-5.842mm) on Multi-Layer
 Pad R28-2(67.437mm,-8.382mm) on Multi-Layer
 Pad R28-3(64.897mm,-5.842mm) on Multi-Layer
-Pad R33-1(48.084mm,-47.879mm) on Bottom Layer
-Pad R33-2(49.784mm,-47.879mm) on Bottom Layer
+Pad D12-K(49.784mm,-48.228mm) on Bottom Layer
+Pad D12-2(48.834mm,-50.578mm) on Bottom Layer
+Pad D12-A(50.734mm,-50.578mm) on Bottom Layer
 Pad R32-1(48.084mm,-46.482mm) on Bottom Layer
 Pad R32-2(49.784mm,-46.482mm) on Bottom Layer
 Pad C43-1(32.385mm,-41.48mm) on Bottom Layer
@@ -350,14 +355,10 @@ Pad C19-2(57.277mm,-51.181mm) on Bottom Layer
 Pad C19-1(55.577mm,-51.181mm) on Bottom Layer
 Pad C20-2(57.277mm,-57.658mm) on Bottom Layer
 Pad C20-1(55.577mm,-57.658mm) on Bottom Layer
-Pad C18-2(64.262mm,-55.753mm) on Bottom Layer
-Pad C18-1(64.262mm,-57.453mm) on Bottom Layer
-Pad C17-2(64.262mm,-53.213mm) on Bottom Layer
-Pad C17-1(64.262mm,-51.513mm) on Bottom Layer
-Pad R4-1(67.03mm,-57.653mm) on Bottom Layer
-Pad R4-2(67.03mm,-55.753mm) on Bottom Layer
-Pad R5-1(67.056mm,-53.213mm) on Bottom Layer
-Pad R5-2(67.056mm,-51.313mm) on Bottom Layer
+Pad C18-2(61.827mm,-57.658mm) on Bottom Layer
+Pad C18-1(63.527mm,-57.658mm) on Bottom Layer
+Pad C17-2(61.827mm,-51.181mm) on Bottom Layer
+Pad C17-1(63.527mm,-51.181mm) on Bottom Layer
 Pad U5-3(57.277mm,-53.213mm) on Bottom Layer
 Pad U5-4(57.277mm,-55.713mm) on Bottom Layer
 Pad U5-1(61.827mm,-55.713mm) on Bottom Layer
@@ -490,6 +491,12 @@ Pad F1-1(68.768mm,-77.216mm) on Bottom Layer
 
 Via teardrops failed : 0
 
+Via (16.764mm,-53.975mm) from Top Layer to Bottom Layer
+Via (18.542mm,-53.975mm) from Top Layer to Bottom Layer
+Via (18.542mm,-52.578mm) from Top Layer to Bottom Layer
+Via (16.764mm,-52.578mm) from Top Layer to Bottom Layer
+Via (60.071mm,-56.515mm) from Top Layer to Bottom Layer
+Via (60.071mm,-52.197mm) from Top Layer to Bottom Layer
 Via (48.514mm,-5.842mm) from Top Layer to Bottom Layer
 Via (37.084mm,-69.596mm) from Top Layer to Bottom Layer
 Via (59.309mm,-10.541mm) from Top Layer to Bottom Layer
@@ -793,8 +800,6 @@ Via (42.825mm,-83.921mm) from Top Layer to Bottom Layer
 Via (11.942mm,-29.968mm) from Top Layer to Bottom Layer
 Via (18.8mm,-30.349mm) from Top Layer to Bottom Layer
 Via (25.15mm,-30.095mm) from Top Layer to Bottom Layer
-Via (68.326mm,-51.308mm) from Top Layer to Bottom Layer
-Via (68.335mm,-57.649mm) from Top Layer to Bottom Layer
 Via (30.988mm,-35.941mm) from Top Layer to Bottom Layer
 Via (21.856mm,-28.587mm) from Top Layer to Bottom Layer
 Via (43.307mm,-58.166mm) from Top Layer to Bottom Layer

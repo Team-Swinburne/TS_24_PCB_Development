@@ -316,6 +316,10 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for TS_24_Brake Module\Design Rule Check - Brake Module B2 Sample.html
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=Project Outputs for TS_24_Brake Module\Design Rule Check - Brake Module B3 Sample.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\lwjde\Documents\GitHub\TS_24_PCB_Development\TS_24 Discharge Type 2\Discharge_B3.PcbDoc
-Date     : 12/04/2024
-Time     : 7:24:36 PM
+Date     : 13/04/2024
+Time     : 1:02:10 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -45,4 +45,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
