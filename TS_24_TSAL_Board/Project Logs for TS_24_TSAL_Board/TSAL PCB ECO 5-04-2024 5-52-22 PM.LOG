@@ -1,0 +1,13 @@
+Change Component Footprint: Designator=P1 Old Footprint=39300040 New Footprint=39293046
+Change Component Comment : Designator=P1 Old Comment=39300040 New Comment=39293046
+Change component parameters: Designator = "P1" ("P1"); Footprint = "39300040"; UniqueID = "\FDKQGGGK" ("\FDKQGGGK")
+Change component parameters (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "WM3844-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "39293046"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Positions"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin P3-2

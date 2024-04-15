@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=CAN1_N Pin=P1-4
+Removed Pin From Net: NetName=CAN1_P Pin=P1-5
+Remove Pin from Net: Failed to remove Pin
+Added Pin To Net: NetName=CAN1_P Pin=P1-4
+Added Pin To Net: NetName=CAN1_N Pin=P1-5
+Add Pin To Net: Unknown Pin: Pin P12-2

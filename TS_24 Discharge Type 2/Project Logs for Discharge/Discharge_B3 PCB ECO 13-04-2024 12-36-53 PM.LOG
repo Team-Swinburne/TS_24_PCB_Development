@@ -1,0 +1,26 @@
+Remove Pin from Net: Failed to remove Pin
+Added Component: Designator=D17(NEXPERIA_SOT23)
+Add component (AddParameter): Name = "Breakdown Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "BAS-21"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "250mW"; VariantName = "[No Variations]"
+Added Component: Designator=D18(NEXPERIA_SOT23)
+Add component (AddParameter): Name = "Breakdown Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.0V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "BAS-21"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "250mW"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin P12-2
+Added Pin To Net: NetName=NetD17_A Pin=D17-A
+Added Pin To Net: NetName=NetD17_A Pin=U9-6
+Added Net: Name=NetD17_A
+Added Pin To Net: NetName=NetD17_K Pin=D17-K
+Added Pin To Net: NetName=NetD17_K Pin=D18-K
+Added Pin To Net: NetName=NetD17_K Pin=U8-13
+Added Net: Name=NetD17_K
+Added Pin To Net: NetName=NetD18_A Pin=D18-A
+Added Pin To Net: NetName=NetD18_A Pin=U13-6
+Added Net: Name=NetD18_A
+Added Member To Class: ClassName=HV SENSE Member=Component D17 BAS-21
+Added Member To Class: ClassName=PDOC Member=Component D18 BAS-21
