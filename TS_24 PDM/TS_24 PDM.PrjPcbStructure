@@ -1,5 +1,5 @@
 Record=TopLevelDocument|FileName=TopLevel.SchDoc|SheetNumber=1
 Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=CAN|SchDesignator=CAN|FileName=CAN.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=CAN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=Drivers|SchDesignator=Drivers|FileName=Drivers.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=Drivers.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=Microcontroller|SchDesignator=Microcontroller|FileName=Microcontroller.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Microcontroller.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=Power Supply|SchDesignator=Power Supply|FileName=Power Supply.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Power Supply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=TopLevel.SchDoc|FileName=High-Side Driven Smart Switch.SchDoc|SheetNumber=5
