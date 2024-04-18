@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=0V_(ISO) Pin=D9-A
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=3V3 Pin=Q2-D
+Removed Pin From Net: NetName=0V_(ISO) Pin=R13-1
+Removed Pin From Net: NetName=0V_(ISO) Pin=U7-3
+Added Pin To Net: NetName=3V3 Pin=D8-A
+Added Pin To Net: NetName=3V3 Pin=D9-K
+Add Pin To Net: Unknown Pin: Pin P12-2
+Added Pin To Net: NetName=0V_(ISO) Pin=Q2-S
+Added Pin To Net: NetName=3V3 Pin=U7-2
+Added Pin To Net: NetName=NetD9_A Pin=D9-A
+Added Pin To Net: NetName=NetD9_A Pin=Q2-D
+Added Pin To Net: NetName=NetD9_A Pin=R13-1
+Added Pin To Net: NetName=NetD9_A Pin=U7-3
+Added Net: Name=NetD9_A

@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\lwjde\Documents\GitHub\TS_24_PCB_Development\TS_24 Temperature Module\Temp Module B1 Sample.PcbDoc
-Date     : 14/04/2024
-Time     : 4:57:30 PM
+Date     : 18/04/2024
+Time     : 9:42:44 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -10,15 +10,15 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (101.473mm,-61.214mm) from Top Layer to Bottom Layer And Via (129.794mm,-61.214mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (108.204mm,-48.006mm) from Top Layer to Bottom Layer And Via (120.65mm,-19.177mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (108.204mm,-48.006mm) from Top Layer to Bottom Layer And Via (126.479mm,-49.289mm) from Top Layer to Bottom Layer 
    Violation between Un-Routed Net Constraint: Net 0V (TMP) Between Via (111.506mm,-70.104mm) from Top Layer to Bottom Layer And Via (119.126mm,-70.104mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (13.081mm,-60.706mm) from Top Layer to Bottom Layer And Via (40.513mm,-60.96mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (120.65mm,-19.177mm) from Top Layer to Bottom Layer And Via (126.479mm,-49.289mm) from Top Layer to Bottom Layer 
    Violation between Un-Routed Net Constraint: Net 0V (TMP) Between Via (140.462mm,-46.228mm) from Top Layer to Bottom Layer And Via (141.097mm,-22.987mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (17.399mm,-60.325mm) from Top Layer to Bottom Layer And Via (36.068mm,-60.452mm) from Top Layer to Bottom Layer 
    Violation between Un-Routed Net Constraint: Net 0V (TMP) Between Via (22.733mm,-70.104mm) from Top Layer to Bottom Layer And Via (30.353mm,-70.104mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (42.418mm,-60.96mm) from Top Layer to Bottom Layer And Via (70.485mm,-61.087mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (46.99mm,-60.325mm) from Top Layer to Bottom Layer And Via (65.659mm,-60.452mm) from Top Layer to Bottom Layer 
    Violation between Un-Routed Net Constraint: Net 0V (TMP) Between Via (52.324mm,-70.104mm) from Top Layer to Bottom Layer And Via (59.944mm,-70.104mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (71.882mm,-61.087mm) from Top Layer to Bottom Layer And Via (99.949mm,-61.087mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3_TEMP Between Via (76.581mm,-60.325mm) from Top Layer to Bottom Layer And Via (95.25mm,-60.452mm) from Top Layer to Bottom Layer 
    Violation between Un-Routed Net Constraint: Net 0V (TMP) Between Via (81.915mm,-70.104mm) from Top Layer to Bottom Layer And Via (89.535mm,-70.104mm) from Top Layer to Bottom Layer 
 Rule Violations :10
 
@@ -55,4 +55,4 @@ Rule Violations :0
 
 Violations Detected : 10
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

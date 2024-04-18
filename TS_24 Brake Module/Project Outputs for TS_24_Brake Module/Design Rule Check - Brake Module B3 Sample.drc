@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\lwjde\Documents\GitHub\TS_24_PCB_Development\TS_24 Brake Module\Brake Module B3 Sample.PcbDoc
-Date     : 14/04/2024
-Time     : 4:27:49 PM
+Date     : 17/04/2024
+Time     : 5:47:15 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -45,4 +45,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
