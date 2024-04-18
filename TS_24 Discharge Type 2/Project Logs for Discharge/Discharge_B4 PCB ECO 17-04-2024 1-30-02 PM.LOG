@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=0V_(ISO) Pin=C26-1
+Removed Pin From Net: NetName=0V_(ISO) Pin=C27-1
+Remove Pin from Net: Failed to remove Pin
+Removed Member From Class: ClassName=Microcontroller Member=C26
+Removed Member From Class: ClassName=Microcontroller Member=C27
+Removed Member From Class: ClassName=Microcontroller Member=R25
+Removed Member From Class: ClassName=Microcontroller Member=X1
+Add Pin To Net: Unknown Pin: Pin P12-2
