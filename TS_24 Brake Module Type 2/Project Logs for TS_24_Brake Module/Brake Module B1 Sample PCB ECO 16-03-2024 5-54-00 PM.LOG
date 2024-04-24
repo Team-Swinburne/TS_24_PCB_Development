@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=H REF 1 Pin=ADC1-5
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Pin To Net: Unknown Pin: Pin C11-1
+Add Pin To Net: Unknown Pin: Pin C37-1
+Added Pin To Net: NetName=5V Pin=P6-5
+Added Pin To Net: NetName=0V Pin=P6-8
+Added Pin To Net: NetName=BPPS_1 Pin=P6-3
+Added Net: Name=BPPS_1
+Add Net: Net with name "BPPS_1" already exists
+Added Pin To Net: NetName=BPPS_2 Pin=P6-4
+Added Net: Name=BPPS_2
+Add Net: Net with name "BPPS_2" already exists
+Add Class Member: Failed to add class member : Component C11 100nF
+Add Class Member: Failed to add class member : Component C37 100nF
+Add Class Member: Failed to add class member : Component R30 1k
+Add Class Member: Failed to add class member : Component R37 1k

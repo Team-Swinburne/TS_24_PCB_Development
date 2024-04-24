@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=5V Pin=C11-1
+Removed Pin From Net: NetName=5V Pin=U17-1
+Change Component Designator: OldDesignator=X? NewDesignator=X1
+Add Pin To Net: Unknown Pin: Pin L3-1
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=U17-1
+Added Net: Name=NetC11_1
+Add Class Member: Failed to add class member : Component L3 4.7uH

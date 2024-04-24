@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=0V Pin=C30-1
+Removed Pin From Net: NetName=BPPS_1_F Pin=C30-2
+Removed Pin From Net: NetName=0V Pin=C34-1
+Removed Pin From Net: NetName=BPPS_2_F Pin=C34-2
+Removed Pin From Net: NetName=0V Pin=C35-1
+Removed Pin From Net: NetName=APPS_1 Pin=C35-2
+Removed Pin From Net: NetName=0V Pin=C38-1
+Removed Pin From Net: NetName=APPS_2 Pin=C38-2
+Removed Pin From Net: NetName=GLV- Pin=P4-1
+Removed Pin From Net: NetName=GLV+ Pin=P4-2
+Removed Pin From Net: NetName=GLV- Pin=P4-3
+Removed Pin From Net: NetName=CAN1_P Pin=P4-4
+Removed Pin From Net: NetName=CAN1_N Pin=P4-5
+Removed Pin From Net: NetName=BPPS_1_F Pin=R16-2
+Removed Pin From Net: NetName=BPPS_2_F Pin=R22-2
+Removed Pin From Net: NetName=APPS_1 Pin=R25-2
+Removed Pin From Net: NetName=APPS_2 Pin=R26-2
+Removed Member From Class: ClassName=BSPD Member=C30
+Removed Member From Class: ClassName=BSPD Member=C34
+Removed Member From Class: ClassName=BSPD Member=C35
+Removed Member From Class: ClassName=BSPD Member=C38
+Removed Member From Class: ClassName=TopLevel Member=P4
+Removed Member From Class: ClassName=BSPD Member=R16
+Removed Member From Class: ClassName=BSPD Member=R22
+Removed Member From Class: ClassName=BSPD Member=R25
+Removed Member From Class: ClassName=BSPD Member=R26
+Added Component: Designator=P(T4145035051-001)
+Add component (AddParameter): Name = "Angle"; Value = "90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Copper Alloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "T4145035051-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GLV- Pin=P-1
+Added Pin To Net: NetName=GLV+ Pin=P-2
+Added Pin To Net: NetName=GLV- Pin=P-3
+Added Pin To Net: NetName=CAN1_P Pin=P-4
+Added Pin To Net: NetName=CAN1_N Pin=P-5
+Added Member To Class: ClassName=TopLevel Member=Component P T4145035051-001

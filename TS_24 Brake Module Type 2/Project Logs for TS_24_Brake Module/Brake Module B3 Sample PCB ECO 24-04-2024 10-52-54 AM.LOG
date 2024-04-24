@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=0V_(ISO) Pin=D8-K
+Removed Pin From Net: NetName=CAN_RX_INDC Pin=R8-2
+Removed Member From Class: ClassName=Microcontroller Member=D8
+Removed Member From Class: ClassName=Microcontroller Member=R8
+Added Member To Class: ClassName=Microcontroller Member=Component R11 10k
+Added Room: Name=Power Supply

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=BPSD LATCH Pin=U13-3
+Removed Pin From Net: NetName=BSPD OK Pin=U13-4
+Removed Pin From Net: NetName=5kW Pin=U14-3
+Removed Pin From Net: NetName=NetR28_1 Pin=U14-4
+Added Pin To Net: NetName=5kW Pin=U13-3
+Added Pin To Net: NetName=NetR28_1 Pin=U13-4
+Added Pin To Net: NetName=BPSD LATCH Pin=U14-3
+Added Pin To Net: NetName=BSPD OK Pin=U14-4

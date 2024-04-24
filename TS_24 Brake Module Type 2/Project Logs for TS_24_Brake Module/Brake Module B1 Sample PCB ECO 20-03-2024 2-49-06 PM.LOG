@@ -1,0 +1,12 @@
+Added Component: Designator=L3(SRN3015TA-4R7M)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "SRN3015TA-4R7MCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "120mOhms"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SRN3015TA-4R7M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "1.2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7uH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=L3-1
+Added Pin To Net: NetName=NetC11_1 Pin=L3-2
+Added Member To Class: ClassName=Power Supply Member=Component L3 4.7uH
