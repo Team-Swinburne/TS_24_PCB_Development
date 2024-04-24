@@ -1,0 +1,34 @@
+Added Component: Designator=U7(STM_QFN-36)
+Add component (AddParameter): Name = "Complex IC"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com/en/products/detail/stmicroelectronics/stm32f103t8u6/1852493"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "STM32F103T8U6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ST Microelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "STM32F103T8U6"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=U7-1
+Added Pin To Net: NetName=NRST Pin=U7-4
+Added Pin To Net: NetName=0V Pin=U7-5
+Added Pin To Net: NetName=3V3 Pin=U7-6
+Added Pin To Net: NetName=BSPD OK Pin=U7-9
+Added Pin To Net: NetName=CS (ADC) Pin=U7-11
+Added Pin To Net: NetName=NetADC1_13 Pin=U7-12
+Added Pin To Net: NetName=NetADC1_12 Pin=U7-13
+Added Pin To Net: NetName=NetADC1_14 Pin=U7-14
+Added Pin To Net: NetName=5kW Pin=U7-15
+Added Pin To Net: NetName=NetR24_1 Pin=U7-16
+Added Pin To Net: NetName=NetR25_1 Pin=U7-17
+Added Pin To Net: NetName=0V Pin=U7-18
+Added Pin To Net: NetName=3V3 Pin=U7-19
+Added Pin To Net: NetName=GL_IN_OK Pin=U7-20
+Added Pin To Net: NetName=UART_TX Pin=U7-21
+Added Pin To Net: NetName=UART_RX Pin=U7-22
+Added Pin To Net: NetName=NetR9_1 Pin=U7-23
+Added Pin To Net: NetName=NetR10_1 Pin=U7-24
+Added Pin To Net: NetName=SWDIO Pin=U7-25
+Added Pin To Net: NetName=0V Pin=U7-26
+Added Pin To Net: NetName=3V3 Pin=U7-27
+Added Pin To Net: NetName=SWCLK Pin=U7-28
+Added Pin To Net: NetName=HB Pin=U7-32
+Added Pin To Net: NetName=CAN_TX_INDC Pin=U7-34
+Added Pin To Net: NetName=NetR12_2 Pin=U7-35
+Added Pin To Net: NetName=0V Pin=U7-36
+Added Member To Class: ClassName=Microcontroller Member=Component U7 STM32F103T8U6

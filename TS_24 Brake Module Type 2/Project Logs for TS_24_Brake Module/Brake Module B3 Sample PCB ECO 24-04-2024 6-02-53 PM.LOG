@@ -1,0 +1,19 @@
+Added Component: Designator=U2(TI_10_WSON)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "296-50359-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Voltage"; Value = "4.5 to 36 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "1.0 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage"; Value = "5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LM536015QDSXRQ1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC11_1 Pin=U2-1
+Added Pin To Net: NetName=NetC11_2 Pin=U2-2
+Added Pin To Net: NetName=NetC9_2 Pin=U2-3
+Added Pin To Net: NetName=5V Pin=U2-4
+Added Pin To Net: NetName=0V Pin=U2-5
+Added Pin To Net: NetName=NetR3_2 Pin=U2-6
+Added Pin To Net: NetName=VBAT_F Pin=U2-7
+Added Pin To Net: NetName=VBAT_F Pin=U2-8
+Added Pin To Net: NetName=VBAT_F Pin=U2-9
+Added Pin To Net: NetName=0V Pin=U2-10
+Added Pin To Net: NetName=0V Pin=U2-11
+Added Member To Class: ClassName=Power Supply Member=Component U2 LM536015QDSXRQ1

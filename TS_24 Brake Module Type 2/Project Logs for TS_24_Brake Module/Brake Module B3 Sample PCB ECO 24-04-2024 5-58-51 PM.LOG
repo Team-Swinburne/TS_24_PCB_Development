@@ -1,0 +1,6 @@
+Change component parameters: Designator = "U7" ("U7"); Footprint = "STM_QFN-36"; UniqueID = "\KXYLONJZ\NMQADOFP" ("\KXYLONJZ\NMQADOFP")
+Change component parameters (AddParameter): Name = "Complex IC"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com/en/products/detail/stmicroelectronics/stm32f103t8u6/1852493"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "STM32F103T8U6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "ST Microelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "STM32F103T8U6"; VariantName = "[No Variations]"
