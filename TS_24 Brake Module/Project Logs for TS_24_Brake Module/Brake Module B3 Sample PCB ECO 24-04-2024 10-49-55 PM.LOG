@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=0V Pin=ADC1-17
+Removed Pin From Net: NetName=0V Pin=C11-1
+Removed Pin From Net: NetName=0V_(ISO) Pin=U7-37
+Change Footprint: Footprint Not Found RN-053.3S/P
+Change Component Comment : Designator=U3 Old Comment=R2S-053.3/P New Comment=RN-053.3S/P
+Change component parameters: Designator = "U3" ("U3"); Footprint = "RECOM 8-SMD (5 Pin)"; UniqueID = "\FBAZFRPN\OZAXUDNQ" ("\FBAZFRPN\OZAXUDNQ")
+Change component parameters (AddParameter): Name = "Input Voltage"; Value = "5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Recom"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Current"; Value = "378mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RN-053.3S/P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=L2-2
+Added Pin To Net: NetName=NetC11_1 Pin=U2-1
+Added Net: Name=NetC11_1
+Added Member To Class: ClassName=Microcontroller Member=Component R11 10k
+Added Room: Name=BSPD
+Added Room: Name=CAN
+Added Room: Name=Isolation
+Added Room: Name=Microcontroller
+Added Room: Name=Power Supply
+Added Room: Name=Safety Loop
+Added Room: Name=TopLevel
