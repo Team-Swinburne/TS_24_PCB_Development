@@ -1,0 +1,11 @@
+Added Component: Designator=U3(RK-053.3S/H6)
+Add component (AddParameter): Name = "Input Voltage"; Value = "5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Recom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "303mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RK-053.3S/H6"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=U3-1
+Added Pin To Net: NetName=0V Pin=U3-2
+Added Pin To Net: NetName=0V_(ISO) Pin=U3-5
+Added Pin To Net: NetName=3V3 Pin=U3-7
+Added Member To Class: ClassName=Power Supply Member=Component U3 RK-053.3S/H6

@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=5V Pin=U3-1
+Added Component: Designator=C21(0805)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "490-10514-6-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "muRata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM21BR6YA106KE43L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Rating"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=D7(0805 LED)
+Add component (AddParameter): Name = "Colour"; Value = "Yellow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "511-1293-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SML-211YTT86"; VariantName = "[No Variations]"
+Added Component: Designator=L3(1812)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "945-3429-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "230mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Recom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RLS-126"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "0.8 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "12uH"; VariantName = "[No Variations]"
+Added Component: Designator=R7(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "13-RT0603BRD07500RL-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RT0603BRD07500RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "500R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=0V Pin=C21-1
+Added Pin To Net: NetName=5V Pin=C21-2
+Added Pin To Net: NetName=NetD7_A Pin=D7-A
+Added Pin To Net: NetName=0V_(ISO) Pin=D7-K
+Added Pin To Net: NetName=5V Pin=L3-2
+Added Pin To Net: NetName=NetD7_A Pin=R7-1
+Added Pin To Net: NetName=CAN_TX_INDC Pin=R7-2
+Added Pin To Net: NetName=NetL3_1 Pin=L3-1
+Added Pin To Net: NetName=NetL3_1 Pin=U3-1
+Added Net: Name=NetL3_1
+Added Member To Class: ClassName=Power Supply Member=Component C21 10uF
+Added Member To Class: ClassName=Microcontroller Member=Component D7 Yellow
+Added Member To Class: ClassName=Power Supply Member=Component L3 12uH
+Added Member To Class: ClassName=Microcontroller Member=Component R7 500R
+Added Room: Name=Microcontroller
