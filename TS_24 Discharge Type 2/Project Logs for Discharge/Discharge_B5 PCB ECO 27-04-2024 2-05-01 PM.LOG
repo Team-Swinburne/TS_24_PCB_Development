@@ -1,0 +1,18 @@
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=GL_INT Pin=P7-2
+Change Component Designator: OldDesignator=CS NewDesignator=P13
+Change Component Designator: OldDesignator=HVD NewDesignator=P12
+Added Component: Designator=L2(SRN3015TA-4R7M)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "SRN3015TA-4R7MCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "84mOhms"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SRN4018-4R7M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "1.9A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7uH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=L2-1
+Added Pin To Net: NetName=NetC18_1 Pin=L2-2
+Added Pin To Net: NetName=GL_IN Pin=P7-2
+Add Pin To Net: Unknown Pin: Pin P12-2
+Added Member To Class: ClassName=Power Supply Member=Component L2 4.7uH
