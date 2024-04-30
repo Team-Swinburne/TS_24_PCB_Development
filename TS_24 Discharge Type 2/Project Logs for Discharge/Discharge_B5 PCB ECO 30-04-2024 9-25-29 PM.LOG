@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=0V Pin=C27-1
+Removed Pin From Net: NetName=5V Pin=C27-2
+Removed Pin From Net: NetName=HV MC- Pin=C49-1
+Removed Pin From Net: NetName=HVVDD Pin=C49-2
+Removed Pin From Net: NetName=0V_(ISO) Pin=U8-37
+Removed Pin From Net: NetName=GND_PDOC Pin=U14-17
+Removed Pin From Net: NetName=HVVDD Pin=U17-1
+Removed Pin From Net: NetName=NetR25_2 Pin=U17-2
+Removed Pin From Net: NetName=HVVDD Pin=U17-3
+Removed Pin From Net: NetName=HV MC- Pin=U17-4
+Removed Pin From Net: NetName=0V Pin=U17-5
+Removed Pin From Net: NetName=0V Pin=U17-7
+Removed Pin From Net: NetName=5V Pin=U17-8
+Removed Member From Class: ClassName=HV SENSE Member=C27
+Removed Member From Class: ClassName=HV SENSE Member=C49
+Removed Member From Class: ClassName=HV SENSE Member=U17
+Added Component: Designator=U?(ON 16-SMD)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/product-detail/en/lite-on-inc/LTV-847S/160-1371-5-ND/385841"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "160-1371-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Lite-On Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LTV-847S-TA1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR25_2 Pin=U?-1
+Added Pin To Net: NetName=HV MC- Pin=U?-2
+Added Pin To Net: NetName=5V Pin=U?-16
+Added Pin To Net: NetName=TSAL_ACTIVE Pin=R47-1
+Added Pin To Net: NetName=TSAL_ACTIVE Pin=U?-15
+Added Net: Name=TSAL_ACTIVE
+Added Member To Class: ClassName=HV SENSE Member=Component U? LTV-847S-TA1

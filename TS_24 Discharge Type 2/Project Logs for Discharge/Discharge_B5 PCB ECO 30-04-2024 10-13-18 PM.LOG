@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=0V_(ISO) Pin=U8-37
+Removed Pin From Net: NetName=GND_PDOC Pin=U14-17
+Removed Pin From Net: NetName=DISCHARGE_DISABLE Pin=U15-3
+Added Component: Designator=C27(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "490-6049-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "muRata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GCM188L81H104KA57D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Rating"; Value = "X8L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=R48(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0HRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10R"; VariantName = "[No Variations]"
+Added Component: Designator=U21(SOT23-5_TI)
+Add component (AddParameter): Name = "Complex IC"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SN74AHC1G14"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=0V Pin=C27-1
+Added Pin To Net: NetName=5V Pin=C27-2
+Added Pin To Net: NetName=DISCHARGE_DISABLE Pin=R48-2
+Added Pin To Net: NetName=DISCHARGE_DISABLE Pin=U21-2
+Added Pin To Net: NetName=0V Pin=U21-3
+Added Pin To Net: NetName=5V Pin=U21-5
+Added Pin To Net: NetName=Discharge_Disable_Inv Pin=U15-3
+Added Pin To Net: NetName=Discharge_Disable_Inv Pin=U21-4
+Added Net: Name=Discharge_Disable_Inv
+Added Member To Class: ClassName=Isolation Member=Component C27 100nF
+Added Member To Class: ClassName=Isolation Member=Component R48 10R
+Added Member To Class: ClassName=HV SENSE Member=Component U17 LTV-817S-TA1
+Added Member To Class: ClassName=Isolation Member=Component U21 SN74AHC1G14
+Added Room: Name=CAN
+Added Room: Name=Discharge
+Added Room: Name=HV SENSE
+Added Room: Name=Isolation
+Added Room: Name=Microcontroller
+Added Room: Name=PDOC
+Added Room: Name=Power Supply
+Added Room: Name=Safety Loop
+Added Room: Name=TopLevel
