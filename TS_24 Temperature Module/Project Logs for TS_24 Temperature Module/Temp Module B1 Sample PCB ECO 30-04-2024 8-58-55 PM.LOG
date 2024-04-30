@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=NetU4_TB1_3 Pin=U7-14
+Removed Pin From Net: NetName=0V_(ISO) Pin=U7-37
+Added Component: Designator=R2(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0HRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10R"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0HRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10R"; VariantName = "[No Variations]"
+Added Component: Designator=R4(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0HRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC39_2 Pin=C39-2
+Added Pin To Net: NetName=NetC40_2 Pin=C40-2
+Added Pin To Net: NetName=NetC40_2 Pin=L3-3
+Added Pin To Net: NetName=NetC39_2 Pin=L3-4
+Added Pin To Net: NetName=NetU4_TB1_3 Pin=R2-2
+Added Pin To Net: NetName=NetD4_TB1_K Pin=R3-2
+Added Pin To Net: NetName=NetU4_TB1_4 Pin=R4-2
+Change Net Name : Old Net Name=NetU4_TB1_3 New Net Name=NetR2_2
+Change Net Name : Old Net Name=NetU4_TB1_4 New Net Name=NetR4_2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U7-14
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=U7-13
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=U7-12
+Added Net: Name=NetR4_1
+Added Member To Class: ClassName=U_Microcontroller Member=Component R2 10R
+Added Member To Class: ClassName=U_Microcontroller Member=Component R3 10R
+Added Member To Class: ClassName=U_Microcontroller Member=Component R4 10R
