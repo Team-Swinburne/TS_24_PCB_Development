@@ -1,0 +1,158 @@
+Removed Member From Class: ClassName=ADC Chip Select Isolation Member=C34
+Removed Member From Class: ClassName=ADC Chip Select Isolation Member=ISO2
+Added Component: Designator=C?(0805)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "490-10675-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "muRata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GCM21BR71H105KA03L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Rating"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1µF"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SODFL350X110-2N
+Add Component: Footprint Not Found SM6T39CAY-Footprint-1
+Added Component: Designator=U_HSD1(TI_14_TSSOP)
+Add component (AddParameter): Name = "Part Number"; Value = "TPS1HTC30AQPWPRQ1"; VariantName = "[No Variations]"
+Added Component: Designator=U_HSD2(TI_14_TSSOP)
+Add component (AddParameter): Name = "Part Number"; Value = "TPS1HTC30AQPWPRQ1"; VariantName = "[No Variations]"
+Added Component: Designator=U_HSD3(TI_14_TSSOP)
+Add component (AddParameter): Name = "Part Number"; Value = "TPS1HTC30AQPWPRQ1"; VariantName = "[No Variations]"
+Added Component: Designator=U_HSD4(TI_14_TSSOP)
+Add component (AddParameter): Name = "Part Number"; Value = "TPS1HTC30AQPWPRQ1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C?-1
+Added Pin To Net: NetName=0V_(ISO) Pin=C?-2
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D6-A
+Add Pin To Net: Unknown Pin: Pin D6-K
+Add Pin To Net: Unknown Pin: Pin U_HSD1-0
+Added Pin To Net: NetName=Net*_HSD1_0 Pin=U_HSD1-1
+Added Pin To Net: NetName=GLV+ Pin=U_HSD1-8
+Added Pin To Net: NetName=GLV+ Pin=U_HSD1-9
+Added Pin To Net: NetName=GLV+ Pin=U_HSD1-10
+Added Pin To Net: NetName=VOUT_HSD1 Pin=U_HSD1-12
+Added Pin To Net: NetName=VOUT_HSD1 Pin=U_HSD1-13
+Added Pin To Net: NetName=VOUT_HSD1 Pin=U_HSD1-14
+Add Pin To Net: Unknown Pin: Pin U_HSD2-0
+Added Pin To Net: NetName=Net*_HSD2_0 Pin=U_HSD2-1
+Added Pin To Net: NetName=GLV+ Pin=U_HSD2-8
+Added Pin To Net: NetName=GLV+ Pin=U_HSD2-9
+Added Pin To Net: NetName=GLV+ Pin=U_HSD2-10
+Added Pin To Net: NetName=VOUT_HSD2 Pin=U_HSD2-12
+Added Pin To Net: NetName=VOUT_HSD2 Pin=U_HSD2-13
+Added Pin To Net: NetName=VOUT_HSD2 Pin=U_HSD2-14
+Add Pin To Net: Unknown Pin: Pin U_HSD3-0
+Added Pin To Net: NetName=Net*_HSD3_0 Pin=U_HSD3-1
+Added Pin To Net: NetName=GLV+ Pin=U_HSD3-8
+Added Pin To Net: NetName=GLV+ Pin=U_HSD3-9
+Added Pin To Net: NetName=GLV+ Pin=U_HSD3-10
+Added Pin To Net: NetName=VOUT_HSD3 Pin=U_HSD3-12
+Added Pin To Net: NetName=VOUT_HSD3 Pin=U_HSD3-13
+Added Pin To Net: NetName=VOUT_HSD3 Pin=U_HSD3-14
+Add Pin To Net: Unknown Pin: Pin U_HSD4-0
+Added Pin To Net: NetName=Net*_HSD4_0 Pin=U_HSD4-1
+Added Pin To Net: NetName=GLV+ Pin=U_HSD4-8
+Added Pin To Net: NetName=GLV+ Pin=U_HSD4-9
+Added Pin To Net: NetName=GLV+ Pin=U_HSD4-10
+Added Pin To Net: NetName=VOUT_HSD4 Pin=U_HSD4-12
+Added Pin To Net: NetName=VOUT_HSD4 Pin=U_HSD4-13
+Added Pin To Net: NetName=VOUT_HSD4 Pin=U_HSD4-14
+Change Net Name : Old Net Name=Net*_HSD1_0 New Net Name=NetD9_HSD1_A
+Change Net Name : Old Net Name=Net*_HSD2_0 New Net Name=NetD9_HSD2_A
+Change Net Name : Old Net Name=Net*_HSD3_0 New Net Name=NetD9_HSD3_A
+Change Net Name : Old Net Name=Net*_HSD4_0 New Net Name=NetD9_HSD4_A
+Added Pin To Net: NetName=NetR14_HSD1_2 Pin=R14_HSD1-2
+Added Pin To Net: NetName=NetR14_HSD1_2 Pin=U_HSD1-2
+Added Net: Name=NetR14_HSD1_2
+Added Pin To Net: NetName=NetR14_HSD2_2 Pin=R14_HSD2-2
+Added Pin To Net: NetName=NetR14_HSD2_2 Pin=U_HSD2-2
+Added Net: Name=NetR14_HSD2_2
+Added Pin To Net: NetName=NetR14_HSD3_2 Pin=R14_HSD3-2
+Added Pin To Net: NetName=NetR14_HSD3_2 Pin=U_HSD3-2
+Added Net: Name=NetR14_HSD3_2
+Added Pin To Net: NetName=NetR14_HSD4_2 Pin=R14_HSD4-2
+Added Pin To Net: NetName=NetR14_HSD4_2 Pin=U_HSD4-2
+Added Net: Name=NetR14_HSD4_2
+Added Pin To Net: NetName=NetR15_HSD1_2 Pin=R15_HSD1-2
+Added Pin To Net: NetName=NetR15_HSD1_2 Pin=U_HSD1-3
+Added Net: Name=NetR15_HSD1_2
+Added Pin To Net: NetName=NetR15_HSD2_2 Pin=R15_HSD2-2
+Added Pin To Net: NetName=NetR15_HSD2_2 Pin=U_HSD2-3
+Added Net: Name=NetR15_HSD2_2
+Added Pin To Net: NetName=NetR15_HSD3_2 Pin=R15_HSD3-2
+Added Pin To Net: NetName=NetR15_HSD3_2 Pin=U_HSD3-3
+Added Net: Name=NetR15_HSD3_2
+Added Pin To Net: NetName=NetR15_HSD4_2 Pin=R15_HSD4-2
+Added Pin To Net: NetName=NetR15_HSD4_2 Pin=U_HSD4-3
+Added Net: Name=NetR15_HSD4_2
+Added Pin To Net: NetName=NetR16_HSD1_2 Pin=R16_HSD1-2
+Added Pin To Net: NetName=NetR16_HSD1_2 Pin=U_HSD1-5
+Added Net: Name=NetR16_HSD1_2
+Added Pin To Net: NetName=NetR16_HSD2_2 Pin=R16_HSD2-2
+Added Pin To Net: NetName=NetR16_HSD2_2 Pin=U_HSD2-5
+Added Net: Name=NetR16_HSD2_2
+Added Pin To Net: NetName=NetR16_HSD3_2 Pin=R16_HSD3-2
+Added Pin To Net: NetName=NetR16_HSD3_2 Pin=U_HSD3-5
+Added Net: Name=NetR16_HSD3_2
+Added Pin To Net: NetName=NetR16_HSD4_2 Pin=R16_HSD4-2
+Added Pin To Net: NetName=NetR16_HSD4_2 Pin=U_HSD4-5
+Added Net: Name=NetR16_HSD4_2
+Added Pin To Net: NetName=NetR17_HSD1_1 Pin=R17_HSD1-1
+Added Pin To Net: NetName=NetR17_HSD1_1 Pin=R18_HSD1-2
+Added Pin To Net: NetName=NetR17_HSD1_1 Pin=U_HSD1-4
+Added Net: Name=NetR17_HSD1_1
+Added Pin To Net: NetName=NetR17_HSD2_1 Pin=R17_HSD2-1
+Added Pin To Net: NetName=NetR17_HSD2_1 Pin=R18_HSD2-2
+Added Pin To Net: NetName=NetR17_HSD2_1 Pin=U_HSD2-4
+Added Net: Name=NetR17_HSD2_1
+Added Pin To Net: NetName=NetR17_HSD3_1 Pin=R17_HSD3-1
+Added Pin To Net: NetName=NetR17_HSD3_1 Pin=R18_HSD3-2
+Added Pin To Net: NetName=NetR17_HSD3_1 Pin=U_HSD3-4
+Added Net: Name=NetR17_HSD3_1
+Added Pin To Net: NetName=NetR17_HSD4_1 Pin=R17_HSD4-1
+Added Pin To Net: NetName=NetR17_HSD4_1 Pin=R18_HSD4-2
+Added Pin To Net: NetName=NetR17_HSD4_1 Pin=U_HSD4-4
+Added Net: Name=NetR17_HSD4_1
+Added Pin To Net: NetName=NetR19_HSD1_2 Pin=R19_HSD1-2
+Added Pin To Net: NetName=NetR19_HSD1_2 Pin=R20_HSD1-1
+Added Pin To Net: NetName=NetR19_HSD1_2 Pin=U_HSD1-6
+Added Net: Name=NetR19_HSD1_2
+Added Pin To Net: NetName=NetR19_HSD2_2 Pin=R19_HSD2-2
+Added Pin To Net: NetName=NetR19_HSD2_2 Pin=R20_HSD2-1
+Added Pin To Net: NetName=NetR19_HSD2_2 Pin=U_HSD2-6
+Added Net: Name=NetR19_HSD2_2
+Added Pin To Net: NetName=NetR19_HSD3_2 Pin=R19_HSD3-2
+Added Pin To Net: NetName=NetR19_HSD3_2 Pin=R20_HSD3-1
+Added Pin To Net: NetName=NetR19_HSD3_2 Pin=U_HSD3-6
+Added Net: Name=NetR19_HSD3_2
+Added Pin To Net: NetName=NetR19_HSD4_2 Pin=R19_HSD4-2
+Added Pin To Net: NetName=NetR19_HSD4_2 Pin=R20_HSD4-1
+Added Pin To Net: NetName=NetR19_HSD4_2 Pin=U_HSD4-6
+Added Net: Name=NetR19_HSD4_2
+Added Pin To Net: NetName=NetR21_HSD1_2 Pin=R21_HSD1-2
+Added Pin To Net: NetName=NetR21_HSD1_2 Pin=U_HSD1-7
+Added Net: Name=NetR21_HSD1_2
+Added Pin To Net: NetName=NetR21_HSD2_2 Pin=R21_HSD2-2
+Added Pin To Net: NetName=NetR21_HSD2_2 Pin=U_HSD2-7
+Added Net: Name=NetR21_HSD2_2
+Added Pin To Net: NetName=NetR21_HSD3_2 Pin=R21_HSD3-2
+Added Pin To Net: NetName=NetR21_HSD3_2 Pin=U_HSD3-7
+Added Net: Name=NetR21_HSD3_2
+Added Pin To Net: NetName=NetR21_HSD4_2 Pin=R21_HSD4-2
+Added Pin To Net: NetName=NetR21_HSD4_2 Pin=U_HSD4-7
+Added Net: Name=NetR21_HSD4_2
+Added Member To Class: ClassName=HSD2 Member=Component C29_HSD2 (C29) 100nF
+Added Member To Class: ClassName=ADC2 Member=Component C32_ADC2 (C32) 1µF
+Added Member To Class: ClassName=ADC Chip Select Isolation Member=Component C38 100nF
+Added Member To Class: ClassName=Microcontroller Member=Component C? 1µF
+Add Class Member: Failed to add class member : Component D4 PMEG100T10ELR-QX
+Add Class Member: Failed to add class member : Component D6 SM6T39CAY
+Added Member To Class: ClassName=ADC Chip Select Isolation Member=Component ISO3 ADuM1400
+Added Member To Class: ClassName=HSD3 Member=Component R17_HSD3 (R17) 10k
+Added Member To Class: ClassName=HSD1 Member=Component R18_HSD1 (R18) 10k
+Added Member To Class: ClassName=HSD4 Member=Component R19_HSD4 (R19) 10k
+Added Member To Class: ClassName=HSD2 Member=Component R21_HSD2 (R21) 24k
+Added Member To Class: ClassName=HSD1 Member=Component U_HSD1 (U) TPS1HTC30AQPWPRQ1
+Added Member To Class: ClassName=HSD2 Member=Component U_HSD2 (U) TPS1HTC30AQPWPRQ1
+Added Member To Class: ClassName=HSD3 Member=Component U_HSD3 (U) TPS1HTC30AQPWPRQ1
+Added Member To Class: ClassName=HSD4 Member=Component U_HSD4 (U) TPS1HTC30AQPWPRQ1
