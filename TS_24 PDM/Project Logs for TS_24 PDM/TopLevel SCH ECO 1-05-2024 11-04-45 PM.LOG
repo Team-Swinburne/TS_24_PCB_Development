@@ -1,0 +1,14 @@
+Remove Pin=?-12 From Net=SDO
+Remove Pin=?-13 From Net=SCLCK
+Remove Pin=?-14 From Net=SDI
+Remove Pin=P?-1 From Net=NRST
+Remove Pin=P?-1 From Net=VOUT_1
+Remove Pin=P?-2 From Net=SWCLK
+Remove Pin=P?-2 From Net=VOUT_2
+Remove Pin=P?-3 From Net=VOUT_3
+Remove Pin=P?-4 From Net=SWDIO
+Remove Pin=P?-4 From Net=VOUT_4
+Change Component Footprint: Designator=C? Old Footprint=1206 CAP New Footprint=0805
+Change Component Comment: Designator=C? Old Comment=="Value" New Comment=1µF
+Change Pin Designator/Name:  Old Designator=C?-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C?-2 Old Name=2 New Designator =1 New Name=1
