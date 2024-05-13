@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=0V_(ISO) Pin=C7-2
+Added Pin To Net: NetName=0V_(ISO) Pin=C27-1
+Added Pin To Net: NetName=CAN1_P Pin=P1-4
+Added Pin To Net: NetName=CAN1_N Pin=P1-5
+Added Member To Class: ClassName=HSD1 Member=Component R18_1 (R18) 1k
+Added Member To Class: ClassName=HSD2 Member=Component R18_2 (R18) 1k
+Added Member To Class: ClassName=HSD3 Member=Component R18_3 (R18) 1k
+Added Member To Class: ClassName=HSD4 Member=Component R18_4 (R18) 1k

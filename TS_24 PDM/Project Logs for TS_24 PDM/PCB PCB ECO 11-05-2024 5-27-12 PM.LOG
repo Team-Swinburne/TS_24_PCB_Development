@@ -1,0 +1,207 @@
+Removed Member From Class: ClassName=HSDE Member=C28_HSDB
+Removed Member From Class: ClassName=HSDE Member=C30_HSDB
+Removed Member From Class: ClassName=Microcontroller Member=C?_ADCB
+Removed Member From Class: ClassName=Power Supply Member=C?_ADCB
+Removed Member From Class: ClassName=HSDE Member=R14_HSDB
+Removed Member From Class: ClassName=HSDE Member=R15_HSDD
+Removed Member From Class: ClassName=HSDE Member=R16_HSDD
+Removed Member From Class: ClassName=HSDE Member=R21_HSDD
+Removed Member From Class: ClassName=HSDE Member=R?_HSDC
+Removed Member From Class: ClassName=Power Supply Member=R?_HSDC
+Removed Member From Class: ClassName=SNS[1..4] Member=SNS1_ADCB
+Removed Member From Class: ClassName=SNS[1..4] Member=SNS2_ADCB
+Removed Member From Class: ClassName=ADC GPIO Expander Member=ADCB
+Removed Member From Class: ClassName=ADC GPIO Expander Member=ADCC
+Removed Member From Class: ClassName=High-Side Driver Member=HSDB
+Removed Member From Class: ClassName=High-Side Driver Member=HSDC
+Removed Member From Class: ClassName=High-Side Driver Member=HSDD
+Removed Member From Class: ClassName=High-Side Driver Member=HSDE
+Change Component Designator: OldDesignator=?_ADCB NewDesignator=?_ADC1
+Change Component Designator: OldDesignator=?_ADCC NewDesignator=?_ADC2
+Change Component Designator: OldDesignator=C28_HSDB NewDesignator=C28_HSD1
+Change Component Designator: OldDesignator=C28_HSDC NewDesignator=C28_HSD2
+Change Component Designator: OldDesignator=C28_HSDD NewDesignator=C28_HSD3
+Change Component Designator: OldDesignator=C28_HSDE NewDesignator=C28_HSD4
+Change Component Designator: OldDesignator=C29_HSDB NewDesignator=C29_HSD1
+Change Component Designator: OldDesignator=C29_HSDC NewDesignator=C29_HSD2
+Change Component Designator: OldDesignator=C29_HSDD NewDesignator=C29_HSD3
+Change Component Designator: OldDesignator=C29_HSDE NewDesignator=C29_HSD4
+Change Component Designator: OldDesignator=C30_HSDB NewDesignator=C30_HSD1
+Change Component Designator: OldDesignator=C30_HSDC NewDesignator=C30_HSD2
+Change Component Designator: OldDesignator=C30_HSDD NewDesignator=C30_HSD3
+Change Component Designator: OldDesignator=C30_HSDE NewDesignator=C30_HSD4
+Change Component Designator: OldDesignator=C31_ADCB NewDesignator=C31_ADC1
+Change Component Designator: OldDesignator=C31_ADCC NewDesignator=C31_ADC2
+Change Component Designator: OldDesignator=C?_ADCB NewDesignator=C?_ADC1
+Change Component Designator: OldDesignator=C?_ADCB NewDesignator=C?_ADC1
+Change Component Designator: OldDesignator=C?_ADCC NewDesignator=C?_ADC2
+Change Component Designator: OldDesignator=C?_ADCC NewDesignator=C?_ADC2
+Change Component Designator: OldDesignator=D9_HSDB NewDesignator=D9_HSD1
+Change Component Designator: OldDesignator=D9_HSDC NewDesignator=D9_HSD2
+Change Component Designator: OldDesignator=D9_HSDD NewDesignator=D9_HSD3
+Change Component Designator: OldDesignator=D9_HSDE NewDesignator=D9_HSD4
+Change Component Designator: OldDesignator=R14_HSDB NewDesignator=R14_HSD1
+Change Component Designator: OldDesignator=R14_HSDC NewDesignator=R14_HSD2
+Change Component Designator: OldDesignator=R14_HSDD NewDesignator=R14_HSD3
+Change Component Designator: OldDesignator=R14_HSDE NewDesignator=R14_HSD4
+Change Component Designator: OldDesignator=R15_HSDB NewDesignator=R15_HSD1
+Change Component Designator: OldDesignator=R15_HSDC NewDesignator=R15_HSD2
+Change Component Designator: OldDesignator=R15_HSDD NewDesignator=R15_HSD3
+Change Component Designator: OldDesignator=R15_HSDE NewDesignator=R15_HSD4
+Change Component Designator: OldDesignator=R16_HSDB NewDesignator=R16_HSD1
+Change Component Designator: OldDesignator=R16_HSDC NewDesignator=R16_HSD2
+Change Component Designator: OldDesignator=R16_HSDD NewDesignator=R16_HSD3
+Change Component Designator: OldDesignator=R16_HSDE NewDesignator=R16_HSD4
+Change Component Designator: OldDesignator=R17_HSDB NewDesignator=R17_HSD1
+Change Component Designator: OldDesignator=R17_HSDC NewDesignator=R17_HSD2
+Change Component Designator: OldDesignator=R17_HSDD NewDesignator=R17_HSD3
+Change Component Designator: OldDesignator=R17_HSDE NewDesignator=R17_HSD4
+Change Component Designator: OldDesignator=R18_HSDB NewDesignator=R18_HSD1
+Change Component Designator: OldDesignator=R18_HSDC NewDesignator=R18_HSD2
+Change Component Designator: OldDesignator=R18_HSDD NewDesignator=R18_HSD3
+Change Component Designator: OldDesignator=R18_HSDE NewDesignator=R18_HSD4
+Change Component Designator: OldDesignator=R19_HSDB NewDesignator=R19_HSD1
+Change Component Designator: OldDesignator=R19_HSDC NewDesignator=R19_HSD2
+Change Component Designator: OldDesignator=R19_HSDD NewDesignator=R19_HSD3
+Change Component Designator: OldDesignator=R19_HSDE NewDesignator=R19_HSD4
+Change Component Designator: OldDesignator=R21_HSDB NewDesignator=R21_HSD1
+Change Component Designator: OldDesignator=R21_HSDC NewDesignator=R21_HSD2
+Change Component Designator: OldDesignator=R21_HSDD NewDesignator=R21_HSD3
+Change Component Designator: OldDesignator=R21_HSDE NewDesignator=R21_HSD4
+Change Component Designator: OldDesignator=R23_ADCB NewDesignator=R23_ADC1
+Change Component Designator: OldDesignator=R23_ADCC NewDesignator=R23_ADC2
+Change Component Designator: OldDesignator=R?_HSDB NewDesignator=R?_HSD1
+Change Component Designator: OldDesignator=R?_HSDB NewDesignator=R?_HSD1
+Change Component Designator: OldDesignator=R?_HSDC NewDesignator=R?_HSD2
+Change Component Designator: OldDesignator=R?_HSDC NewDesignator=R?_HSD2
+Change Component Designator: OldDesignator=R?_HSDD NewDesignator=R?_HSD3
+Change Component Designator: OldDesignator=R?_HSDD NewDesignator=R?_HSD3
+Change Component Designator: OldDesignator=R?_HSDE NewDesignator=R?_HSD4
+Change Component Designator: OldDesignator=R?_HSDE NewDesignator=R?_HSD4
+Change Component Designator: OldDesignator=U_HSDB NewDesignator=U_HSD1
+Change Component Designator: OldDesignator=U_HSDC NewDesignator=U_HSD2
+Change Component Designator: OldDesignator=U_HSDD NewDesignator=U_HSD3
+Change Component Designator: OldDesignator=U_HSDE NewDesignator=U_HSD4
+Add Component: Footprint Not Found SODFL350X110-2N
+Add Component: Footprint Not Found SM6T39CAY-Footprint-1
+Added Pin To Net: NetName=3V3 Pin=C?-1
+Added Pin To Net: NetName=3V3 Pin=C?-2
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D6-A
+Add Pin To Net: Unknown Pin: Pin D6-K
+Change Net Name : Old Net Name=DIAG_EN1_ADCB New Net Name=DIAG_EN1_ADC1
+Change Net Name : Old Net Name=DIAG_EN1_ADCC New Net Name=DIAG_EN1_ADC2
+Change Net Name : Old Net Name=DIAG_EN2_ADCB New Net Name=DIAG_EN2_ADC1
+Change Net Name : Old Net Name=DIAG_EN2_ADCC New Net Name=DIAG_EN2_ADC2
+Change Net Name : Old Net Name=DIAG_EN_HSDB New Net Name=DIAG_EN_HSD1
+Change Net Name : Old Net Name=DIAG_EN_HSDC New Net Name=DIAG_EN_HSD2
+Change Net Name : Old Net Name=DIAG_EN_HSDD New Net Name=DIAG_EN_HSD3
+Change Net Name : Old Net Name=DIAG_EN_HSDE New Net Name=DIAG_EN_HSD4
+Change Net Name : Old Net Name=EN_HSDB New Net Name=EN_HSD1
+Change Net Name : Old Net Name=EN_HSDC New Net Name=EN_HSD2
+Change Net Name : Old Net Name=EN_HSDD New Net Name=EN_HSD3
+Change Net Name : Old Net Name=EN_HSDE New Net Name=EN_HSD4
+Change Net Name : Old Net Name=FAULT1_ADCB New Net Name=FAULT1_ADC1
+Change Net Name : Old Net Name=FAULT1_ADCC New Net Name=FAULT1_ADC2
+Change Net Name : Old Net Name=FAULT2_ADCB New Net Name=FAULT2_ADC1
+Change Net Name : Old Net Name=FAULT2_ADCC New Net Name=FAULT2_ADC2
+Change Net Name : Old Net Name=FAULT_HSDB New Net Name=FAULT_HSD1
+Change Net Name : Old Net Name=FAULT_HSDC New Net Name=FAULT_HSD2
+Change Net Name : Old Net Name=FAULT_HSDD New Net Name=FAULT_HSD3
+Change Net Name : Old Net Name=FAULT_HSDE New Net Name=FAULT_HSD4
+Change Net Name : Old Net Name=LATCH1_ADCB New Net Name=LATCH1_ADC1
+Change Net Name : Old Net Name=LATCH1_ADCC New Net Name=LATCH1_ADC2
+Change Net Name : Old Net Name=LATCH2_ADCB New Net Name=LATCH2_ADC1
+Change Net Name : Old Net Name=LATCH2_ADCC New Net Name=LATCH2_ADC2
+Change Net Name : Old Net Name=LATCH_HSDB New Net Name=LATCH_HSD1
+Change Net Name : Old Net Name=LATCH_HSDC New Net Name=LATCH_HSD2
+Change Net Name : Old Net Name=LATCH_HSDD New Net Name=LATCH_HSD3
+Change Net Name : Old Net Name=LATCH_HSDE New Net Name=LATCH_HSD4
+Change Net Name : Old Net Name=Net?_ADCB_8 New Net Name=Net?_ADC1_8
+Change Net Name : Old Net Name=Net?_ADCC_8 New Net Name=Net?_ADC2_8
+Change Net Name : Old Net Name=NetD9_HSDB_A New Net Name=NetD9_HSD1_A
+Change Net Name : Old Net Name=NetD9_HSDC_A New Net Name=NetD9_HSD2_A
+Change Net Name : Old Net Name=NetD9_HSDD_A New Net Name=NetD9_HSD3_A
+Change Net Name : Old Net Name=NetD9_HSDE_A New Net Name=NetD9_HSD4_A
+Change Net Name : Old Net Name=NetR14_HSDB_2 New Net Name=NetR14_HSD1_2
+Change Net Name : Old Net Name=NetR14_HSDC_2 New Net Name=NetR14_HSD2_2
+Change Net Name : Old Net Name=NetR14_HSDD_2 New Net Name=NetR14_HSD3_2
+Change Net Name : Old Net Name=NetR14_HSDE_2 New Net Name=NetR14_HSD4_2
+Change Net Name : Old Net Name=NetR15_HSDB_2 New Net Name=NetR15_HSD1_2
+Change Net Name : Old Net Name=NetR15_HSDC_2 New Net Name=NetR15_HSD2_2
+Change Net Name : Old Net Name=NetR15_HSDD_2 New Net Name=NetR15_HSD3_2
+Change Net Name : Old Net Name=NetR15_HSDE_2 New Net Name=NetR15_HSD4_2
+Change Net Name : Old Net Name=NetR16_HSDB_2 New Net Name=NetR16_HSD1_2
+Change Net Name : Old Net Name=NetR16_HSDC_2 New Net Name=NetR16_HSD2_2
+Change Net Name : Old Net Name=NetR16_HSDD_2 New Net Name=NetR16_HSD3_2
+Change Net Name : Old Net Name=NetR16_HSDE_2 New Net Name=NetR16_HSD4_2
+Change Net Name : Old Net Name=NetR17_HSDB_1 New Net Name=NetR17_HSD1_1
+Change Net Name : Old Net Name=NetR17_HSDC_1 New Net Name=NetR17_HSD2_1
+Change Net Name : Old Net Name=NetR17_HSDD_1 New Net Name=NetR17_HSD3_1
+Change Net Name : Old Net Name=NetR17_HSDE_1 New Net Name=NetR17_HSD4_1
+Change Net Name : Old Net Name=NetR19_HSDB_2 New Net Name=NetR19_HSD1_2
+Change Net Name : Old Net Name=NetR19_HSDC_2 New Net Name=NetR19_HSD2_2
+Change Net Name : Old Net Name=NetR19_HSDD_2 New Net Name=NetR19_HSD3_2
+Change Net Name : Old Net Name=NetR19_HSDE_2 New Net Name=NetR19_HSD4_2
+Change Net Name : Old Net Name=NetR21_HSDB_2 New Net Name=NetR21_HSD1_2
+Change Net Name : Old Net Name=NetR21_HSDC_2 New Net Name=NetR21_HSD2_2
+Change Net Name : Old Net Name=NetR21_HSDD_2 New Net Name=NetR21_HSD3_2
+Change Net Name : Old Net Name=NetR21_HSDE_2 New Net Name=NetR21_HSD4_2
+Change Net Name : Old Net Name=SCLCK_ADCB New Net Name=SCLCK_ADC1
+Change Net Name : Old Net Name=SDI_ADCB New Net Name=SDI_ADC1
+Change Net Name : Old Net Name=SDO_ADCB New Net Name=SDO_ADC1
+Change Net Name : Old Net Name=SNS1_ADCB New Net Name=SNS1_ADC1
+Change Net Name : Old Net Name=SNS1_ADCC New Net Name=SNS1_ADC2
+Change Net Name : Old Net Name=SNS2_ADCB New Net Name=SNS2_ADC1
+Change Net Name : Old Net Name=SNS2_ADCC New Net Name=SNS2_ADC2
+Change Net Name : Old Net Name=SNS_HSDB New Net Name=SNS_HSD1
+Change Net Name : Old Net Name=SNS_HSDC New Net Name=SNS_HSD2
+Change Net Name : Old Net Name=SNS_HSDD New Net Name=SNS_HSD3
+Change Net Name : Old Net Name=SNS_HSDE New Net Name=SNS_HSD4
+Change Net Name : Old Net Name=VOUT_HSDB New Net Name=VOUT_HSD1
+Change Net Name : Old Net Name=VOUT_HSDC New Net Name=VOUT_HSD2
+Change Net Name : Old Net Name=VOUT_HSDD New Net Name=VOUT_HSD3
+Change Net Name : Old Net Name=VOUT_HSDE New Net Name=VOUT_HSD4
+Change Net Name : Old Net Name=VS_HSDB New Net Name=VS_HSD1
+Add Net: Net with name "HSD2_EN" already exists
+Change Class Name : Old Net Name=ADCB New Net Name=ADC1
+Change Class Name : Old Net Name=HSDB New Net Name=HSD1
+Change Class Name : Old Net Name=HSDC New Net Name=HSD2
+Change Class Name : Old Net Name=HSDD New Net Name=HSD3
+Change Class Name : Old Net Name=HSDE New Net Name=HSD4
+Added Class: Name=ADC2
+Add Differential Pair: Number of nets in differential pair NetP1_4 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetP1_5 is 1 instead of 2
+Added Member To Class: ClassName=HSD4 Member=Component C28_HSD4 (C28) 100nF
+Added Member To Class: ClassName=HSD4 Member=Component C30_HSD4 (C30) 22nF
+Added Member To Class: ClassName=ADC1 Member=Component C?_ADC1 (C?) 100nF
+Added Member To Class: ClassName=Microcontroller Member=Component C? 1µF
+Added Member To Class: ClassName=Power Supply Member=Component C? 4.7uF
+Added Member To Class: ClassName=Power Supply Member=Component C? 10uF
+Added Member To Class: ClassName=Power Supply Member=Component C? 10uF
+Add Class Member: Failed to add class member : Component D4 PMEG100T10ELR-QX
+Add Class Member: Failed to add class member : Component D6 SM6T39CAY
+Added Member To Class: ClassName=Power Supply Member=Component L? 4.7uH
+Added Member To Class: ClassName=HSD4 Member=Component R14_HSD4 (R14) 10k
+Added Member To Class: ClassName=HSD4 Member=Component R15_HSD4 (R15) 10k
+Added Member To Class: ClassName=HSD4 Member=Component R16_HSD4 (R16) 10k
+Added Member To Class: ClassName=HSD4 Member=Component R21_HSD4 (R21) 24k
+Added Member To Class: ClassName=HSD1 Member=Component R?_HSD1 (R?) Value
+Added Member To Class: ClassName=HSD2 Member=Component R?_HSD2 (R?) Value
+Added Member To Class: ClassName=HSD3 Member=Component R?_HSD3 (R?) Value
+Added Member To Class: ClassName=HSD4 Member=Component R?_HSD4 (R?) Value
+Added Member To Class: ClassName=Power Supply Member=Component R? 100K
+Added Member To Class: ClassName=ADC GPIO Expander Member=ADC1 (ADC GPIO Expander.SchDoc)
+Added Member To Class: ClassName=ADC GPIO Expander Member=ADC2 (ADC GPIO Expander.SchDoc)
+Added Member To Class: ClassName=High-Side Driver Member=HSD1 (High-Side Driver.SchDoc)
+Added Member To Class: ClassName=High-Side Driver Member=HSD2 (High-Side Driver.SchDoc)
+Added Member To Class: ClassName=High-Side Driver Member=HSD3 (High-Side Driver.SchDoc)
+Added Member To Class: ClassName=High-Side Driver Member=HSD4 (High-Side Driver.SchDoc)
+Change Room Name: Old Name=HSDE New Name=HSD4
+Change Room Scope: Old Scope=InComponentClass('HSDE') New Scope=InComponentClass('HSD4')
+Added Room: Name=ADC1
+Added Room: Name=ADC2
+Added Room: Name=HSD1
+Added Room: Name=HSD2
+Added Room: Name=HSD3
