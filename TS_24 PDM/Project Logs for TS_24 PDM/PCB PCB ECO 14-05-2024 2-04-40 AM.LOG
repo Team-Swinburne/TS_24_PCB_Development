@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=HSD1_EN(MCU) Pin=ISO2-3
+Removed Pin From Net: NetName=HSD2_EN(MCU) Pin=ISO2-4
+Removed Pin From Net: NetName=HSD3_EN(MCU) Pin=ISO2-5
+Removed Pin From Net: NetName=HSD4_EN(MCU) Pin=ISO2-6
+Added Pin To Net: NetName=0V_(ISO) Pin=C22-1
+Added Pin To Net: NetName=HSD4_EN(MCU) Pin=ISO2-3
+Added Pin To Net: NetName=HSD3_EN(MCU) Pin=ISO2-4
+Added Pin To Net: NetName=HSD2_EN(MCU) Pin=ISO2-5
+Added Pin To Net: NetName=HSD1_EN(MCU) Pin=ISO2-6
+Change Net Name : Old Net Name=HSD2_EN New Net Name=HSD_EN3
+Change Net Name : Old Net Name=HSD_EN1 New Net Name=HSD_EN4
+Change Net Name : Old Net Name=HSD_EN3 New Net Name=HSD2_EN
+Change Net Name : Old Net Name=HSD_EN4 New Net Name=HSD_EN1

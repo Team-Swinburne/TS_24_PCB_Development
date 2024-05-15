@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=3V3 Pin=C7-2
+Added Pin To Net: NetName=3V3 Pin=C27-1
+Change Net Name : Old Net Name=HSD1_EN New Net Name=HSD1_EN(MCU)
+Change Net Name : Old Net Name=HSD2_EN New Net Name=HSD2_EN(MCU)
+Change Net Name : Old Net Name=HSD3_EN New Net Name=HSD3_EN(MCU)
+Change Net Name : Old Net Name=HSD4_EN New Net Name=HSD4_EN(MCU)
+Added Pin To Net: NetName=HSD2_EN Pin=ISO2-5
+Added Net: Name=HSD2_EN
+Add Differential Pair: Number of nets in differential pair NetP1_4 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetP1_5 is 1 instead of 2
+Added Member To Class: ClassName=HSD1 Member=Component R18_1 (R18) 1k
+Added Member To Class: ClassName=HSD2 Member=Component R18_2 (R18) 1k
+Added Member To Class: ClassName=HSD3 Member=Component R18_3 (R18) 1k
+Added Member To Class: ClassName=HSD4 Member=Component R18_4 (R18) 1k

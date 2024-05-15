@@ -1,0 +1,28 @@
+Added Component: Designator=D4(NXP SOD123W)
+Add component (AddParameter): Name = "Breakdown Voltage"; Value = "100 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "1727-PMEG100T10ELR-QXCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "0.75 V @ 1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PMEG100T10ELR-QX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "680 mW"; VariantName = "[No Variations]"
+Added Component: Designator=D6(ST SMB DIODE)
+Add component (AddParameter): Name = "Breakdown Voltage"; Value = "30.8 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "497-10804-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "30.8 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SM6T36CAY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "600W"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=0V_(ISO) Pin=C7-2
+Added Pin To Net: NetName=0V_(ISO) Pin=C27-1
+Added Pin To Net: NetName=NetC17_2 Pin=D4-A
+Added Pin To Net: NetName=VBAT_D Pin=D4-K
+Added Pin To Net: NetName=NetC17_2 Pin=D6-A
+Added Pin To Net: NetName=GLV- Pin=D6-K
+Add Net: Net with name "HSD2_EN" already exists
+Add Differential Pair: Number of nets in differential pair NetP1_4 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetP1_5 is 1 instead of 2
+Added Member To Class: ClassName=Power Supply Member=Component C27 10uF
+Added Member To Class: ClassName=Power Supply Member=Component D4 PMEG100T10ELR-QX
+Added Member To Class: ClassName=Power Supply Member=Component D6 SM6T36CAY
+Added Member To Class: ClassName=HSD2 Member=Component R2_HSD2 (R2) Value
+Added Member To Class: ClassName=HSD3 Member=Component R5_HSD3 (R5) Value

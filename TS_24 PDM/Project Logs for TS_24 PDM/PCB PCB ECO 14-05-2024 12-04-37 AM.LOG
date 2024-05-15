@@ -1,0 +1,133 @@
+Change Component Designator: OldDesignator=ADCA NewDesignator=ADC1A
+Change Component Designator: OldDesignator=ADCB NewDesignator=ADC1B
+Change Component Designator: OldDesignator=D8A NewDesignator=D9A
+Change Component Designator: OldDesignator=D8B NewDesignator=D9B
+Change Component Designator: OldDesignator=D8C NewDesignator=D9C
+Change Component Designator: OldDesignator=D8D NewDesignator=D9D
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R11A NewDesignator=R12A
+Change Component Designator: OldDesignator=R11B NewDesignator=R12B
+Change Component Designator: OldDesignator=R12A NewDesignator=R13A
+Change Component Designator: OldDesignator=R12B NewDesignator=R13B
+Change Component Designator: OldDesignator=R12C NewDesignator=R13C
+Change Component Designator: OldDesignator=R12D NewDesignator=R13D
+Change Component Designator: OldDesignator=R13A NewDesignator=R14A
+Change Component Designator: OldDesignator=R13B NewDesignator=R14B
+Change Component Designator: OldDesignator=R13C NewDesignator=R14C
+Change Component Designator: OldDesignator=R13D NewDesignator=R14D
+Change Component Designator: OldDesignator=R14A NewDesignator=R15A
+Change Component Designator: OldDesignator=R14B NewDesignator=R15B
+Change Component Designator: OldDesignator=R14C NewDesignator=R15C
+Change Component Designator: OldDesignator=R14D NewDesignator=R15D
+Change Component Designator: OldDesignator=R15A NewDesignator=R16A
+Change Component Designator: OldDesignator=R15B NewDesignator=R16B
+Change Component Designator: OldDesignator=R15C NewDesignator=R16C
+Change Component Designator: OldDesignator=R15D NewDesignator=R16D
+Change Component Designator: OldDesignator=R16A NewDesignator=R17A
+Change Component Designator: OldDesignator=R16B NewDesignator=R17B
+Change Component Designator: OldDesignator=R16C NewDesignator=R17C
+Change Component Designator: OldDesignator=R16D NewDesignator=R17D
+Change Component Designator: OldDesignator=R17A NewDesignator=R18A
+Change Component Designator: OldDesignator=R17B NewDesignator=R18B
+Change Component Designator: OldDesignator=R17C NewDesignator=R18C
+Change Component Designator: OldDesignator=R17D NewDesignator=R18D
+Change Component Designator: OldDesignator=R18A NewDesignator=R19A
+Change Component Designator: OldDesignator=R18B NewDesignator=R19B
+Change Component Designator: OldDesignator=R18C NewDesignator=R19C
+Change Component Designator: OldDesignator=R18D NewDesignator=R19D
+Change Component Designator: OldDesignator=R19A NewDesignator=R20A
+Change Component Designator: OldDesignator=R19B NewDesignator=R20B
+Change Component Designator: OldDesignator=R19C NewDesignator=R20C
+Change Component Designator: OldDesignator=R19D NewDesignator=R20D
+Change Component Designator: OldDesignator=R20A NewDesignator=R21A
+Change Component Designator: OldDesignator=R20B NewDesignator=R21B
+Change Component Designator: OldDesignator=R20C NewDesignator=R21C
+Change Component Designator: OldDesignator=R20D NewDesignator=R21D
+Added Component: Designator=D8(0805 LED)
+Add component (AddParameter): Name = "Colour"; Value = "Yellow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "511-1293-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SML-211YTT86"; VariantName = "[No Variations]"
+Added Component: Designator=R7(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "13-RT0603BRD07500RL-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RT0603BRD07500RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "500R"; VariantName = "[No Variations]"
+Added Component: Designator=R11(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C22-1
+Added Pin To Net: NetName=0V_(ISO) Pin=D8-K
+Added Pin To Net: NetName=NRST Pin=P3-1
+Change Net Name : Old Net Name=NetADCA_8 New Net Name=NetADC1A_8
+Change Net Name : Old Net Name=NetADCB_8 New Net Name=NetADC1B_8
+Change Net Name : Old Net Name=NetD8A_A New Net Name=NetD9A_A
+Change Net Name : Old Net Name=NetD8B_A New Net Name=NetD9B_A
+Change Net Name : Old Net Name=NetD8C_A New Net Name=NetD9C_A
+Change Net Name : Old Net Name=NetD8D_A New Net Name=NetD9D_A
+Change Net Name : Old Net Name=NetR12A_2 New Net Name=NetR13A_2
+Change Net Name : Old Net Name=NetR12B_2 New Net Name=NetR13B_2
+Change Net Name : Old Net Name=NetR12C_2 New Net Name=NetR13C_2
+Change Net Name : Old Net Name=NetR12D_2 New Net Name=NetR13D_2
+Change Net Name : Old Net Name=NetR13A_2 New Net Name=NetR14A_2
+Change Net Name : Old Net Name=NetR13B_2 New Net Name=NetR14B_2
+Change Net Name : Old Net Name=NetR13C_2 New Net Name=NetR14C_2
+Change Net Name : Old Net Name=NetR13D_2 New Net Name=NetR14D_2
+Change Net Name : Old Net Name=NetR14A_2 New Net Name=NetR15A_2
+Change Net Name : Old Net Name=NetR14B_2 New Net Name=NetR15B_2
+Change Net Name : Old Net Name=NetR14C_2 New Net Name=NetR15C_2
+Change Net Name : Old Net Name=NetR14D_2 New Net Name=NetR15D_2
+Change Net Name : Old Net Name=NetR15A_1 New Net Name=NetR16A_1
+Change Net Name : Old Net Name=NetR15B_1 New Net Name=NetR16B_1
+Change Net Name : Old Net Name=NetR15C_1 New Net Name=NetR16C_1
+Change Net Name : Old Net Name=NetR15D_1 New Net Name=NetR16D_1
+Change Net Name : Old Net Name=NetR17A_2 New Net Name=NetR18A_2
+Change Net Name : Old Net Name=NetR17B_2 New Net Name=NetR18B_2
+Change Net Name : Old Net Name=NetR17C_2 New Net Name=NetR18C_2
+Change Net Name : Old Net Name=NetR17D_2 New Net Name=NetR18D_2
+Change Net Name : Old Net Name=NetR19A_2 New Net Name=NetR20A_2
+Change Net Name : Old Net Name=NetR19B_2 New Net Name=NetR20B_2
+Change Net Name : Old Net Name=NetR19C_2 New Net Name=NetR20C_2
+Change Net Name : Old Net Name=NetR19D_2 New Net Name=NetR20D_2
+Added Pin To Net: NetName=BOOT0 Pin=P5-2
+Added Pin To Net: NetName=BOOT0 Pin=R11-1
+Added Net: Name=BOOT0
+Added Pin To Net: NetName=CAN_RX_INDC Pin=R7-2
+Added Pin To Net: NetName=CAN_RX_INDC Pin=U7-33
+Added Net: Name=CAN_RX_INDC
+Added Pin To Net: NetName=CAN_TX_INDC Pin=R6-2
+Added Pin To Net: NetName=CAN_TX_INDC Pin=U7-32
+Added Net: Name=CAN_TX_INDC
+Added Pin To Net: NetName=HB Pin=D6-K
+Added Pin To Net: NetName=HB Pin=U7-34
+Added Net: Name=HB
+Added Pin To Net: NetName=NetD8_A Pin=D8-A
+Added Pin To Net: NetName=NetD8_A Pin=R7-1
+Added Net: Name=NetD8_A
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR11_2 Pin=U7-35
+Added Net: Name=NetR11_2
+Added Pin To Net: NetName=SWCLK Pin=P3-4
+Added Pin To Net: NetName=SWCLK Pin=U7-28
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=P3-2
+Added Pin To Net: NetName=SWDIO Pin=U7-25
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=UART_RX Pin=P4-2
+Added Pin To Net: NetName=UART_RX Pin=U7-22
+Added Net: Name=UART_RX
+Added Pin To Net: NetName=UART_TX Pin=P4-3
+Added Pin To Net: NetName=UART_TX Pin=U7-21
+Added Net: Name=UART_TX
+Added Member To Class: ClassName=Microcontroller Member=Component D8 Yellow
+Added Member To Class: ClassName=Microcontroller Member=Component R11 10k
