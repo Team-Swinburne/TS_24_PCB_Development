@@ -1,0 +1,394 @@
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found CHEMI-CON ELCO
+Add Component: Footprint Not Found 1206 CAP
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 1206 CAP
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found SODFL350X110-2N
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found SM6T39CAY-Footprint-1
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 0805 LED
+Add Component: Footprint Not Found 2920
+Add Component: Footprint Not Found 1812
+Add Component: Footprint Not Found SRN3015TA-4R7M
+Add Component: Footprint Not Found 82473C
+Add Component: Footprint Not Found TH 2.54mm Header 2x5
+Add Component: Footprint Not Found TH 2.54mm Header 1x4
+Add Component: Footprint Not Found TH 2.54mm Header 1x3
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0805
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Added Component: Designator=R?_U_Push Button1(0805)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-1.00KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0805FR071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Added Component: Designator=R?_U_Push Button2(0805)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-1.00KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0805FR071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0603
+Added Component: Designator=R?_U_Push Button3(0805)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-1.00KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0805FR071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=R?_U_Push Button4(0805)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-1.00KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0805FR071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found TI-SOIC-8
+Add Component: Footprint Not Found TDK 4-PC Pad
+Add Component: Footprint Not Found ON SOT-23
+Add Component: Footprint Not Found STM_QFN-36
+Add Component: Footprint Not Found Wurth 4-PC Pad
+Add Component: Footprint Not Found TI_10_WSON
+Add Component: Footprint Not Found RECOM 8-SMD (5 Pin)
+Add Component: Footprint Not Found EPSON 2-SMD
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin C10-1
+Add Pin To Net: Unknown Pin: Pin C10-2
+Add Pin To Net: Unknown Pin: Pin C11-1
+Add Pin To Net: Unknown Pin: Pin C11-2
+Add Pin To Net: Unknown Pin: Pin C12-1
+Add Pin To Net: Unknown Pin: Pin C12-2
+Add Pin To Net: Unknown Pin: Pin C13-1
+Add Pin To Net: Unknown Pin: Pin C13-2
+Add Pin To Net: Unknown Pin: Pin C14-1
+Add Pin To Net: Unknown Pin: Pin C14-2
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Add Pin To Net: Unknown Pin: Pin C17-1
+Add Pin To Net: Unknown Pin: Pin C17-2
+Add Pin To Net: Unknown Pin: Pin C18-1
+Add Pin To Net: Unknown Pin: Pin C18-2
+Add Pin To Net: Unknown Pin: Pin C19-1
+Add Pin To Net: Unknown Pin: Pin C19-2
+Add Pin To Net: Unknown Pin: Pin C20-1
+Add Pin To Net: Unknown Pin: Pin C20-2
+Add Pin To Net: Unknown Pin: Pin C21-1
+Add Pin To Net: Unknown Pin: Pin C21-2
+Add Pin To Net: Unknown Pin: Pin C22-1
+Add Pin To Net: Unknown Pin: Pin C22-2
+Add Pin To Net: Unknown Pin: Pin C23-1
+Add Pin To Net: Unknown Pin: Pin C23-2
+Add Pin To Net: Unknown Pin: Pin C24-1
+Add Pin To Net: Unknown Pin: Pin C24-2
+Add Pin To Net: Unknown Pin: Pin C25-1
+Add Pin To Net: Unknown Pin: Pin C25-2
+Add Pin To Net: Unknown Pin: Pin C26-1
+Add Pin To Net: Unknown Pin: Pin C26-2
+Add Pin To Net: Unknown Pin: Pin C27-1
+Add Pin To Net: Unknown Pin: Pin C27-2
+Add Pin To Net: Unknown Pin: Pin D1-A
+Add Pin To Net: Unknown Pin: Pin D1-K
+Add Pin To Net: Unknown Pin: Pin D2-A
+Add Pin To Net: Unknown Pin: Pin D2-K
+Add Pin To Net: Unknown Pin: Pin D3-A
+Add Pin To Net: Unknown Pin: Pin D3-K
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D5-A
+Add Pin To Net: Unknown Pin: Pin D5-K
+Add Pin To Net: Unknown Pin: Pin D6-A
+Add Pin To Net: Unknown Pin: Pin D6-K
+Add Pin To Net: Unknown Pin: Pin D7-A
+Add Pin To Net: Unknown Pin: Pin D7-K
+Add Pin To Net: Unknown Pin: Pin D8-A
+Add Pin To Net: Unknown Pin: Pin D8-K
+Add Pin To Net: Unknown Pin: Pin D?-A
+Add Pin To Net: Unknown Pin: Pin D?_U_Push Button1-A
+Add Pin To Net: Unknown Pin: Pin D?_U_Push Button1-K
+Add Pin To Net: Unknown Pin: Pin D?_U_Push Button2-A
+Add Pin To Net: Unknown Pin: Pin D?_U_Push Button2-K
+Add Pin To Net: Unknown Pin: Pin D?_U_Push Button3-A
+Add Pin To Net: Unknown Pin: Pin D?_U_Push Button3-K
+Add Pin To Net: Unknown Pin: Pin D?_U_Push Button4-A
+Add Pin To Net: Unknown Pin: Pin D?_U_Push Button4-K
+Add Pin To Net: Unknown Pin: Pin F1-1
+Add Pin To Net: Unknown Pin: Pin F1-2
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Add Pin To Net: Unknown Pin: Pin L3-1
+Add Pin To Net: Unknown Pin: Pin L3-2
+Add Pin To Net: Unknown Pin: Pin P1-1
+Add Pin To Net: Unknown Pin: Pin P1-2
+Add Pin To Net: Unknown Pin: Pin P1-4
+Add Pin To Net: Unknown Pin: Pin P1-5
+Add Pin To Net: Unknown Pin: Pin P1-6
+Add Pin To Net: Unknown Pin: Pin P1-7
+Add Pin To Net: Unknown Pin: Pin P1-8
+Add Pin To Net: Unknown Pin: Pin P2-1
+Add Pin To Net: Unknown Pin: Pin P2-2
+Add Pin To Net: Unknown Pin: Pin P2-3
+Add Pin To Net: Unknown Pin: Pin P2-4
+Add Pin To Net: Unknown Pin: Pin P3-1
+Add Pin To Net: Unknown Pin: Pin P3-2
+Add Pin To Net: Unknown Pin: Pin P3-3
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Add Pin To Net: Unknown Pin: Pin R9-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin R11-1
+Add Pin To Net: Unknown Pin: Pin R11-2
+Add Pin To Net: Unknown Pin: Pin R12-1
+Add Pin To Net: Unknown Pin: Pin R12-2
+Add Pin To Net: Unknown Pin: Pin R13-1
+Add Pin To Net: Unknown Pin: Pin R13-2
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-2
+Added Pin To Net: NetName=3V3 Pin=R?_U_Push Button1-1
+Added Pin To Net: NetName=NetD?_U_Push Button1_A Pin=R?_U_Push Button1-1
+Added Pin To Net: NetName=3V3 Pin=R?_U_Push Button1-2
+Added Pin To Net: NetName=NetR?_U_Push Button1_2 Pin=R?_U_Push Button1-2
+Added Pin To Net: NetName=3V3 Pin=R?_U_Push Button2-1
+Added Pin To Net: NetName=NetD?_U_Push Button2_A Pin=R?_U_Push Button2-1
+Added Pin To Net: NetName=3V3 Pin=R?_U_Push Button2-2
+Added Pin To Net: NetName=NetR?_U_Push Button2_2 Pin=R?_U_Push Button2-2
+Added Pin To Net: NetName=3V3 Pin=R?_U_Push Button3-1
+Added Pin To Net: NetName=NetD?_U_Push Button3_A Pin=R?_U_Push Button3-1
+Added Pin To Net: NetName=3V3 Pin=R?_U_Push Button3-2
+Added Pin To Net: NetName=NetR?_U_Push Button3_2 Pin=R?_U_Push Button3-2
+Added Pin To Net: NetName=3V3 Pin=R?_U_Push Button4-1
+Added Pin To Net: NetName=NetD?_U_Push Button4_A Pin=R?_U_Push Button4-1
+Added Pin To Net: NetName=3V3 Pin=R?_U_Push Button4-2
+Added Pin To Net: NetName=NetR?_U_Push Button4_2 Pin=R?_U_Push Button4-2
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin U1-7
+Add Pin To Net: Unknown Pin: Pin U1-8
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U4-1
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-3
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-5
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U4-9
+Add Pin To Net: Unknown Pin: Pin U4-10
+Add Pin To Net: Unknown Pin: Pin U4-11
+Add Pin To Net: Unknown Pin: Pin U4-12
+Add Pin To Net: Unknown Pin: Pin U4-14
+Add Pin To Net: Unknown Pin: Pin U4-15
+Add Pin To Net: Unknown Pin: Pin U4-16
+Add Pin To Net: Unknown Pin: Pin U4-18
+Add Pin To Net: Unknown Pin: Pin U4-19
+Add Pin To Net: Unknown Pin: Pin U4-21
+Add Pin To Net: Unknown Pin: Pin U4-22
+Add Pin To Net: Unknown Pin: Pin U4-23
+Add Pin To Net: Unknown Pin: Pin U4-24
+Add Pin To Net: Unknown Pin: Pin U4-25
+Add Pin To Net: Unknown Pin: Pin U4-26
+Add Pin To Net: Unknown Pin: Pin U4-27
+Add Pin To Net: Unknown Pin: Pin U4-28
+Add Pin To Net: Unknown Pin: Pin U4-30
+Add Pin To Net: Unknown Pin: Pin U4-31
+Add Pin To Net: Unknown Pin: Pin U4-32
+Add Pin To Net: Unknown Pin: Pin U4-33
+Add Pin To Net: Unknown Pin: Pin U4-34
+Add Pin To Net: Unknown Pin: Pin U4-35
+Add Pin To Net: Unknown Pin: Pin U4-36
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-2
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U5-4
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-9
+Add Pin To Net: Unknown Pin: Pin U6-10
+Add Pin To Net: Unknown Pin: Pin U6-11
+Add Pin To Net: Unknown Pin: Pin U7-1
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-4
+Add Pin To Net: Unknown Pin: Pin U7-5
+Add Pin To Net: Unknown Pin: Pin X1-1
+Add Pin To Net: Unknown Pin: Pin X1-2
+Add Net: Net with name "HB" already exists
+Add Class Member: Failed to add class member : Component C1 100nF
+Add Class Member: Failed to add class member : Component C2 100nF
+Add Class Member: Failed to add class member : Component C3 100pF
+Add Class Member: Failed to add class member : Component C4 100pF
+Add Class Member: Failed to add class member : Component C5 100pF
+Add Class Member: Failed to add class member : Component C6 100pF
+Add Class Member: Failed to add class member : Component C7 22uF
+Add Class Member: Failed to add class member : Component C8 100nF
+Add Class Member: Failed to add class member : Component C9 100nF
+Add Class Member: Failed to add class member : Component C10 100nF
+Add Class Member: Failed to add class member : Component C11 100nF
+Add Class Member: Failed to add class member : Component C12 22pF
+Add Class Member: Failed to add class member : Component C13 22pF
+Add Class Member: Failed to add class member : Component C14 10uF
+Add Class Member: Failed to add class member : Component C15 10uF
+Add Class Member: Failed to add class member : Component C16 100nF
+Add Class Member: Failed to add class member : Component C17 100nF
+Add Class Member: Failed to add class member : Component C18 100nF
+Add Class Member: Failed to add class member : Component C19 47uF
+Add Class Member: Failed to add class member : Component C20 4.7uF
+Add Class Member: Failed to add class member : Component C21 100nF
+Add Class Member: Failed to add class member : Component C22 1µF
+Add Class Member: Failed to add class member : Component C23 10nF
+Add Class Member: Failed to add class member : Component C24 100nF
+Add Class Member: Failed to add class member : Component C25 10uF
+Add Class Member: Failed to add class member : Component C26 10uF
+Add Class Member: Failed to add class member : Component C27 4.7uF
+Add Class Member: Failed to add class member : Component D1 Yellow
+Add Class Member: Failed to add class member : Component D2 Yellow
+Add Class Member: Failed to add class member : Component D3 Yellow
+Add Class Member: Failed to add class member : Component D4 PMEG100T10ELR-QX
+Add Class Member: Failed to add class member : Component D5 Red
+Add Class Member: Failed to add class member : Component D6 SM6T39CAY
+Add Class Member: Failed to add class member : Component D7 Red
+Add Class Member: Failed to add class member : Component D8 Red
+Add Class Member: Failed to add class member : Component D?_U_Push Button1 (D?) Yellow
+Add Class Member: Failed to add class member : Component D?_U_Push Button2 (D?) Yellow
+Add Class Member: Failed to add class member : Component D?_U_Push Button3 (D?) Yellow
+Add Class Member: Failed to add class member : Component D?_U_Push Button4 (D?) Yellow
+Add Class Member: Failed to add class member : Component D? Yellow
+Add Class Member: Failed to add class member : Component F1 0ZCF0100AF2A
+Add Class Member: Failed to add class member : Component L1 12uH
+Add Class Member: Failed to add class member : Component L2 4.7uH
+Add Class Member: Failed to add class member : Component L3 47 uH
+Add Class Member: Failed to add class member : Component P1 2.54mm
+Add Class Member: Failed to add class member : Component P2 2.54mm
+Add Class Member: Failed to add class member : Component P3 2.54mm
+Add Class Member: Failed to add class member : Component R1 56R
+Add Class Member: Failed to add class member : Component R2 56R
+Add Class Member: Failed to add class member : Component R3 500R
+Add Class Member: Failed to add class member : Component R4 500R
+Add Class Member: Failed to add class member : Component R5 500R
+Add Class Member: Failed to add class member : Component R6 5.1k
+Add Class Member: Failed to add class member : Component R7 5.1k
+Add Class Member: Failed to add class member : Component R8 10k
+Add Class Member: Failed to add class member : Component R9 10k
+Add Class Member: Failed to add class member : Component R10 10M
+Add Class Member: Failed to add class member : Component R11 20K
+Add Class Member: Failed to add class member : Component R12 2K
+Add Class Member: Failed to add class member : Component R13 1k
+Added Member To Class: ClassName=U_Push Button1 Member=Component R?_U_Push Button1 (R?) 1k
+Added Member To Class: ClassName=U_Push Button1 Member=Component R?_U_Push Button1 (R?) 500R
+Added Member To Class: ClassName=U_Push Button2 Member=Component R?_U_Push Button2 (R?) 500R
+Added Member To Class: ClassName=U_Push Button2 Member=Component R?_U_Push Button2 (R?) 1k
+Added Member To Class: ClassName=U_Push Button3 Member=Component R?_U_Push Button3 (R?) 500R
+Added Member To Class: ClassName=U_Push Button3 Member=Component R?_U_Push Button3 (R?) 1k
+Added Member To Class: ClassName=U_Push Button4 Member=Component R?_U_Push Button4 (R?) 1k
+Added Member To Class: ClassName=U_Push Button4 Member=Component R?_U_Push Button4 (R?) 500R
+Add Class Member: Failed to add class member : Component R? 500R
+Add Class Member: Failed to add class member : Component U1 ISO1042
+Add Class Member: Failed to add class member : Component U2 B82787C0104H002
+Add Class Member: Failed to add class member : Component U3 NUP2105L
+Add Class Member: Failed to add class member : Component U4 STM32F103T8U6
+Add Class Member: Failed to add class member : Component U5 744272121
+Add Class Member: Failed to add class member : Component U6 LM536015QDSXRQ1
+Add Class Member: Failed to add class member : Component U7 R2S-053.3/P
+Add Class Member: Failed to add class member : Component X1 32.768kHz
