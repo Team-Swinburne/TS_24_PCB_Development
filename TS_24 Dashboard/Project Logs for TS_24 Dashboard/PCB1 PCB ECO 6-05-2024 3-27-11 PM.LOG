@@ -1,0 +1,68 @@
+Add Component: Footprint Not Found SODFL350X110-2N
+Add Component: Footprint Not Found SM6T39CAY-Footprint-1
+Added Component: Designator=Header 1x2_U1_Push Button(TH 2.54mm Header 1x2)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TH 2.54mm Header 1x2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=Header 1x2_U2_Push Button(TH 2.54mm Header 1x2)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TH 2.54mm Header 1x2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=Header 1x2_U3_Push Button(TH 2.54mm Header 1x2)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TH 2.54mm Header 1x2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=Header 1x2_U4_Push Button(TH 2.54mm Header 1x2)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TH 2.54mm Header 1x2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SRN3015TA-4R7M
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D6-A
+Add Pin To Net: Unknown Pin: Pin D6-K
+Added Pin To Net: NetName=GND Pin=Header 1x2_U1_Push Button-2
+Added Pin To Net: NetName=GND Pin=Header 1x2_U2_Push Button-2
+Added Pin To Net: NetName=GND Pin=Header 1x2_U3_Push Button-2
+Added Pin To Net: NetName=GND Pin=Header 1x2_U4_Push Button-2
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Pin To Net: NetName=NetHeader 1x2_U1_Push Button_1 Pin=Header 1x2_U1_Push Button-1
+Added Pin To Net: NetName=NetHeader 1x2_U1_Push Button_1 Pin=R15_U1_Push Button-2
+Added Pin To Net: NetName=NetHeader 1x2_U1_Push Button_1 Pin=U4-15
+Added Net: Name=NetHeader 1x2_U1_Push Button_1
+Added Pin To Net: NetName=NetHeader 1x2_U2_Push Button_1 Pin=Header 1x2_U2_Push Button-1
+Added Pin To Net: NetName=NetHeader 1x2_U2_Push Button_1 Pin=R15_U2_Push Button-2
+Added Pin To Net: NetName=NetHeader 1x2_U2_Push Button_1 Pin=U4-16
+Added Net: Name=NetHeader 1x2_U2_Push Button_1
+Added Pin To Net: NetName=NetHeader 1x2_U3_Push Button_1 Pin=Header 1x2_U3_Push Button-1
+Added Pin To Net: NetName=NetHeader 1x2_U3_Push Button_1 Pin=R15_U3_Push Button-2
+Added Pin To Net: NetName=NetHeader 1x2_U3_Push Button_1 Pin=U4-30
+Added Net: Name=NetHeader 1x2_U3_Push Button_1
+Added Pin To Net: NetName=NetHeader 1x2_U4_Push Button_1 Pin=Header 1x2_U4_Push Button-1
+Added Pin To Net: NetName=NetHeader 1x2_U4_Push Button_1 Pin=R15_U4_Push Button-2
+Added Pin To Net: NetName=NetHeader 1x2_U4_Push Button_1 Pin=U4-31
+Added Net: Name=NetHeader 1x2_U4_Push Button_1
+Add Class Member: Failed to add class member : Component D4 PMEG100T10ELR-QX
+Add Class Member: Failed to add class member : Component D6 SM6T39CAY
+Added Member To Class: ClassName=U1_Push Button Member=Component Header 1x2_U1_Push Button (Header 1x2) 2.54mm
+Added Member To Class: ClassName=U2_Push Button Member=Component Header 1x2_U2_Push Button (Header 1x2) 2.54mm
+Added Member To Class: ClassName=U3_Push Button Member=Component Header 1x2_U3_Push Button (Header 1x2) 2.54mm
+Added Member To Class: ClassName=U4_Push Button Member=Component Header 1x2_U4_Push Button (Header 1x2) 2.54mm
+Add Class Member: Failed to add class member : Component L2 4.7uH

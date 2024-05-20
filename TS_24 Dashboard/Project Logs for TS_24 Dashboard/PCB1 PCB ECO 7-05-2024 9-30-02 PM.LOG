@@ -1,0 +1,18 @@
+Removed Member From Class: ClassName=Power Supply Member=R8
+Added Component: Designator=D3(NXP SOD123W)
+Add component (AddParameter): Name = "Breakdown Voltage"; Value = "100 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "1727-PMEG100T10ELR-QXCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "0.75 V @ 1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PMEG100T10ELR-QX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "680 mW"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SRN3015TA-4R7M
+Added Pin To Net: NetName=VBAT_D Pin=D3-A
+Added Pin To Net: NetName=NetC15_2 Pin=D3-K
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Added Member To Class: ClassName=Power Supply Member=Component D3 PMEG100T10ELR-QX
+Add Class Member: Failed to add class member : Component L2 4.7uH
+Added Member To Class: ClassName=U_Microcontroller Member=Component R7 10k
+Added Member To Class: ClassName=U_Microcontroller Member=Component R8 10k
+Added Member To Class: ClassName=Power Supply Member=Component R9 20K

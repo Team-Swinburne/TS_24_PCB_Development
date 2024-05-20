@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=3V3 Pin=R14_U1_Push Button-2
+Removed Pin From Net: NetName=3V3 Pin=R14_U2_Push Button-2
+Removed Pin From Net: NetName=3V3 Pin=R14_U3_Push Button-2
+Removed Pin From Net: NetName=3V3 Pin=R14_U4_Push Button-2
+Removed Member From Class: ClassName=U1_Push Button Member=D9_U1_Push Button
+Removed Member From Class: ClassName=U2_Push Button Member=D9_U2_Push Button
+Removed Member From Class: ClassName=U3_Push Button Member=D9_U3_Push Button
+Removed Member From Class: ClassName=U4_Push Button Member=D9_U4_Push Button
+Removed Member From Class: ClassName=U1_Push Button Member=R14_U1_Push Button
+Removed Member From Class: ClassName=U2_Push Button Member=R14_U2_Push Button
+Removed Member From Class: ClassName=U3_Push Button Member=R14_U3_Push Button
+Removed Member From Class: ClassName=U4_Push Button Member=R14_U4_Push Button
+Add Component: Footprint Not Found SODFL350X110-2N
+Add Component: Footprint Not Found SM6T39CAY-Footprint-1
+Add Component: Footprint Not Found SRN3015TA-4R7M
+Add Pin To Net: Unknown Pin: Pin D4-A
+Add Pin To Net: Unknown Pin: Pin D4-K
+Add Pin To Net: Unknown Pin: Pin D6-A
+Add Pin To Net: Unknown Pin: Pin D6-K
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Add Class Member: Failed to add class member : Component D4 PMEG100T10ELR-QX
+Add Class Member: Failed to add class member : Component D6 SM6T39CAY
+Add Class Member: Failed to add class member : Component L2 4.7uH
