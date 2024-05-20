@@ -1,0 +1,83 @@
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Added Component: Designator=TEMP 1(S2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-2257-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=TEMP 2(S2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-2257-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=TEMP 3(S2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-2257-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=TEMP 4(S2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-2257-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=VT1(PCBComponent_1)
+Added Component: Designator=VT2(PCBComponent_1)
+Added Component: Designator=VT3(PCBComponent_1)
+Added Component: Designator=VT4(PCBComponent_1)
+Added Component: Designator=VT5(PCBComponent_1)
+Added Component: Designator=VT6(PCBComponent_1)
+Added Component: Designator=VT7(PCBComponent_1)
+Added Component: Designator=VT8(PCBComponent_1)
+Added Component: Designator=VT9(PCBComponent_1)
+Added Component: Designator=VT10(PCBComponent_1)
+Added Component: Designator=VT11(PCBComponent_1)
+Added Component: Designator=VT12(PCBComponent_1)
+Added Component: Designator=VT13(PCBComponent_1)
+Added Component: Designator=VT14(PCBComponent_1)
+Added Net: Name=NetF1_1
+Added Net: Name=NetF2_1
+Added Net: Name=NetF3_1
+Added Net: Name=NetF4_1
+Added Net: Name=NetF5_1
+Added Net: Name=NetF6_1
+Added Net: Name=NetF7_1
+Added Net: Name=NetF8_1
+Added Net: Name=NetF9_1
+Added Net: Name=NetF10_1
+Added Net: Name=NetF11_1
+Added Net: Name=NetF12_1
+Added Net: Name=NetF13_1
+Added Net: Name=NetF14_1
+Added Class: Name=Schematic

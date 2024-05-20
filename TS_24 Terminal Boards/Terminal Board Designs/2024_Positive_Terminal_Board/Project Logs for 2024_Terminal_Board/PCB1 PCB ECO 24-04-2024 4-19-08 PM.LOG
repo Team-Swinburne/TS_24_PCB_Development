@@ -1,0 +1,17 @@
+Change Component Designator: OldDesignator=J? NewDesignator=ORION HEADER
+Change Component Designator: OldDesignator=J? NewDesignator=TEMP HEADER
+Add Pin To Net: Unknown Pin: Pin VT1-VT
+Add Pin To Net: Unknown Pin: Pin VT2-VT
+Add Pin To Net: Unknown Pin: Pin VT3-VT
+Add Pin To Net: Unknown Pin: Pin VT4-VT
+Add Pin To Net: Unknown Pin: Pin VT5-VT
+Add Pin To Net: Unknown Pin: Pin VT6-VT
+Add Pin To Net: Unknown Pin: Pin VT7-VT
+Add Pin To Net: Unknown Pin: Pin VT8-VT
+Add Pin To Net: Unknown Pin: Pin VT9-VT
+Add Pin To Net: Unknown Pin: Pin VT10-VT
+Add Pin To Net: Unknown Pin: Pin VT11-VT
+Add Pin To Net: Unknown Pin: Pin VT12-VT
+Add Pin To Net: Unknown Pin: Pin VT13-VT
+Add Pin To Net: Unknown Pin: Pin VT14-VT
+Added Member To Class: ClassName=Schematic Member=Component TEMP HEADER 430450815

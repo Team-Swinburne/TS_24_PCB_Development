@@ -1,0 +1,128 @@
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Add Component: Footprint Not Found 0451Series_LTF
+Added Component: Designator=TEMP 1(S2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-2257-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=TEMP 2(S2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-2257-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=TEMP 3(S2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-2257-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=TEMP 4(S2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/jst-sales-america-inc/S2B-XH-A-LF-SN/1651055"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-2257-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "2.54mm"; VariantName = "[No Variations]"
+Added Component: Designator=VT1(PCBComponent_1)
+Added Component: Designator=VT2(PCBComponent_1)
+Added Component: Designator=VT3(PCBComponent_1)
+Added Component: Designator=VT4(PCBComponent_1)
+Added Component: Designator=VT5(PCBComponent_1)
+Added Component: Designator=VT6(PCBComponent_1)
+Added Component: Designator=VT7(PCBComponent_1)
+Added Component: Designator=VT8(PCBComponent_1)
+Added Component: Designator=VT9(PCBComponent_1)
+Added Component: Designator=VT10(PCBComponent_1)
+Added Component: Designator=VT11(PCBComponent_1)
+Added Component: Designator=VT12(PCBComponent_1)
+Added Component: Designator=VT13(PCBComponent_1)
+Added Component: Designator=VT14(PCBComponent_1)
+Add Pin To Net: Unknown Pin: Pin F1-1
+Add Pin To Net: Unknown Pin: Pin F2-1
+Add Pin To Net: Unknown Pin: Pin F3-1
+Add Pin To Net: Unknown Pin: Pin F4-1
+Add Pin To Net: Unknown Pin: Pin F5-1
+Add Pin To Net: Unknown Pin: Pin F6-1
+Add Pin To Net: Unknown Pin: Pin F7-1
+Add Pin To Net: Unknown Pin: Pin F8-1
+Add Pin To Net: Unknown Pin: Pin F9-1
+Add Pin To Net: Unknown Pin: Pin F10-1
+Add Pin To Net: Unknown Pin: Pin F11-1
+Add Pin To Net: Unknown Pin: Pin F12-1
+Add Pin To Net: Unknown Pin: Pin F13-1
+Add Pin To Net: Unknown Pin: Pin F14-1
+Add Pin To Net: Unknown Pin: Pin VT1-VT
+Add Pin To Net: Unknown Pin: Pin VT2-VT
+Add Pin To Net: Unknown Pin: Pin VT3-VT
+Add Pin To Net: Unknown Pin: Pin VT4-VT
+Add Pin To Net: Unknown Pin: Pin VT5-VT
+Add Pin To Net: Unknown Pin: Pin VT6-VT
+Add Pin To Net: Unknown Pin: Pin VT7-VT
+Add Pin To Net: Unknown Pin: Pin VT8-VT
+Add Pin To Net: Unknown Pin: Pin VT9-VT
+Add Pin To Net: Unknown Pin: Pin VT10-VT
+Add Pin To Net: Unknown Pin: Pin VT11-VT
+Add Pin To Net: Unknown Pin: Pin VT12-VT
+Add Pin To Net: Unknown Pin: Pin VT13-VT
+Add Pin To Net: Unknown Pin: Pin VT14-VT
+Add Class Member: Failed to add class member : Component F1 0154.750MRL
+Add Class Member: Failed to add class member : Component F2 0154.750MRL
+Add Class Member: Failed to add class member : Component F3 0154.750MRL
+Add Class Member: Failed to add class member : Component F4 0154.750MRL
+Add Class Member: Failed to add class member : Component F5 0154.750MRL
+Add Class Member: Failed to add class member : Component F6 0154.750MRL
+Add Class Member: Failed to add class member : Component F7 0154.750MRL
+Add Class Member: Failed to add class member : Component F8 0154.750MRL
+Add Class Member: Failed to add class member : Component F9 0154.750MRL
+Add Class Member: Failed to add class member : Component F10 0154.750MRL
+Add Class Member: Failed to add class member : Component F11 0154.750MRL
+Add Class Member: Failed to add class member : Component F12 0154.750MRL
+Add Class Member: Failed to add class member : Component F13 0154.750MRL
+Add Class Member: Failed to add class member : Component F14 0154.750MRL
+Added Member To Class: ClassName=Schematic Member=Component TEMP 1 S2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=Schematic Member=Component TEMP 2 S2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=Schematic Member=Component TEMP 3 S2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=Schematic Member=Component TEMP 4 S2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=Schematic Member=Component VT1 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT2 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT3 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT4 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT5 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT6 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT7 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT8 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT9 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT10 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT11 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT12 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT13 Voltage Tap
+Added Member To Class: ClassName=Schematic Member=Component VT14 Voltage Tap
