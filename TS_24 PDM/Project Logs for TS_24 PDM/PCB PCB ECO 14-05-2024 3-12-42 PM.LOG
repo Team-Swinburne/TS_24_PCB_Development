@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=3V3 Pin=C31-1
+Removed Pin From Net: NetName=0V_(ISO) Pin=C31-2
+Removed Pin From Net: NetName=0V Pin=C32-1
+Removed Pin From Net: NetName=5V Pin=C32-2
+Removed Pin From Net: NetName=0V_(ISO) Pin=ISO3-2
+Removed Pin From Net: NetName=ADC1_CS Pin=ISO3-3
+Removed Pin From Net: NetName=ADC2_CS Pin=ISO3-4
+Removed Pin From Net: NetName=0V_(ISO) Pin=ISO3-8
+Removed Pin From Net: NetName=0V Pin=ISO3-9
+Removed Pin From Net: NetName=5V Pin=ISO3-10
+Removed Pin From Net: NetName=ADC_CS2 Pin=ISO3-13
+Removed Pin From Net: NetName=ADC_CS1 Pin=ISO3-14
+Removed Pin From Net: NetName=0V Pin=ISO3-15
+Removed Pin From Net: NetName=5V Pin=ISO3-16
+Removed Member From Class: ClassName=ADC Chip Select Isolation Member=C31
+Removed Member From Class: ClassName=ADC Chip Select Isolation Member=C32
+Removed Member From Class: ClassName=HSD_EN[1..4] Member=HSD2_EN
+Change Component Footprint: Designator=ISO3 Old Footprint=AD 16-SOIC New Footprint=AD-SOIC-8W
+Change Component Comment : Designator=ISO3 Old Comment=ADuM1400 New Comment=ADuM225N
+Change component parameters: Designator = "ISO3" ("ISO3"); Footprint = "AD 16-SOIC"; UniqueID = "\QNHAOXNI\IJMIVIZA" ("\QNHAOXNI\IJMIVIZA")
+Change component parameters (AddParameter): Name = "Complex IC"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Analogue Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ADuM225N"; VariantName = "[No Variations]"
+Added Component: Designator=C?(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "490-6049-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "muRata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GCM188L81H104KA57D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Rating"; Value = "X8L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "490-6049-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "muRata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GCM188L81H104KA57D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Rating"; Value = "X8L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C22-1
+Added Pin To Net: NetName=0V Pin=C?-1
+Added Pin To Net: NetName=3V3 Pin=C?-1
+Added Pin To Net: NetName=0V_(ISO) Pin=C?-2
+Added Pin To Net: NetName=5V Pin=C?-2
+Added Pin To Net: NetName=ADC1_CS Pin=ISO3-2
+Added Pin To Net: NetName=ADC2_CS Pin=ISO3-3
+Added Pin To Net: NetName=0V_(ISO) Pin=ISO3-4
+Added Pin To Net: NetName=0V Pin=ISO3-5
+Added Pin To Net: NetName=ADC_CS2 Pin=ISO3-6
+Added Pin To Net: NetName=ADC_CS1 Pin=ISO3-7
+Added Pin To Net: NetName=5V Pin=ISO3-8
+Added Member To Class: ClassName=ADC Chip Select Isolation Member=Component C? 100nF
+Added Member To Class: ClassName=ADC Chip Select Isolation Member=Component C? 100nF
+Added Member To Class: ClassName=HSD_EN[1..4] Member=Element[2]: HSD_EN
+Added Member To Class: ClassName=HSD_EN[1..4] Member=Element[3]: HSD_EN
+Added Room: Name=ADC1
+Added Room: Name=ADC2
+Added Room: Name=ADC Chip Select Isolation
+Added Room: Name=CAN
+Added Room: Name=Contoller Peripheral Comms Isolation
+Added Room: Name=High-Side Driver Enable Pin Isolator
+Added Room: Name=HSD1
+Added Room: Name=HSD2
+Added Room: Name=HSD3
+Added Room: Name=HSD4
+Added Room: Name=Microcontroller
+Added Room: Name=Power Supply
+Added Room: Name=TopLevel

@@ -1,0 +1,36 @@
+Added Pin To Net: NetName=3V3 Pin=C22-1
+Change Net Name : Old Net Name=ADC_CS1 New Net Name=ADC_CSA
+Change Net Name : Old Net Name=ADC_CS2 New Net Name=ADC_CSB
+Change Net Name : Old Net Name=DIAG_EN1A New Net Name=DEN1
+Change Net Name : Old Net Name=DIAG_EN1B New Net Name=DEN3
+Change Net Name : Old Net Name=DIAG_EN2A New Net Name=DEN2
+Change Net Name : Old Net Name=DIAG_EN2B New Net Name=DEN4
+Change Net Name : Old Net Name=FAULT1A New Net Name=FT1
+Change Net Name : Old Net Name=FAULT1B New Net Name=FT3
+Change Net Name : Old Net Name=FAULT2A New Net Name=FT2
+Change Net Name : Old Net Name=FAULT2B New Net Name=FT4
+Change Net Name : Old Net Name=LATCH1A New Net Name=LT1
+Change Net Name : Old Net Name=LATCH1B New Net Name=LT3
+Change Net Name : Old Net Name=LATCH2A New Net Name=LT2
+Change Net Name : Old Net Name=LATCH2B New Net Name=LT4
+Change Net Name : Old Net Name=SNS1A New Net Name=SNS1
+Change Net Name : Old Net Name=SNS1B New Net Name=SNS3
+Change Net Name : Old Net Name=SNS2A New Net Name=SNS2
+Change Net Name : Old Net Name=SNS2B New Net Name=SNS4
+Added Member To Class: ClassName=ADC Chip Select Isolation Member=Component C? 100nF
+Added Member To Class: ClassName=DEN[1..4] Member=Element[0]: DEN
+Added Member To Class: ClassName=DEN[1..4] Member=Element[1]: DEN
+Added Member To Class: ClassName=DEN[1..4] Member=Element[2]: DEN
+Added Member To Class: ClassName=DEN[1..4] Member=Element[3]: DEN
+Added Member To Class: ClassName=FT[1..4] Member=Element[0]: FT
+Added Member To Class: ClassName=FT[1..4] Member=Element[1]: FT
+Added Member To Class: ClassName=FT[1..4] Member=Element[2]: FT
+Added Member To Class: ClassName=FT[1..4] Member=Element[3]: FT
+Added Member To Class: ClassName=LT[1..4] Member=Element[0]: LT
+Added Member To Class: ClassName=LT[1..4] Member=Element[1]: LT
+Added Member To Class: ClassName=LT[1..4] Member=Element[2]: LT
+Added Member To Class: ClassName=LT[1..4] Member=Element[3]: LT
+Added Member To Class: ClassName=SNS[1..4] Member=Element[0]: SNS
+Added Member To Class: ClassName=SNS[1..4] Member=Element[1]: SNS
+Added Member To Class: ClassName=SNS[1..4] Member=Element[2]: SNS
+Added Member To Class: ClassName=SNS[1..4] Member=Element[3]: SNS
