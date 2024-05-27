@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=HSD_EN4 Pin=R13C-1
+Added Pin To Net: NetName=3V3 Pin=C22-1
+Added Pin To Net: NetName=ADC_CSB Pin=ISO3-6
+Added Pin To Net: NetName=VOUTD Pin=P2-1
+Added Pin To Net: NetName=VOUTA Pin=P2-4
+Added Pin To Net: NetName=HSD_EN3 Pin=R13C-1
+Change Net Name : Old Net Name=VOUTA New Net Name=VOUT_1
+Change Net Name : Old Net Name=VOUTB New Net Name=VOUT_2
+Change Net Name : Old Net Name=VOUTC New Net Name=VOUT_3
+Change Net Name : Old Net Name=VOUTD New Net Name=VOUT_4
