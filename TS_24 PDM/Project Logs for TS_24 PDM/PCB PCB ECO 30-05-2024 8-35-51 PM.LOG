@@ -1,0 +1,77 @@
+Added Component: Designator=D10D(0805 LED)
+Add component (AddParameter): Name = "Colour"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "511-1285-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SML-210FTT86"; VariantName = "[No Variations]"
+Added Component: Designator=R15D(0805)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-390CRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0805FR07390RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "390R"; VariantName = "[No Variations]"
+Added Component: Designator=R16D(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "13-RC0603JR-13680RLCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603JR-13680RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "680R"; VariantName = "[No Variations]"
+Added Component: Designator=R17D(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-1.00KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-071KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=U8D(TI_14_TSSOP)
+Add component (AddParameter): Name = "Complex IC"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TPS1H100AQPWPRQ1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD10D_A Pin=D10D-A
+Added Pin To Net: NetName=GLV- Pin=D10D-K
+Added Pin To Net: NetName=0V Pin=R15D-1
+Added Pin To Net: NetName=NetR15D_2 Pin=R15D-2
+Added Pin To Net: NetName=NetD9D_A Pin=R16D-1
+Added Pin To Net: NetName=NetR16D_2 Pin=R16D-2
+Added Pin To Net: NetName=NetD10D_A Pin=R17D-1
+Added Pin To Net: NetName=VOUT_1 Pin=R17D-2
+Added Pin To Net: NetName=NetD9D_A Pin=U8D-0
+Added Pin To Net: NetName=NetD9D_A Pin=U8D-2
+Added Pin To Net: NetName=NetR13D_2 Pin=U8D-3
+Added Pin To Net: NetName=VOUT_1 Pin=U8D-5
+Added Pin To Net: NetName=VOUT_1 Pin=U8D-6
+Added Pin To Net: NetName=VOUT_1 Pin=U8D-7
+Added Pin To Net: NetName=GLV+ Pin=U8D-8
+Added Pin To Net: NetName=GLV+ Pin=U8D-9
+Added Pin To Net: NetName=GLV+ Pin=U8D-10
+Added Pin To Net: NetName=NetR14D_2 Pin=U8D-12
+Added Pin To Net: NetName=NetR16D_2 Pin=U8D-13
+Added Pin To Net: NetName=NetR15D_2 Pin=U8D-14
+Add Net: Net with name "SCLCK" already exists
+Added Member To Class: ClassName=HSD11 Member=Component C36A (C36) 100nF
+Added Member To Class: ClassName=HSD14 Member=Component C36D (C36) 100nF
+Added Member To Class: ClassName=HSD11 Member=Component C37A (C37) 100nF
+Added Member To Class: ClassName=HSD14 Member=Component C37D (C37) 100nF
+Added Member To Class: ClassName=HSD11 Member=Component C38A (C38) 22nF
+Added Member To Class: ClassName=HSD14 Member=Component C38D (C38) 22nF
+Added Member To Class: ClassName=HSD11 Member=Component D9A (D9) MSX1PJ-M3/89A
+Added Member To Class: ClassName=HSD14 Member=Component D9D (D9) MSX1PJ-M3/89A
+Added Member To Class: ClassName=HSD14 Member=Component D10D (D10) Green
+Added Member To Class: ClassName=HSD11 Member=Component R13A (R13) 10k
+Added Member To Class: ClassName=HSD14 Member=Component R13D (R13) 10k
+Added Member To Class: ClassName=HSD11 Member=Component R14A (R14) 10k
+Added Member To Class: ClassName=HSD14 Member=Component R14D (R14) 10k
+Added Member To Class: ClassName=HSD14 Member=Component R15D (R15) 390R
+Added Member To Class: ClassName=HSD14 Member=Component R16D (R16) 680R
+Added Member To Class: ClassName=HSD14 Member=Component R17D (R17) 1k
+Added Member To Class: ClassName=HSD11 Member=Component R18A (R18) 10k
+Added Member To Class: ClassName=HSD14 Member=Component R18D (R18) 10k
+Added Member To Class: ClassName=HSD11 Member=Component R22A (R22) 1k
+Added Member To Class: ClassName=HSD14 Member=Component R22D (R22) 1k
+Added Member To Class: ClassName=HSD14 Member=Component U8D (U8) TPS1H100AQPWPRQ1
+Added Room: Name=HSD14
+Added Room: Name=Power Supply
