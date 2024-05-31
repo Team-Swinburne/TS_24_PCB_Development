@@ -1,0 +1,16 @@
+Added Component: Designator=Temp 1(TEMP_PINS)
+Added Component: Designator=Temp 2(TEMP_PINS)
+Added Component: Designator=Temp 3(TEMP_PINS)
+Added Component: Designator=Temp 4(TEMP_PINS)
+Added Pin To Net: NetName=1+ Pin=Temp 1-1+
+Added Pin To Net: NetName=1- Pin=Temp 1-1-
+Added Pin To Net: NetName=2+ Pin=Temp 2-1+
+Added Pin To Net: NetName=2- Pin=Temp 2-1-
+Added Pin To Net: NetName=3+ Pin=Temp 3-1+
+Added Pin To Net: NetName=3- Pin=Temp 3-1-
+Added Pin To Net: NetName=4+ Pin=Temp 4-1+
+Added Pin To Net: NetName=4- Pin=Temp 4-1-
+Added Member To Class: ClassName=Negative_Schematic Member=Component Temp 1 Temp_Pins
+Added Member To Class: ClassName=Negative_Schematic Member=Component Temp 2
+Added Member To Class: ClassName=Negative_Schematic Member=Component Temp 3 Temp_Pins
+Added Member To Class: ClassName=Negative_Schematic Member=Component Temp 4 Temp_Pins
