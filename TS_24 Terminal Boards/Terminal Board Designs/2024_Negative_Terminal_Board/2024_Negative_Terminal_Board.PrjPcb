@@ -100,7 +100,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WLYMRPHJ
 
 [Document4]
-DocumentPath=..\..\..\..\..\..\..\..\OneDrive\Documents\GitHub\ts_20-pcb-development\~ts_20 Library\ts_20-standard-connectors\ts_20-standard-connectors.DbLib
+DocumentPath=..\..\..\..\TS_24_Components\connectors\ts_standard_connectors.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -305,6 +305,23 @@ DocumentUniqueId=
 
 [Document16]
 DocumentPath=..\..\..\..\..\..\..\..\OneDrive\Documents\GitHub\TS_24_Components\connectors\Generic\Generic.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document17]
+DocumentPath=..\..\..\..\TS_24_Components\connectors\Generic\Generic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

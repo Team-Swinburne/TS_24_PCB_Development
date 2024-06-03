@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=4- Pin=TEMP HEADER-1
+Added Component: Designator=Temp 1(TEMP_PINS)
+Added Component: Designator=Temp 2(TEMP_PINS)
+Added Component: Designator=Temp 3(TEMP_PINS)
+Added Component: Designator=Temp 4(TEMP_PINS)
+Added Pin To Net: NetName=1+ Pin=Temp 1-1+
+Added Pin To Net: NetName=1- Pin=Temp 1-1-
+Add Pin To Net: Unknown Pin: Pin Temp 1-2+
+Add Pin To Net: Unknown Pin: Pin Temp 1-2-
+Add Pin To Net: Unknown Pin: Pin Temp 1-3+
+Add Pin To Net: Unknown Pin: Pin Temp 1-3-
+Added Pin To Net: NetName=2+ Pin=Temp 2-1+
+Added Pin To Net: NetName=2- Pin=Temp 2-1-
+Add Pin To Net: Unknown Pin: Pin Temp 2-2+
+Add Pin To Net: Unknown Pin: Pin Temp 2-2-
+Add Pin To Net: Unknown Pin: Pin Temp 2-3+
+Add Pin To Net: Unknown Pin: Pin Temp 2-3-
+Added Pin To Net: NetName=3+ Pin=Temp 3-1+
+Added Pin To Net: NetName=3- Pin=Temp 3-1-
+Add Pin To Net: Unknown Pin: Pin Temp 3-2+
+Add Pin To Net: Unknown Pin: Pin Temp 3-2-
+Add Pin To Net: Unknown Pin: Pin Temp 3-3+
+Add Pin To Net: Unknown Pin: Pin Temp 3-3-
+Added Pin To Net: NetName=4+ Pin=Temp 4-1+
+Added Pin To Net: NetName=4- Pin=Temp 4-1-
+Add Pin To Net: Unknown Pin: Pin Temp 4-2+
+Add Pin To Net: Unknown Pin: Pin Temp 4-2-
+Add Pin To Net: Unknown Pin: Pin Temp 4-3+
+Add Pin To Net: Unknown Pin: Pin Temp 4-3-
+Added Member To Class: ClassName=Positive_Schematic Member=Component Temp 1 Temp_Pins
+Added Member To Class: ClassName=Positive_Schematic Member=Component Temp 2 Temp_Pins
+Added Member To Class: ClassName=Positive_Schematic Member=Component Temp 3 Temp_Pins
+Added Member To Class: ClassName=Positive_Schematic Member=Component Temp 4 Temp_Pins

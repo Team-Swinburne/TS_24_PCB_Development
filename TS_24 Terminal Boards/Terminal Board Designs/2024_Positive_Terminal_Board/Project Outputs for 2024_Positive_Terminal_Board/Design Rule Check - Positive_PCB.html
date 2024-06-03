@@ -1,0 +1,637 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD23\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">22/05/2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">4:51:19 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc" class="file"><acronym title="C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc">C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">99</td></tr>
+</table>
+</td>
+</table><a name="IDTEL0OMUUW3WENOXVR0FNZ3MT2FNL2V1JS32HYEIZLNIGFNXB545J"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID02EVSPICM3EPHMRZTM0BK4IC4FV1WOPMGCZLXNIQCOQBZRABX0GH">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRUEWGFKWHDL4JBQ3TCRAC2RHDPEF4AMSFAUODHHLZXKUOGKPCXBM">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPO5ZH1USAIGGHRZ0DEE0KKFGWG5DRSZHMAWMJDLLQNKNE0CIZAOK">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4OCKKEISZJSDEURSC22WTGJ4CCNEVGPYHQNLCPM42NY3UJCW0Y0N">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXJPLK3YAMZVWJO5AGZY3CQGHTPDJPTNCZYSJF5KNQJBFHL3I1J3I">Width Constraint (Min=0.257mm) (Max=2mm) (Preferred=0.257mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBVUT1XP0ZNP2B5UJ4BJSZOPLMLYX0G2YWMPQ5LK4CFWDWU325ONL">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID30520YNT501KDJRVMN1CVS45NNWL4VSZHVYJYRPARWJYCZMNDTNP">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">17</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDV2KCVNKWG5JSLWAO0NHRVP4E5FKXBD41L0UONKD245XFJH2AGNIK">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVYRZINAZDOIULKQ2NUR0NAMUOE4BAQH0OIW3ZZC5TQJJ0AXLP1SG">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0NWTYKMOAS1XDLR0CJIZVQVARDHH1S4SNC3OQWNVYQN3E1GZXUJJ">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">78</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBYI43XKRATUBKJDL3U5I3MJ1SB5F5G0LS23ANPNTXRNWA33OFA3C">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSWO0C4ILP1SJKC3KKIMS01YP1EOWX1BSG5AGANB3WVZA0KY4RDXN">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBPGAJTIZGBMZCZC0DPX3W111CC0IY20G0RSLMJBKDJNOMN1RX0B">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">99</td>
+</tr>
+</table><br><a name="IDPO5ZH1USAIGGHRZ0DEE0KKFGWG5DRSZHMAWMJDLLQNKNE0CIZAOK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9754.437mil|Location2.X=10167.823mil|Location1.Y=861.944mil|Location2.Y=1216.275mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9754.437mil|Location2.X=10167.823mil|Location1.Y=861.944mil|Location2.Y=1216.275mil|Absolute=True">Un-Routed Net Constraint: Polygon  (NONET_L01_P003) on Top Layer 1 Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID30520YNT501KDJRVMN1CVS45NNWL4VSZHVYJYRPARWJYCZMNDTNP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4180.084mil|Location2.X=4299.444mil|Location1.Y=990.714mil|Location2.Y=1110.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4180.084mil|Location2.X=4299.444mil|Location1.Y=990.714mil|Location2.Y=1110.074mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad Free-Mounting Hole(107.69mm,26.68mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5928.903mil|Location2.X=6048.263mil|Location1.Y=986.777mil|Location2.Y=1106.137mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5928.903mil|Location2.X=6048.263mil|Location1.Y=986.777mil|Location2.Y=1106.137mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad Free-Mounting Hole(152.11mm,26.58mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7279.69mil|Location2.X=7399.05mil|Location1.Y=988.745mil|Location2.Y=1108.105mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7279.69mil|Location2.X=7399.05mil|Location1.Y=988.745mil|Location2.Y=1108.105mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad Free-Mounting Hole(186.42mm,26.63mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9242.288mil|Location2.X=9361.649mil|Location1.Y=987.17mil|Location2.Y=1106.531mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9242.288mil|Location2.X=9361.649mil|Location1.Y=987.17mil|Location2.Y=1106.531mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad Free-Mounting Hole(236.27mm,26.59mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9493.863mil|Location2.X=9621.097mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9493.863mil|Location2.X=9621.097mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT14-1(242.76mm,12.09mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8686.883mil|Location2.X=8814.117mil|Location1.Y=1538.485mil|Location2.Y=1665.719mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8686.883mil|Location2.X=8814.117mil|Location1.Y=1538.485mil|Location2.Y=1665.719mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT15-1(222.263mm,40.693mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7879.69mil|Location2.X=8006.924mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7879.69mil|Location2.X=8006.924mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT16-1(201.76mm,12.09mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7072.603mil|Location2.X=7199.837mil|Location1.Y=1538.351mil|Location2.Y=1665.586mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7072.603mil|Location2.X=7199.837mil|Location1.Y=1538.351mil|Location2.Y=1665.586mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT17-1(181.26mm,40.69mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6265.517mil|Location2.X=6392.751mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6265.517mil|Location2.X=6392.751mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT18-1(160.76mm,12.09mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5458.43mil|Location2.X=5585.664mil|Location1.Y=1538.351mil|Location2.Y=1665.586mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5458.43mil|Location2.X=5585.664mil|Location1.Y=1538.351mil|Location2.Y=1665.586mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT19-1(140.26mm,40.69mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4651.343mil|Location2.X=4778.578mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4651.343mil|Location2.X=4778.578mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT20-1(119.76mm,12.09mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3844.257mil|Location2.X=3971.491mil|Location1.Y=1538.351mil|Location2.Y=1665.586mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3844.257mil|Location2.X=3971.491mil|Location1.Y=1538.351mil|Location2.Y=1665.586mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT21-1(99.26mm,40.69mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3037.17mil|Location2.X=3164.405mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3037.17mil|Location2.X=3164.405mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT22-1(78.76mm,12.09mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2230.084mil|Location2.X=2357.318mil|Location1.Y=1538.351mil|Location2.Y=1665.586mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2230.084mil|Location2.X=2357.318mil|Location1.Y=1538.351mil|Location2.Y=1665.586mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT23-1(58.26mm,40.69mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1423.391mil|Location2.X=1550.625mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1423.391mil|Location2.X=1550.625mil|Location1.Y=412.367mil|Location2.Y=539.601mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT24-1(37.77mm,12.09mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=616.017mil|Location2.X=743.251mil|Location1.Y=1532.446mil|Location2.Y=1659.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=616.017mil|Location2.X=743.251mil|Location1.Y=1532.446mil|Location2.Y=1659.68mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT25-1(17.263mm,40.54mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=212.367mil|Location2.X=339.601mil|Location1.Y=532.446mil|Location2.Y=659.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=212.367mil|Location2.X=339.601mil|Location1.Y=532.446mil|Location2.Y=659.68mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad VT26-1(7.01mm,15.14mm) on Multi-Layer Actual Rectangular Hole Width = 3.2mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID0NWTYKMOAS1XDLR0CJIZVQVARDHH1S4SNC3OQWNVYQN3E1GZXUJJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2958.75mil|Location2.X=2970mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2958.75mil|Location2.X=2970mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-1(76.052mm,21.7mm) on Top Layer 1 And Track (74.007mm,20.79mm)(75.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3018.35mil|Location2.X=3029.6mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3018.35mil|Location2.X=3029.6mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-1(76.052mm,21.7mm) on Top Layer 1 And Track (77.007mm,20.79mm)(79.627mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1895.758mil|Location2.X=1907.008mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1895.758mil|Location2.X=1907.008mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-10(49.052mm,21.7mm) on Top Layer 1 And Track (47.007mm,20.79mm)(48.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1955.358mil|Location2.X=1966.608mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1955.358mil|Location2.X=1966.608mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-10(49.052mm,21.7mm) on Top Layer 1 And Track (50.007mm,20.79mm)(51.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1777.648mil|Location2.X=1788.898mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1777.648mil|Location2.X=1788.898mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-11(46.052mm,21.7mm) on Top Layer 1 And Track (42.477mm,20.79mm)(45.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1837.248mil|Location2.X=1848.498mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1837.248mil|Location2.X=1848.498mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-11(46.052mm,21.7mm) on Top Layer 1 And Track (47.007mm,20.79mm)(48.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2970.93mil|Location2.X=2982.18mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2970.93mil|Location2.X=2982.18mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.251mm &lt; 0.254mm) Between Pad ORION HEADER-12(76.052mm,31.1mm) on Top Layer 1 And Text "ORION HEADER" (59.1mm,32.748mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.251mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2958.75mil|Location2.X=2970mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2958.75mil|Location2.X=2970mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-12(76.052mm,31.1mm) on Top Layer 1 And Track (74.007mm,31.99mm)(75.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3018.35mil|Location2.X=3029.6mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3018.35mil|Location2.X=3029.6mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-12(76.052mm,31.1mm) on Top Layer 1 And Track (77.007mm,31.99mm)(79.627mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2850.969mil|Location2.X=2862.219mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2850.969mil|Location2.X=2862.219mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.251mm &lt; 0.254mm) Between Pad ORION HEADER-13(73.052mm,31.1mm) on Top Layer 1 And Text "ORION HEADER" (59.1mm,32.748mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.251mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2840.639mil|Location2.X=2851.889mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2840.639mil|Location2.X=2851.889mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-13(73.052mm,31.1mm) on Top Layer 1 And Track (71.007mm,31.99mm)(72.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2900.239mil|Location2.X=2911.489mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2900.239mil|Location2.X=2911.489mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-13(73.052mm,31.1mm) on Top Layer 1 And Track (74.007mm,31.99mm)(75.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2731.008mil|Location2.X=2742.258mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2731.008mil|Location2.X=2742.258mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.251mm &lt; 0.254mm) Between Pad ORION HEADER-14(70.052mm,31.1mm) on Top Layer 1 And Text "ORION HEADER" (59.1mm,32.748mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.251mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2722.529mil|Location2.X=2733.779mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2722.529mil|Location2.X=2733.779mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-14(70.052mm,31.1mm) on Top Layer 1 And Track (68.007mm,31.99mm)(69.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2782.129mil|Location2.X=2793.379mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2782.129mil|Location2.X=2793.379mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-14(70.052mm,31.1mm) on Top Layer 1 And Track (71.007mm,31.99mm)(72.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2604.419mil|Location2.X=2615.669mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2604.419mil|Location2.X=2615.669mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-15(67.052mm,31.1mm) on Top Layer 1 And Track (65.007mm,31.99mm)(66.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2664.019mil|Location2.X=2675.269mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2664.019mil|Location2.X=2675.269mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-15(67.052mm,31.1mm) on Top Layer 1 And Track (68.007mm,31.99mm)(69.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2501.082mil|Location2.X=2512.332mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2501.082mil|Location2.X=2512.332mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.251mm &lt; 0.254mm) Between Pad ORION HEADER-16(64.052mm,31.1mm) on Top Layer 1 And Text "ORION HEADER" (59.1mm,32.748mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.251mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.309mil|Location2.X=2497.559mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.309mil|Location2.X=2497.559mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-16(64.052mm,31.1mm) on Top Layer 1 And Track (62.007mm,31.99mm)(63.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2545.909mil|Location2.X=2557.159mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2545.909mil|Location2.X=2557.159mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-16(64.052mm,31.1mm) on Top Layer 1 And Track (65.007mm,31.99mm)(66.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2381.121mil|Location2.X=2392.371mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2381.121mil|Location2.X=2392.371mil|Location1.Y=1273.73mil|Location2.Y=1284.98mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.251mm &lt; 0.254mm) Between Pad ORION HEADER-17(61.052mm,31.1mm) on Top Layer 1 And Text "ORION HEADER" (59.1mm,32.748mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.251mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2368.199mil|Location2.X=2379.449mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2368.199mil|Location2.X=2379.449mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-17(61.052mm,31.1mm) on Top Layer 1 And Track (59.007mm,31.99mm)(60.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2427.799mil|Location2.X=2439.049mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2427.799mil|Location2.X=2439.049mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-17(61.052mm,31.1mm) on Top Layer 1 And Track (62.007mm,31.99mm)(63.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2250.088mil|Location2.X=2261.338mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2250.088mil|Location2.X=2261.338mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-18(58.052mm,31.1mm) on Top Layer 1 And Track (56.007mm,31.99mm)(57.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2309.688mil|Location2.X=2320.938mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2309.688mil|Location2.X=2320.938mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-18(58.052mm,31.1mm) on Top Layer 1 And Track (59.007mm,31.99mm)(60.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2131.978mil|Location2.X=2143.228mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2131.978mil|Location2.X=2143.228mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-19(55.052mm,31.1mm) on Top Layer 1 And Track (53.007mm,31.99mm)(54.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2191.578mil|Location2.X=2202.828mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2191.578mil|Location2.X=2202.828mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-19(55.052mm,31.1mm) on Top Layer 1 And Track (56.007mm,31.99mm)(57.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2840.639mil|Location2.X=2851.889mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2840.639mil|Location2.X=2851.889mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-2(73.052mm,21.7mm) on Top Layer 1 And Track (71.007mm,20.79mm)(72.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2900.239mil|Location2.X=2911.489mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2900.239mil|Location2.X=2911.489mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-2(73.052mm,21.7mm) on Top Layer 1 And Track (74.007mm,20.79mm)(75.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2013.868mil|Location2.X=2025.118mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2013.868mil|Location2.X=2025.118mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-20(52.052mm,31.1mm) on Top Layer 1 And Track (50.007mm,31.99mm)(51.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2073.468mil|Location2.X=2084.718mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2073.468mil|Location2.X=2084.718mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-20(52.052mm,31.1mm) on Top Layer 1 And Track (53.007mm,31.99mm)(54.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1895.758mil|Location2.X=1907.008mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1895.758mil|Location2.X=1907.008mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-21(49.052mm,31.1mm) on Top Layer 1 And Track (47.007mm,31.99mm)(48.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1955.358mil|Location2.X=1966.608mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1955.358mil|Location2.X=1966.608mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-21(49.052mm,31.1mm) on Top Layer 1 And Track (50.007mm,31.99mm)(51.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1777.648mil|Location2.X=1788.898mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1777.648mil|Location2.X=1788.898mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-22(46.052mm,31.1mm) on Top Layer 1 And Track (42.477mm,31.99mm)(45.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1837.248mil|Location2.X=1848.498mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1837.248mil|Location2.X=1848.498mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-22(46.052mm,31.1mm) on Top Layer 1 And Track (47.007mm,31.99mm)(48.097mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2722.529mil|Location2.X=2733.779mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2722.529mil|Location2.X=2733.779mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-3(70.052mm,21.7mm) on Top Layer 1 And Track (68.007mm,20.79mm)(69.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2782.129mil|Location2.X=2793.379mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2782.129mil|Location2.X=2793.379mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-3(70.052mm,21.7mm) on Top Layer 1 And Track (71.007mm,20.79mm)(72.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2604.419mil|Location2.X=2615.669mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2604.419mil|Location2.X=2615.669mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-4(67.052mm,21.7mm) on Top Layer 1 And Track (65.007mm,20.79mm)(66.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2664.019mil|Location2.X=2675.269mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2664.019mil|Location2.X=2675.269mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-4(67.052mm,21.7mm) on Top Layer 1 And Track (68.007mm,20.79mm)(69.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.309mil|Location2.X=2497.559mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.309mil|Location2.X=2497.559mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-5(64.052mm,21.7mm) on Top Layer 1 And Track (62.007mm,20.79mm)(63.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2545.909mil|Location2.X=2557.159mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2545.909mil|Location2.X=2557.159mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-5(64.052mm,21.7mm) on Top Layer 1 And Track (65.007mm,20.79mm)(66.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2368.199mil|Location2.X=2379.449mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2368.199mil|Location2.X=2379.449mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-6(61.052mm,21.7mm) on Top Layer 1 And Track (59.007mm,20.79mm)(60.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2427.799mil|Location2.X=2439.049mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2427.799mil|Location2.X=2439.049mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-6(61.052mm,21.7mm) on Top Layer 1 And Track (62.007mm,20.79mm)(63.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2250.088mil|Location2.X=2261.338mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2250.088mil|Location2.X=2261.338mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-7(58.052mm,21.7mm) on Top Layer 1 And Track (56.007mm,20.79mm)(57.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2309.688mil|Location2.X=2320.938mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2309.688mil|Location2.X=2320.938mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-7(58.052mm,21.7mm) on Top Layer 1 And Track (59.007mm,20.79mm)(60.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2131.978mil|Location2.X=2143.228mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2131.978mil|Location2.X=2143.228mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-8(55.052mm,21.7mm) on Top Layer 1 And Track (53.007mm,20.79mm)(54.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2191.578mil|Location2.X=2202.828mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2191.578mil|Location2.X=2202.828mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-8(55.052mm,21.7mm) on Top Layer 1 And Track (56.007mm,20.79mm)(57.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2013.868mil|Location2.X=2025.118mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2013.868mil|Location2.X=2025.118mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-9(52.052mm,21.7mm) on Top Layer 1 And Track (50.007mm,20.79mm)(51.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2073.468mil|Location2.X=2084.718mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2073.468mil|Location2.X=2084.718mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-9(52.052mm,21.7mm) on Top Layer 1 And Track (53.007mm,20.79mm)(54.097mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3123.014mil|Location2.X=3134.264mil|Location1.Y=996.699mil|Location2.Y=1008.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3123.014mil|Location2.X=3134.264mil|Location1.Y=996.699mil|Location2.Y=1008.635mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-P1(78.202mm,26.4mm) on Multi-Layer And Track (79.627mm,20.79mm)(79.627mm,25.342mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3123.014mil|Location2.X=3134.264mil|Location1.Y=1070.164mil|Location2.Y=1082.041mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3123.014mil|Location2.X=3134.264mil|Location1.Y=1070.164mil|Location2.Y=1082.041mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-P1(78.202mm,26.4mm) on Multi-Layer And Track (79.627mm,27.458mm)(79.627mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1672.983mil|Location2.X=1684.233mil|Location1.Y=996.072mil|Location2.Y=1007.949mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1672.983mil|Location2.X=1684.233mil|Location1.Y=996.072mil|Location2.Y=1007.949mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-P2(43.902mm,26.4mm) on Multi-Layer And Track (42.477mm,20.79mm)(42.477mm,25.342mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1672.983mil|Location2.X=1684.233mil|Location1.Y=1070.791mil|Location2.Y=1082.727mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1672.983mil|Location2.X=1684.233mil|Location1.Y=1070.791mil|Location2.Y=1082.727mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad ORION HEADER-P2(43.902mm,26.4mm) on Multi-Layer And Track (42.477mm,27.458mm)(42.477mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=315.809mil|Location2.X=327.059mil|Location1.Y=1410.451mil|Location2.Y=1421.701mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=315.809mil|Location2.X=327.059mil|Location1.Y=1410.451mil|Location2.Y=1421.701mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.238mm &lt; 0.254mm) Between Pad Temp 1-1+(8.14mm,35.35mm) on Multi-Layer And Text "+" (7.664mm,35.96mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.238mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1147.263mil|Location2.X=1158.513mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1147.263mil|Location2.X=1158.513mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-1(30.04mm,21.7mm) on Top Layer 1 And Track (27.995mm,20.79mm)(29.085mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1206.863mil|Location2.X=1218.113mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1206.863mil|Location2.X=1218.113mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-1(30.04mm,21.7mm) on Top Layer 1 And Track (30.995mm,20.79mm)(33.615mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1029.153mil|Location2.X=1040.403mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1029.153mil|Location2.X=1040.403mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-2(27.04mm,21.7mm) on Top Layer 1 And Track (24.995mm,20.79mm)(26.085mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1088.753mil|Location2.X=1100.003mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1088.753mil|Location2.X=1100.003mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-2(27.04mm,21.7mm) on Top Layer 1 And Track (27.995mm,20.79mm)(29.085mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=911.043mil|Location2.X=922.293mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=911.043mil|Location2.X=922.293mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-3(24.04mm,21.7mm) on Top Layer 1 And Track (21.995mm,20.79mm)(23.085mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=970.643mil|Location2.X=981.893mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=970.643mil|Location2.X=981.893mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-3(24.04mm,21.7mm) on Top Layer 1 And Track (24.995mm,20.79mm)(26.085mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=792.933mil|Location2.X=804.183mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=792.933mil|Location2.X=804.183mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-4(21.04mm,21.7mm) on Top Layer 1 And Track (17.465mm,20.79mm)(20.085mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=852.533mil|Location2.X=863.783mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=852.533mil|Location2.X=863.783mil|Location1.Y=812.879mil|Location2.Y=824.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-4(21.04mm,21.7mm) on Top Layer 1 And Track (21.995mm,20.79mm)(23.085mm,20.79mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1147.263mil|Location2.X=1158.513mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1147.263mil|Location2.X=1158.513mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-5(30.04mm,31.1mm) on Top Layer 1 And Track (27.995mm,31.99mm)(29.085mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1206.863mil|Location2.X=1218.113mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1206.863mil|Location2.X=1218.113mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-5(30.04mm,31.1mm) on Top Layer 1 And Track (30.995mm,31.99mm)(33.615mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1029.153mil|Location2.X=1040.403mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1029.153mil|Location2.X=1040.403mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-6(27.04mm,31.1mm) on Top Layer 1 And Track (24.995mm,31.99mm)(26.085mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1088.753mil|Location2.X=1100.003mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1088.753mil|Location2.X=1100.003mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-6(27.04mm,31.1mm) on Top Layer 1 And Track (27.995mm,31.99mm)(29.085mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=911.043mil|Location2.X=922.293mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=911.043mil|Location2.X=922.293mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-7(24.04mm,31.1mm) on Top Layer 1 And Track (21.995mm,31.99mm)(23.085mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=970.643mil|Location2.X=981.893mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=970.643mil|Location2.X=981.893mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-7(24.04mm,31.1mm) on Top Layer 1 And Track (24.995mm,31.99mm)(26.085mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=792.933mil|Location2.X=804.183mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=792.933mil|Location2.X=804.183mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-8(21.04mm,31.1mm) on Top Layer 1 And Track (17.465mm,31.99mm)(20.085mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=852.533mil|Location2.X=863.783mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=852.533mil|Location2.X=863.783mil|Location1.Y=1253.824mil|Location2.Y=1265.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-8(21.04mm,31.1mm) on Top Layer 1 And Track (21.995mm,31.99mm)(23.085mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1311.528mil|Location2.X=1322.778mil|Location1.Y=996.699mil|Location2.Y=1008.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1311.528mil|Location2.X=1322.778mil|Location1.Y=996.699mil|Location2.Y=1008.635mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-P1(32.19mm,26.4mm) on Multi-Layer And Track (33.615mm,20.79mm)(33.615mm,25.342mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1311.528mil|Location2.X=1322.778mil|Location1.Y=1070.164mil|Location2.Y=1082.041mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1311.528mil|Location2.X=1322.778mil|Location1.Y=1070.164mil|Location2.Y=1082.041mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-P1(32.19mm,26.4mm) on Multi-Layer And Track (33.615mm,27.458mm)(33.615mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=688.268mil|Location2.X=699.518mil|Location1.Y=996.073mil|Location2.Y=1007.949mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=688.268mil|Location2.X=699.518mil|Location1.Y=996.073mil|Location2.Y=1007.949mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-P2(18.89mm,26.4mm) on Multi-Layer And Track (17.465mm,20.79mm)(17.465mm,25.342mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=688.268mil|Location2.X=699.518mil|Location1.Y=1070.791mil|Location2.Y=1082.727mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=688.268mil|Location2.X=699.518mil|Location1.Y=1070.791mil|Location2.Y=1082.727mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.244mm &lt; 0.254mm) Between Pad TEMP HEADER-P2(18.89mm,26.4mm) on Multi-Layer And Track (17.465mm,27.458mm)(17.465mm,31.99mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.244mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9523.174mil|Location2.X=9534.424mil|Location1.Y=557.927mil|Location2.Y=569.177mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9523.174mil|Location2.X=9534.424mil|Location1.Y=557.927mil|Location2.Y=569.177mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.248mm &lt; 0.254mm) Between Pad VT14-1(242.76mm,12.09mm) on Multi-Layer And Text "VT14" (240mm,14.565mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.248mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6296.135mil|Location2.X=6307.385mil|Location1.Y=556.66mil|Location2.Y=567.91mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6296.135mil|Location2.X=6307.385mil|Location1.Y=556.66mil|Location2.Y=567.91mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.184mm &lt; 0.254mm) Between Pad VT18-1(160.76mm,12.09mm) on Multi-Layer And Text "VT18" (158.033mm,14.501mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.184mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4675.156mil|Location2.X=4686.406mil|Location1.Y=557.248mil|Location2.Y=568.498mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4675.156mil|Location2.X=4686.406mil|Location1.Y=557.248mil|Location2.Y=568.498mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.214mm &lt; 0.254mm) Between Pad VT20-1(119.76mm,12.09mm) on Multi-Layer And Text "VT20" (116.861mm,14.531mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.214mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=611.878mil|Location2.X=623.128mil|Location1.Y=1502.898mil|Location2.Y=1514.148mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=611.878mil|Location2.X=623.128mil|Location1.Y=1502.898mil|Location2.Y=1514.148mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.247mm &lt; 0.254mm) Between Pad VT25-1(17.263mm,40.54mm) on Multi-Layer And Text "VT25" (14.669mm,36.543mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.247mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDBYI43XKRATUBKJDL3U5I3MJ1SB5F5G0LS23ANPNTXRNWA33OFA3C"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6187.717mil|Location2.X=6198.967mil|Location1.Y=699.502mil|Location2.Y=710.752mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6187.717mil|Location2.X=6198.967mil|Location1.Y=699.502mil|Location2.Y=710.752mil|Absolute=True">Silk To Silk Clearance Constraint: (0.182mm &lt; 0.254mm) Between Text "F18" (158.834mm,18.128mm) on Bottom Overlay And Track (155.749mm,17.743mm)(158.335mm,17.743mm) on Bottom Overlay Silk Text to Silk Clearance [0.182mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4540.565mil|Location2.X=4551.815mil|Location1.Y=699.108mil|Location2.Y=710.358mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4540.565mil|Location2.X=4551.815mil|Location1.Y=699.108mil|Location2.Y=710.358mil|Absolute=True">Silk To Silk Clearance Constraint: (0.202mm &lt; 0.254mm) Between Text "F20" (118.012mm,18.128mm) on Bottom Overlay And Track (114.957mm,17.723mm)(117.543mm,17.723mm) on Bottom Overlay Silk Text to Silk Clearance [0.202mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2935.799mil|Location2.X=2947.049mil|Location1.Y=700.884mil|Location2.Y=712.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_PCB_Development\TS_24 Terminal Boards\Terminal Board Designs\2024_Positive_Terminal_Board\Positive_PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2935.799mil|Location2.X=2947.049mil|Location1.Y=700.884mil|Location2.Y=712.134mil|Absolute=True">Silk To Silk Clearance Constraint: (0.252mm &lt; 0.254mm) Between Text "F22" (77.251mm,18.198mm) on Bottom Overlay And Track (73.97mm,17.743mm)(76.555mm,17.743mm) on Bottom Overlay Silk Text to Silk Clearance [0.252mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
