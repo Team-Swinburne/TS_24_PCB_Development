@@ -1,0 +1,326 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\refic\3D Objects\TS_24_PCB_Development\TS_24 PDM_2\PCB.PcbDoc
+Date     : 3/06/2024
+Time     : 6:17:14 PM
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad C13A-2(138.15mm,96.2mm) on Signal Top And Track (138.15mm,93.55mm)(138.15mm,96.15mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad C13C-2(76.075mm,96.45mm) on Signal Top And Track (76.075mm,93.85mm)(76.075mm,96.45mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad C13D-2(113.95mm,79.4mm) on Signal Top And Track (113.95mm,76.827mm)(113.95mm,79.427mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad D2A-A(122.4mm,87.066mm) on Signal Top And Track (122.439mm,87.05mm)(125.05mm,87.05mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad R4A-1(138.15mm,93.55mm) on Signal Top And Track (138.15mm,93.55mm)(138.15mm,96.15mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad R4C-1(76.075mm,93.85mm) on Signal Top And Track (76.075mm,93.85mm)(76.075mm,96.45mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad R4D-1(113.95mm,76.827mm) on Signal Top And Track (113.95mm,76.827mm)(113.95mm,79.427mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad R6C-2(77.875mm,90.35mm) on Signal Top And Track (76.075mm,90.35mm)(77.875mm,90.35mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad R7A-1(125mm,87.05mm) on Signal Top And Track (122.439mm,87.05mm)(125.05mm,87.05mm) on Signal Top 
+   Violation between Clearance Constraint: (Collision < 0.152mm) Between Pad U4C-13(73.925mm,89.95mm) on Signal Top And Track (73.925mm,89.95mm)(75.675mm,89.95mm) on Signal Top 
+Rule Violations :10
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad C13A-2(138.15mm,96.2mm) on Signal Top And Track (138.15mm,93.55mm)(138.15mm,96.15mm) on Signal Top Location : [X = 138.15mm][Y = 96.013mm]
+   Violation between Short-Circuit Constraint: Between Pad C13C-2(76.075mm,96.45mm) on Signal Top And Track (76.075mm,93.85mm)(76.075mm,96.45mm) on Signal Top Location : [X = 76.075mm][Y = 96.288mm]
+   Violation between Short-Circuit Constraint: Between Pad C13D-2(113.95mm,79.4mm) on Signal Top And Track (113.95mm,76.827mm)(113.95mm,79.427mm) on Signal Top Location : [X = 113.95mm][Y = 79.252mm]
+   Violation between Short-Circuit Constraint: Between Pad D2A-A(122.4mm,87.066mm) on Signal Top And Track (122.439mm,87.05mm)(125.05mm,87.05mm) on Signal Top Location : [X = 122.707mm][Y = 87.05mm]
+   Violation between Short-Circuit Constraint: Between Pad R4A-1(138.15mm,93.55mm) on Signal Top And Track (138.15mm,93.55mm)(138.15mm,96.15mm) on Signal Top Location : [X = 138.15mm][Y = 93.737mm]
+   Violation between Short-Circuit Constraint: Between Pad R4C-1(76.075mm,93.85mm) on Signal Top And Track (76.075mm,93.85mm)(76.075mm,96.45mm) on Signal Top Location : [X = 76.075mm][Y = 94.037mm]
+   Violation between Short-Circuit Constraint: Between Pad R4D-1(113.95mm,76.827mm) on Signal Top And Track (113.95mm,76.827mm)(113.95mm,79.427mm) on Signal Top Location : [X = 113.95mm][Y = 77.014mm]
+   Violation between Short-Circuit Constraint: Between Pad R6C-2(77.875mm,90.35mm) on Signal Top And Track (76.075mm,90.35mm)(77.875mm,90.35mm) on Signal Top Location : [X = 77.688mm][Y = 90.35mm]
+   Violation between Short-Circuit Constraint: Between Pad R7A-1(125mm,87.05mm) on Signal Top And Track (122.439mm,87.05mm)(125.05mm,87.05mm) on Signal Top Location : [X = 124.838mm][Y = 87.05mm]
+   Violation between Short-Circuit Constraint: Between Pad U4C-13(73.925mm,89.95mm) on Signal Top And Track (73.925mm,89.95mm)(75.675mm,89.95mm) on Signal Top Location : [X = 74.236mm][Y = 89.95mm]
+Rule Violations :10
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetADC1_1 Between Pad ADC1-1(82.65mm,63.15mm) on Signal Top And Pad R4B-1(108.5mm,93.8mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad ADC1-7(84.35mm,60.95mm) on Signal Top And Pad ADC1-10(85.55mm,62.15mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad ADC1-10(85.55mm,62.15mm) on Signal Top And Pad C1-2(88.1mm,63.9mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net ADC_CS Between Pad R1-1(70.7mm,62.2mm) on Signal Top And Pad ADC1-11(85.55mm,62.65mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net SDO Between Pad ISO1-11(33.495mm,63.177mm) on Signal Top And Pad ADC1-12(85.55mm,63.15mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net SCLCK Between Pad ISO1-12(32.225mm,63.177mm) on Signal Top And Pad ADC1-13(84.85mm,63.85mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net SDI Between Pad ISO1-13(30.955mm,63.177mm) on Signal Top And Pad ADC1-14(84.35mm,63.85mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_15 Between Pad ADC1-15(83.85mm,63.85mm) on Signal Top And Pad R4A-1(138.15mm,93.55mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_16 Between Pad ADC1-16(83.35mm,63.85mm) on Signal Top And Pad R3A-1(141.7mm,88.65mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_2 Between Pad ADC1-2(82.65mm,62.65mm) on Signal Top And Pad R3B-1(112mm,88.9mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_3 Between Pad R4C-1(76.075mm,93.85mm) on Signal Top And Pad ADC1-3(82.65mm,62.15mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_4 Between Pad R3C-1(79.575mm,88.95mm) on Signal Top And Pad ADC1-4(82.65mm,61.65mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_5 Between Pad ADC1-5(83.35mm,60.95mm) on Signal Top And Pad R4D-1(113.95mm,76.827mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_6 Between Pad ADC1-6(83.85mm,60.95mm) on Signal Top And Pad R3D-1(117.539mm,71.927mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C2-2(76.3mm,63.9mm) on Signal Top And Pad ADC1-7(84.35mm,60.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_8 Between Pad C3-2(67.138mm,63.474mm) on Signal Top And Pad ADC1-8(84.85mm,60.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad ADC1-9(85.55mm,61.65mm) on Signal Top And Pad C1-1(88.1mm,62.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C2-1(76.3mm,62.2mm) on Signal Top And Pad ADC1-9(85.55mm,61.65mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C7-1(84.275mm,47.575mm) on Signal Top And Pad ADC1-9(85.55mm,61.65mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C10-1(26.869mm,51.1mm) on Signal Top And Pad ISO1-1(27.145mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C10-1(26.869mm,51.1mm) on Signal Top And Pad R9-2(27.525mm,45.275mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad ISO1-2(28.415mm,53.475mm) on Signal Top And Pad C10-2(28.569mm,51.1mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad C10-2(28.569mm,51.1mm) on Signal Top And Track (29.462mm,48.226mm)(29.5mm,48.189mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C1-1(88.1mm,62.2mm) on Signal Top And Pad D1D-K(104mm,76mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad ISO1-9(36.035mm,63.178mm) on Signal Top And Pad C11-1(36.26mm,65.55mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C11-2(34.56mm,65.55mm) on Signal Top And Pad ISO1-10(34.765mm,63.177mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C14A-1(125mm,85.2mm) on Signal Top And Pad C12A-1(141.7mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad C12A-2(140mm,87.05mm) on Signal Top And Pad F1-1(143.85mm,36.275mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4A-9(136mm,87.05mm) on Signal Top And Pad C12A-2(140mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C14B-1(95.4mm,85.5mm) on Signal Top And Pad C12B-1(112mm,87.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C12B-1(112mm,87.3mm) on Signal Top And Pad D2A-K(120.5mm,87.066mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad C12B-2(110.3mm,87.3mm) on Signal Top And Pad U4A-9(136mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4B-9(106.35mm,87.3mm) on Signal Top And Pad C12B-2(110.3mm,87.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad C12B-2(110.3mm,87.3mm) on Signal Top And Pad U4D-10(111.8mm,70.977mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C14C-1(63mm,85.3mm) on Signal Top And Pad C12C-1(79.6mm,87.5mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C12C-1(79.6mm,87.5mm) on Signal Top And Pad D2B-K(90.862mm,87.326mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad C12C-2(77.9mm,87.5mm) on Signal Top And Pad U4B-9(106.35mm,87.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4C-9(73.925mm,87.35mm) on Signal Top And Pad C12C-2(77.9mm,87.5mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C14D-1(100.939mm,68.4mm) on Signal Top And Pad C12D-1(117.539mm,70.5mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C12D-1(117.539mm,70.5mm) on Signal Top And Pad C25-1(122.075mm,34.775mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4D-9(111.8mm,70.327mm) on Signal Top And Pad C12D-2(115.839mm,70.5mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C13A-1(139.85mm,96.2mm) on Signal Top And Pad R5A-1(140.4mm,93.75mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_15 Between Pad R4A-1(138.15mm,93.55mm) on Signal Top And Pad C13A-2(138.15mm,96.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C13B-1(110.2mm,96.4mm) on Signal Top And Pad R5B-1(110.8mm,94mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C13C-1(77.775mm,96.45mm) on Signal Top And Pad R5C-1(78.375mm,94.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_3 Between Pad R4C-1(76.075mm,93.85mm) on Signal Top And Pad C13C-2(76.075mm,96.45mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R5B-1(110.8mm,94mm) on Signal Top And Pad C13D-1(115.65mm,79.4mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C13D-1(115.65mm,79.4mm) on Signal Top And Pad R5D-1(116.313mm,77.062mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R8D-1(104.2mm,77.9mm) on Signal Top And Pad C13D-1(115.65mm,79.4mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetADC1_5 Between Pad R4D-1(113.95mm,76.827mm) on Signal Top And Pad C13D-2(113.95mm,79.4mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad D2A-K(120.5mm,87.066mm) on Signal Top And Pad C14A-1(125mm,85.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_4 Between Pad C14A-2(126.7mm,85.2mm) on Signal Top And Pad R7A-2(126.7mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad D2B-K(90.862mm,87.326mm) on Signal Top And Pad C14B-1(95.4mm,85.5mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C14B-1(95.4mm,85.5mm) on Signal Top And Pad D2D-K(96.339mm,70.327mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C14B-1(95.4mm,85.5mm) on Signal Top And Pad P4-1(98.287mm,117.402mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net VOUT_3 Between Pad C14B-2(97.1mm,85.5mm) on Signal Top And Pad R7B-2(97.1mm,87.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad D2C-K(58.463mm,87.35mm) on Signal Top And Pad C14C-1(63mm,85.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_2 Between Pad R7C-2(64.675mm,87.35mm) on Signal Top And Pad C14C-2(64.7mm,85.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad D2D-K(96.339mm,70.327mm) on Signal Top And Pad C14D-1(100.939mm,68.4mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_1 Between Pad C14D-2(102.639mm,68.4mm) on Signal Top And Pad R7D-2(102.639mm,70.327mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C15-1(39.126mm,51.1mm) on Signal Top And Pad ISO2-1(39.402mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (37.958mm,44.238mm)(37.958mm,46.142mm) on Signal Top And Pad C15-1(39.126mm,51.1mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad ISO2-2(40.672mm,53.475mm) on Signal Top And Pad C15-2(40.826mm,51.1mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (39.125mm,44.59mm)(39.125mm,44.975mm) on Signal Top And Pad C15-2(40.826mm,51.1mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C16-1(46.775mm,65.55mm) on Signal Top And Pad ISO2-10(47.022mm,63.177mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad ISO2-9(48.292mm,63.178mm) on Signal Top And Pad C16-2(48.475mm,65.55mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C3-1(65.238mm,63.474mm) on Signal Top And Pad C2-1(76.3mm,62.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C29-1(94.5mm,35.5mm) on Signal Bottom And Pad C21-1(107.72mm,34.613mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R16-1(106.4mm,31.2mm) on Signal Bottom And Pad C21-1(107.72mm,34.613mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VBAT_C Between Pad L1-2(98.7mm,40.8mm) on Signal Bottom And Pad C21-2(107.72mm,36.513mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VBAT_C Between Pad C21-2(107.72mm,36.513mm) on Signal Bottom And Pad U6-2(119.13mm,36.475mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad R1-2(70.7mm,63.9mm) on Signal Top And Pad C2-2(76.3mm,63.9mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C22-1(88.2mm,43.1mm) on Signal Bottom And Pad C23-1(91.6mm,42.9mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C6-1(84.025mm,41.175mm) on Signal Top And Pad C22-1(88.2mm,43.1mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C25-1(122.075mm,34.775mm) on Signal Bottom And Pad C24-1(136.4mm,34.6mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C24-1(136.4mm,34.6mm) on Signal Bottom And Pad D8-K(139.665mm,31.075mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net NetC24_2 Between Pad D6-A(131.3mm,36.375mm) on Signal Bottom And Pad C24-2(136.4mm,36.3mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net NetC24_2 Between Pad C24-2(136.4mm,36.3mm) on Signal Bottom And Pad D8-A(139.665mm,36.275mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C25-1(122.075mm,34.775mm) on Signal Bottom And Pad C26-1(125.076mm,31.175mm) on Signal Bottom [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VBAT_D Between Pad C25-2(122.075mm,36.475mm) on Signal Bottom And Pad C26-2(125.076mm,36.475mm) on Signal Bottom [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VBAT_D Between Pad U6-1(111.51mm,36.475mm) on Signal Bottom And Pad C25-2(122.075mm,36.475mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad U6-4(111.51mm,30.255mm) on Signal Bottom And Pad C26-1(125.076mm,31.175mm) on Signal Bottom [Unplated] 
+   Violation between Un-Routed Net Constraint: Net VBAT_D Between Pad C26-2(125.076mm,36.475mm) on Signal Bottom [Unplated] And Pad D6-K(134.5mm,36.375mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C27-1(88.195mm,33.95mm) on Signal Bottom And Pad C28-1(91.62mm,33.95mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C27-1(88.195mm,33.95mm) on Signal Bottom And Pad R18-1(89.325mm,29.326mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad U7-10(84.86mm,36.2mm) on Signal Bottom And Pad C27-1(88.195mm,33.95mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C28-1(91.62mm,33.95mm) on Signal Bottom And Pad C29-1(94.5mm,35.5mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C30-1(77.926mm,39.1mm) on Signal Bottom And Pad C31-1(79.9mm,42.1mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C30-1(77.926mm,39.1mm) on Signal Bottom And Pad U7-5(82.07mm,38.2mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad ISO2-9(48.292mm,63.178mm) on Signal Top And Pad C3-1(65.238mm,63.474mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C8-1(74.725mm,41.675mm) on Signal Top And Pad C31-1(79.9mm,42.1mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C4-2(71.3mm,49.2mm) on Signal Top And Pad C31-2(79.9mm,40.4mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C31-2(79.9mm,40.4mm) on Signal Bottom And Pad R17-1(84.86mm,42.2mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C33-1(84.439mm,28.099mm) on Signal Bottom And Pad C34-1(84.439mm,30.549mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C33-2(82.539mm,28.099mm) on Signal Bottom And Pad D9-A(95.56mm,29.3mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C34-1(84.439mm,30.549mm) on Signal Bottom And Pad U7-10(84.86mm,36.2mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad U7-4(82.07mm,37.7mm) on Signal Bottom And Pad C34-2(82.539mm,30.549mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C4-1(71.3mm,47.5mm) on Signal Top And Pad C9-1(74.7mm,47.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad U1-5(69.125mm,43.395mm) on Signal Top And Pad C4-1(71.3mm,47.5mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad R1-2(70.7mm,63.9mm) on Signal Top And Pad C4-2(71.3mm,49.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad U1-8(69.125mm,47.205mm) on Signal Top And Pad C4-2(71.3mm,49.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad C5-1(56.3mm,49.1mm) on Signal Top And Pad U1-4(58.625mm,43.395mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (48.7mm,51.6mm)(49.6mm,51.6mm) on Signal Top And Pad C5-1(56.3mm,49.1mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad C6-1(84.025mm,41.175mm) on Signal Top And Pad C7-1(84.275mm,47.575mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad U7-11(83.465mm,37.2mm) on Signal Bottom And Pad C6-1(84.025mm,41.175mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net CAN1_N Between Pad C6-2(85.725mm,41.175mm) on Signal Top And Pad U2-2(86.025mm,43.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net CAN1_P Between Pad P4-4(84.937mm,117.402mm) on Multi-Layer And Pad C7-2(85.975mm,47.575mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net CAN1_P Between Pad C7-2(85.975mm,47.575mm) on Signal Top And Pad U2-1(86.025mm,45.7mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad U3-3(74.675mm,44.725mm) on Signal Top And Pad C8-1(74.725mm,41.675mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net _CAN1_N Between Pad C8-2(76.425mm,41.675mm) on Signal Top And Pad U3-1(76.675mm,43.775mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad U3-3(74.675mm,44.725mm) on Signal Top And Pad C9-1(74.7mm,47.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net _CAN1_P Between Pad C9-2(76.4mm,47.95mm) on Signal Top And Pad U3-2(76.675mm,45.675mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1A_A Between Pad D1A-A(130.1mm,92.7mm) on Signal Top And Pad R8A-2(130.1mm,94.4mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1A_A Between Pad U4A-2(130.1mm,89.65mm) on Signal Top And Pad D1A-A(130.1mm,92.7mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad D1A-K(128.2mm,92.7mm) on Signal Top And Pad R8A-1(128.4mm,94.4mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1B_A Between Pad D1B-A(100.4mm,92.7mm) on Signal Top And Pad R8B-2(100.4mm,94.6mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1B_A Between Pad D1B-A(100.4mm,92.7mm) on Signal Top And Pad U4B-2(100.45mm,89.9mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad D1B-K(98.5mm,92.7mm) on Signal Top And Pad R8B-1(98.7mm,94.6mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1C_A Between Pad D1C-A(68mm,92.8mm) on Signal Top And Pad R8C-2(68mm,94.5mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1C_A Between Pad D1C-A(68mm,92.8mm) on Signal Top And Pad U4C-2(68.025mm,89.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad D1C-K(66.1mm,92.8mm) on Signal Top And Pad R8C-1(66.3mm,94.5mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1D_A Between Pad D1D-A(105.9mm,76mm) on Signal Top And Pad R8D-2(105.9mm,77.9mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1D_A Between Pad U4D-2(105.9mm,72.927mm) on Signal Top And Pad D1D-A(105.9mm,76mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad D1D-K(104mm,76mm) on Signal Top And Pad R8D-1(104.2mm,77.9mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD2A_A Between Pad D2A-A(122.4mm,87.066mm) on Signal Top And Pad R7A-1(125mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad P5-8(50.537mm,126.402mm) on Multi-Layer And Pad D2C-K(58.463mm,87.35mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD7_K Between Pad D7-K(94.5mm,43.1mm) on Signal Bottom And Pad R16-2(108.1mm,31.2mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net NetC24_2 Between Pad D8-A(139.665mm,36.275mm) on Signal Bottom And Pad F1-2(151.15mm,36.275mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad ISO1-1(27.145mm,53.475mm) on Signal Top And Pad ISO1-7(34.765mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad ISO1-16(27.145mm,63.229mm) on Signal Top And Pad ISO1-10(34.765mm,63.177mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad ISO1-10(34.765mm,63.177mm) on Signal Top And Pad ISO2-16(39.402mm,63.229mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net ADC_CS Between Pad ISO1-14(29.685mm,63.177mm) on Signal Top And Pad R1-1(70.7mm,62.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad ISO1-15(28.415mm,63.229mm) on Signal Top And Pad ISO1-9(36.035mm,63.178mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad ISO1-2(28.415mm,53.475mm) on Signal Top And Pad ISO1-8(36.035mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetISO1_3 Between Pad ISO1-3(29.685mm,53.475mm) on Signal Top And Pad U5-20(40.455mm,41.159mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetISO1_4 Between Pad ISO1-4(30.955mm,53.475mm) on Signal Top And Pad U5-14(39.395mm,38.33mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetISO1_5 Between Pad ISO1-5(32.225mm,53.475mm) on Signal Top And Pad U5-12(38.687mm,37.623mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetISO1_6 Between Pad ISO1-6(33.495mm,53.475mm) on Signal Top And Pad U5-13(39.041mm,37.977mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad ISO1-7(34.765mm,53.475mm) on Signal Top And Pad ISO2-1(39.402mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad ISO1-8(36.035mm,53.475mm) on Signal Top And Pad ISO2-2(40.672mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad ISO1-9(36.035mm,63.178mm) on Signal Top And Pad ISO2-15(40.672mm,63.229mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad ISO2-16(39.402mm,63.229mm) on Signal Top And Pad ISO2-10(47.022mm,63.177mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad ISO2-10(47.022mm,63.177mm) on Signal Top And Pad R1-2(70.7mm,63.9mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net HSD_EN1 Between Pad ISO2-11(45.752mm,63.177mm) on Signal Top And Pad R2D-1(100.839mm,72.277mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net HSD_EN2 Between Pad ISO2-12(44.482mm,63.177mm) on Signal Top And Pad R2C-1(62.975mm,89.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net HSD_EN3 Between Pad ISO2-13(43.212mm,63.177mm) on Signal Top And Pad R2B-1(95.4mm,89.25mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net HSD_EN4 Between Pad ISO2-14(41.942mm,63.177mm) on Signal Top And Pad R2A-1(125mm,89mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad ISO2-15(40.672mm,63.229mm) on Signal Top And Pad ISO2-9(48.292mm,63.178mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad ISO2-2(40.672mm,53.475mm) on Signal Top And Pad ISO2-8(48.292mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetISO2_3 Between Pad U5-15(39.748mm,38.684mm) on Signal Top And Pad ISO2-3(41.942mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetISO2_4 Between Pad U5-10(37.98mm,36.916mm) on Signal Top And Pad ISO2-4(43.212mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetISO2_5 Between Pad U5-9(36.92mm,36.916mm) on Signal Top And Pad ISO2-5(44.482mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetISO2_6 Between Pad U5-8(36.566mm,37.27mm) on Signal Top And Pad ISO2-6(45.752mm,53.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 5V Between Track (71.65mm,28.943mm)(71.65mm,29.85mm) on Signal Top And Pad L2-1(78.4mm,29.475mm) on Signal Bottom [Unplated] 
+   Violation between Un-Routed Net Constraint: Net NRST Between Track (34.756mm,38.358mm)(35.083mm,38.684mm) on Signal Top And Pad P1-1(40.96mm,28.45mm) on Signal Top [Unplated] 
+   Violation between Un-Routed Net Constraint: Net SWDIO Between Pad U5-25(38.687mm,42.927mm) on Signal Top And Pad P1-2(40.96mm,32.35mm) on Signal Top [Unplated] 
+   Violation between Un-Routed Net Constraint: Net SWCLK Between Pad U5-28(36.92mm,43.634mm) on Signal Top And Pad P1-4(42.23mm,32.35mm) on Signal Top [Unplated] 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (43.377mm,40.423mm)(43.377mm,40.423mm) on Signal Top And Pad P1-6(43.5mm,32.35mm) on Signal Top [Unplated] 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad P2-1(32.335mm,30.45mm) on Multi-Layer And Pad P3-1(34.875mm,27.125mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net BOOT0 Between Pad P2-2(29.795mm,30.45mm) on Multi-Layer And Pad R15-1(30.1mm,41.85mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2-3(27.255mm,30.45mm) on Multi-Layer And Pad R14-2(29.675mm,37.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net UART_RX Between Pad P3-2(32.335mm,27.125mm) on Multi-Layer And Pad U5-22(39.748mm,41.866mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net UART_TX Between Pad P3-3(29.795mm,27.125mm) on Multi-Layer And Pad U5-21(40.102mm,41.512mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad P4-11(93.837mm,121.852mm) on Multi-Layer And Pad P4-1(98.287mm,117.402mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad P4-12(98.287mm,121.852mm) on Multi-Layer And Pad U4B-10(106.35mm,87.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net CAN1_N Between Pad P4-5(80.487mm,117.402mm) on Multi-Layer And Pad U2-2(86.025mm,43.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_4 Between Pad P5-1(50.537mm,121.982mm) on Multi-Layer And Pad R7A-2(126.7mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_1 Between Pad P5-4(36.247mm,121.982mm) on Multi-Layer And Pad R7D-2(102.639mm,70.327mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad P5-5(36.247mm,126.402mm) on Multi-Layer And Pad P5-6(40.667mm,126.402mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad P5-6(40.667mm,126.402mm) on Multi-Layer And Pad P5-7(46.117mm,126.402mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad P5-7(46.117mm,126.402mm) on Multi-Layer And Pad P5-8(50.537mm,126.402mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R14-2(29.675mm,37.2mm) on Signal Top And Track (33mm,38.65mm)(33mm,38.653mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetR15_2 Between Pad R15-2(31.8mm,41.85mm) on Signal Top And Pad U5-35(34.445mm,41.159mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R16-1(106.4mm,31.2mm) on Signal Bottom And Pad U6-3(119.13mm,30.255mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R8A-1(128.4mm,94.4mm) on Signal Top And Pad R5A-1(140.4mm,93.75mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R5B-1(110.8mm,94mm) on Signal Top And Pad R8A-1(128.4mm,94.4mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R8B-1(98.7mm,94.6mm) on Signal Top And Pad R5B-1(110.8mm,94mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R5C-1(78.375mm,94.05mm) on Signal Top And Pad R8B-1(98.7mm,94.6mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad R8C-1(66.3mm,94.5mm) on Signal Top And Pad R5C-1(78.375mm,94.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetR4C_2 Between Track (76.075mm,93.85mm)(76.075mm,96.45mm) on Signal Top And Pad R5C-2(78.375mm,92.15mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1A_A Between Via (134.15mm,89.45mm) from Signal Top to Signal Bottom And Pad R6A-1(141.7mm,90.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1B_A Between Via (104.5mm,89.7mm) from Signal Top to Signal Bottom And Pad R6B-1(112mm,90.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1C_A Between Via (72.075mm,89.75mm) from Signal Top to Signal Bottom And Pad R6C-1(79.575mm,90.35mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetR6C_2 Between Pad U4C-13(73.925mm,89.95mm) on Signal Top And Pad R6C-2(77.875mm,90.35mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1D_A Between Via (109.95mm,72.727mm) from Signal Top to Signal Bottom And Pad R6D-1(117.539mm,73.327mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_4 Between Pad R7A-2(126.7mm,87.05mm) on Signal Top And Pad U4A-6(130.1mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_3 Between Pad R7B-2(97.1mm,87.3mm) on Signal Top And Pad U4B-6(100.45mm,87.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_2 Between Pad R7C-2(64.675mm,87.35mm) on Signal Top And Pad U4C-6(68.025mm,87.35mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_1 Between Pad R7D-2(102.639mm,70.327mm) on Signal Top And Pad U4D-6(105.9mm,70.327mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad U8-2(66.35mm,33.9mm) on Multi-Layer And Pad U1-5(69.125mm,43.395mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net _CAN1_N Between Pad U1-6(69.125mm,44.665mm) on Signal Top And Pad U3-1(76.675mm,43.775mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net _CAN1_P Between Pad U1-7(69.125mm,45.935mm) on Signal Top And Pad U3-2(76.675mm,45.675mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net _CAN1_N Between Pad U3-1(76.675mm,43.775mm) on Signal Top And Pad U2-3(81.475mm,43.2mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net _CAN1_P Between Pad U3-2(76.675mm,45.675mm) on Signal Top And Pad U2-4(81.475mm,45.7mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4A-9(136mm,87.05mm) on Signal Top And Pad U4A-10(136mm,87.7mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetR4A_2 Between Track (122.439mm,87.05mm)(125.05mm,87.05mm) on Signal Top And Pad U4A-14(136mm,90.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1A_A Between Pad U4A-2(130.1mm,89.65mm) on Signal Top And Via (131.95mm,89.45mm) from Signal Top to Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VOUT_4 Between Pad U4A-6(130.1mm,87.05mm) on Signal Top And Pad U4A-5(130.1mm,87.7mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_4 Between Pad U4A-7(130.1mm,86.4mm) on Signal Top And Pad U4A-6(130.1mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4A-8(136mm,86.4mm) on Signal Top And Pad U4A-9(136mm,87.05mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4B-9(106.35mm,87.3mm) on Signal Top And Pad U4B-10(106.35mm,87.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1B_A Between Pad U4B-2(100.45mm,89.9mm) on Signal Top And Via (102.3mm,89.7mm) from Signal Top to Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VOUT_3 Between Pad U4B-6(100.45mm,87.3mm) on Signal Top And Pad U4B-5(100.45mm,87.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_3 Between Pad U4B-7(100.45mm,86.65mm) on Signal Top And Pad U4B-6(100.45mm,87.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4B-8(106.35mm,86.65mm) on Signal Top And Pad U4B-9(106.35mm,87.3mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4C-9(73.925mm,87.35mm) on Signal Top And Pad U4C-10(73.925mm,88mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1C_A Between Pad U4C-2(68.025mm,89.95mm) on Signal Top And Via (69.875mm,89.75mm) from Signal Top to Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VOUT_2 Between Pad U4C-6(68.025mm,87.35mm) on Signal Top And Pad U4C-5(68.025mm,88mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_2 Between Pad U4C-5(68.025mm,88mm) on Signal Top And Track (73.925mm,89.95mm)(75.675mm,89.95mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_2 Between Pad U4C-7(68.025mm,86.7mm) on Signal Top And Pad U4C-6(68.025mm,87.35mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4C-8(73.925mm,86.7mm) on Signal Top And Pad U4C-9(73.925mm,87.35mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4D-9(111.8mm,70.327mm) on Signal Top And Pad U4D-10(111.8mm,70.977mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net NetD1D_A Between Pad U4D-2(105.9mm,72.927mm) on Signal Top And Via (107.75mm,72.727mm) from Signal Top to Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VOUT_1 Between Pad U4D-6(105.9mm,70.327mm) on Signal Top And Pad U4D-5(105.9mm,70.977mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_1 Between Pad U4D-7(105.9mm,69.677mm) on Signal Top And Pad U4D-6(105.9mm,70.327mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net GLV+ Between Pad U4D-8(111.8mm,69.677mm) on Signal Top And Pad U4D-9(111.8mm,70.327mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U5-1(34.091mm,39.745mm) on Signal Top And Track (40.809mm,40.805mm)(41.109mm,41.106mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad U7-11(83.465mm,37.2mm) on Signal Bottom And Pad U7-10(84.86mm,36.2mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net 0V Between Pad U7-5(82.07mm,38.2mm) on Signal Bottom And Pad U7-11(83.465mm,37.2mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Track (113.95mm,76.827mm)(113.95mm,79.427mm) on Signal Top Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (138.15mm,93.55mm)(138.15mm,96.15mm) on Signal Top Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (33.484mm,41.412mm)(34.091mm,40.805mm) on Signal Top And Track (34.398mm,37.152mm)(34.398mm,37.223mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (33.484mm,41.412mm)(34.091mm,40.805mm) on Signal Top And Track (38.334mm,43.301mm)(38.874mm,43.841mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (33mm,38.65mm)(33mm,38.653mm) on Signal Top And Track (35.533mm,36.017mm)(35.533mm,37.581mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (37.958mm,44.238mm)(37.958mm,46.142mm) on Signal Top And Track (40.809mm,40.805mm)(41.109mm,41.106mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (38.334mm,43.301mm)(38.874mm,43.841mm) on Signal Top And Track (40.809mm,39.745mm)(40.87mm,39.745mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Track (51.37mm,51.67mm)(51.37mm,53.625mm) on Signal Top Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (51.3mm,51.6mm)(51.37mm,51.67mm) on Signal Top Dead Copper - Net Not Assigned.
+Rule Violations :228
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=3mm) (Preferred=0.152mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.8mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Room High-Side Driver Enable Pin Isolator (Bounding Region = (38.2mm, 50.2mm, 49.5mm, 66.4mm) (InComponentClass('High-Side Driver Enable Pin Isolator'))
+Rule Violations :0
+
+Processing Rule : Room HSD1A (Bounding Region = (119.2mm, 84.3mm, 142.7mm, 97.1mm) (InComponentClass('HSD1A'))
+Rule Violations :0
+
+Processing Rule : Room Contoller Peripheral Comms Isolation (Bounding Region = (25.9mm, 50.2mm, 37.2mm, 66.4mm) (InComponentClass('Contoller Peripheral Comms Isolation'))
+Rule Violations :0
+
+Processing Rule : Room ADC1 (Bounding Region = (63.9mm, 60mm, 89mm, 64.9mm) (InComponentClass('ADC1'))
+Rule Violations :0
+
+Processing Rule : Room CAN (Bounding Region = (55.4mm, 40.3mm, 87.5mm, 50.2mm) (InComponentClass('CAN'))
+Rule Violations :0
+
+Processing Rule : Room HSD1B (Bounding Region = (89.6mm, 84.6mm, 113mm, 97.3mm) (InComponentClass('HSD1B'))
+Rule Violations :0
+
+Processing Rule : Room Microcontroller (Bounding Region = (25.6mm, 25.4mm, 52mm, 49.6mm) (InComponentClass('Microcontroller'))
+Rule Violations :0
+
+Processing Rule : Room TopLevel (Bounding Region = (24.7mm, 115mm, 108.3mm, 149.9mm) (InComponentClass('TopLevel'))
+Rule Violations :0
+
+Processing Rule : Room HSD1D (Bounding Region = (95mm, 67.5mm, 118.5mm, 80.3mm) (InComponentClass('HSD1D'))
+Rule Violations :0
+
+Processing Rule : Room HSD1C (Bounding Region = (57.2mm, 84.4mm, 80.6mm, 97.3mm) (InComponentClass('HSD1C'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 248
+Waived Violations : 0
+Time Elapsed        : 00:00:02
