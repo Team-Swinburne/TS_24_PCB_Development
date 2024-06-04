@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=SNS2 Pin=ADC1-3
+Removed Pin From Net: NetName=DIAG_EN2 Pin=ADC1-4
+Removed Pin From Net: NetName=SNS1 Pin=ADC1-5
+Removed Pin From Net: NetName=DIAG_EN1 Pin=ADC1-6
+Change Component Designator: OldDesignator=l NewDesignator=C21
+Added Pin To Net: NetName=SNS1 Pin=ADC1-3
+Added Pin To Net: NetName=DIAG_EN1 Pin=ADC1-4
+Added Pin To Net: NetName=SNS2 Pin=ADC1-5
+Added Pin To Net: NetName=DIAG_EN2 Pin=ADC1-6
