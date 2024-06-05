@@ -1,0 +1,66 @@
+Change Component Comment : Designator=D10A Old Comment= New Comment=Red
+Change Component Comment : Designator=D10B Old Comment= New Comment=Red
+Change Component Comment : Designator=D10C Old Comment= New Comment=Red
+Change Component Comment : Designator=D10D Old Comment= New Comment=Red
+Change Component Comment : Designator=R21A Old Comment=Value New Comment=10k
+Change Component Comment : Designator=R21B Old Comment=Value New Comment=10k
+Change Component Comment : Designator=R21C Old Comment=Value New Comment=10k
+Change Component Comment : Designator=R21D Old Comment=Value New Comment=10k
+Change Component Designator: OldDesignator=ADCA NewDesignator=ADC1A
+Change Component Designator: OldDesignator=ADCB NewDesignator=ADC1B
+Change Component Designator: OldDesignator=P4 NewDesignator=P5
+Change Component Designator: OldDesignator=P5 NewDesignator=P4
+Change component parameters: Designator = "D10A" ("D10"); Footprint = "0805 LED"; UniqueID = "\GURTHTOK\PBCPTVQX" ("\GURTHTOK\PBCPTVQX")
+Change component parameters (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "511-1286-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SML-210LTT86"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D10B" ("D10"); Footprint = "0805 LED"; UniqueID = "\QRDNGWOG\PBCPTVQX" ("\QRDNGWOG\PBCPTVQX")
+Change component parameters (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "511-1286-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SML-210LTT86"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D10C" ("D10"); Footprint = "0805 LED"; UniqueID = "\ABJZHAZZ\PBCPTVQX" ("\ABJZHAZZ\PBCPTVQX")
+Change component parameters (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "511-1286-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SML-210LTT86"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D10D" ("D10"); Footprint = "0805 LED"; UniqueID = "\PGWXHYWS\PBCPTVQX" ("\PGWXHYWS\PBCPTVQX")
+Change component parameters (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "511-1286-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "ROHM Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "SML-210LTT86"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21A" ("R21"); Footprint = "0603"; UniqueID = "\GURTHTOK\LWIRVTRT" ("\GURTHTOK\LWIRVTRT")
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21B" ("R21"); Footprint = "0603"; UniqueID = "\QRDNGWOG\LWIRVTRT" ("\QRDNGWOG\LWIRVTRT")
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21C" ("R21"); Footprint = "0603"; UniqueID = "\ABJZHAZZ\LWIRVTRT" ("\ABJZHAZZ\LWIRVTRT")
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21D" ("R21"); Footprint = "0603"; UniqueID = "\PGWXHYWS\LWIRVTRT" ("\PGWXHYWS\LWIRVTRT")
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetADCA_8 New Net Name=NetADC1A_8
+Change Net Name : Old Net Name=NetADCB_8 New Net Name=NetADC1B_8

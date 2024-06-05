@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=LATCHB Pin=ADC1A-1
+Removed Pin From Net: NetName=FAULTA Pin=ADC1A-4
+Removed Pin From Net: NetName=LATCHA Pin=ADC1A-5
+Removed Pin From Net: NetName=FAULTB Pin=ADC1A-16
+Removed Pin From Net: NetName=LATCHD Pin=ADC1B-1
+Removed Pin From Net: NetName=FAULTC Pin=ADC1B-4
+Removed Pin From Net: NetName=LATCHC Pin=ADC1B-5
+Removed Pin From Net: NetName=FAULTD Pin=ADC1B-16
+Added Pin To Net: NetName=FAULTB Pin=ADC1A-1
+Added Pin To Net: NetName=LATCHA Pin=ADC1A-4
+Added Pin To Net: NetName=FAULTA Pin=ADC1A-5
+Added Pin To Net: NetName=LATCHB Pin=ADC1A-16
+Added Pin To Net: NetName=FAULTD Pin=ADC1B-1
+Added Pin To Net: NetName=LATCHC Pin=ADC1B-4
+Added Pin To Net: NetName=FAULTC Pin=ADC1B-5
+Added Pin To Net: NetName=LATCHD Pin=ADC1B-16
+Added Member To Class: ClassName=Microcontroller Member=Component P5 2.54mm
