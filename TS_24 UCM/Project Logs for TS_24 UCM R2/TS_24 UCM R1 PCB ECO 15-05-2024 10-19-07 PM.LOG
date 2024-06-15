@@ -1,0 +1,39 @@
+Added Component: Designator=C21(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "490-6123-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM0335C1H220JA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Rating"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C36(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "490-6123-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "GRM0335C1H220JA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Rating"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=X1(ECS-80-18-30-JGN-TR)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com/en/products/detail/ecs-inc/ECS-80-18-30-JGN-TR/5875530"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "XC2103CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR"; Value = "100R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Load Capacitance"; Value = "18pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ECS Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ECS-80-18-30-JGN-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "8MHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=NetC21_2 Pin=U6-2
+Added Pin To Net: NetName=NetC21_2 Pin=X1-1
+Added Net: Name=NetC21_2
+Added Pin To Net: NetName=NetC36_2 Pin=C36-2
+Added Pin To Net: NetName=NetC36_2 Pin=U6-3
+Added Pin To Net: NetName=NetC36_2 Pin=X1-2
+Added Net: Name=NetC36_2
+Added Member To Class: ClassName=U_Microcontroller Member=Component C21 22pF
+Added Member To Class: ClassName=U_Microcontroller Member=Component C36 22pF
+Added Member To Class: ClassName=U_Microcontroller Member=Component X1 8MHz
