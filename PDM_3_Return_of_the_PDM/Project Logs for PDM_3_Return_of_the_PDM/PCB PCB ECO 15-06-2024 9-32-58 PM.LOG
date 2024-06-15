@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=GLV- Pin=P5-1
+Removed Pin From Net: NetName=GLV- Pin=P5-2
+Removed Pin From Net: NetName=GLV- Pin=P5-3
+Removed Pin From Net: NetName=GLV- Pin=P5-4
+Removed Pin From Net: NetName=VOUT_4 Pin=P5-5
+Removed Pin From Net: NetName=VOUT_3 Pin=P5-6
+Removed Pin From Net: NetName=VOUT_2 Pin=P5-7
+Removed Pin From Net: NetName=VOUT_1 Pin=P5-8
+Added Pin To Net: NetName=VOUT_4 Pin=P5-1
+Added Pin To Net: NetName=VOUT_3 Pin=P5-2
+Added Pin To Net: NetName=VOUT_2 Pin=P5-3
+Added Pin To Net: NetName=VOUT_1 Pin=P5-4
+Added Pin To Net: NetName=GLV- Pin=P5-5
+Added Pin To Net: NetName=GLV- Pin=P5-6
+Added Pin To Net: NetName=GLV- Pin=P5-7
+Added Pin To Net: NetName=GLV- Pin=P5-8
+Change Class Name : Old Net Name=Power Supply2 New Net Name=Power Supply
+Added Member To Class: ClassName=Power Supply Member=Component C21 10uF
+Added Member To Class: ClassName=Power Supply Member=Component C24 100nF
+Added Member To Class: ClassName=Power Supply Member=Component C25 100nF
+Added Member To Class: ClassName=Power Supply Member=Component C26 47uF
+Added Member To Class: ClassName=Power Supply Member=Component C35 10uF
+Added Member To Class: ClassName=Power Supply Member=Component C36 10uF
+Added Member To Class: ClassName=Power Supply Member=Component D6 PMEG100T10ELR-QX
+Added Member To Class: ClassName=Power Supply Member=Component D8 SM6T36CAY
+Added Member To Class: ClassName=Power Supply Member=Component D10 Red
+Added Member To Class: ClassName=Power Supply Member=Component F1 0ZCF0100AF2A
+Added Member To Class: ClassName=Power Supply Member=Component L3 12uH
+Added Member To Class: ClassName=Power Supply Member=Component R16 20K
+Added Member To Class: ClassName=Power Supply Member=Component R19 1k
+Added Member To Class: ClassName=Power Supply Member=Component U6 744272121
+Added Member To Class: ClassName=Power Supply Member=Component U8 RK-053.3S/H6
+Change Room Name: Old Name=24V-5V REG New Name=Power Supply
+Change Room Scope: Old Scope=InComponentClass('Power Supply2') New Scope=InComponentClass('Power Supply')
