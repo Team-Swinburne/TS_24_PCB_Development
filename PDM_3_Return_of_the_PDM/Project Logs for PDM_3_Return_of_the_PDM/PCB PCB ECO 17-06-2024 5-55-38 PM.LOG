@@ -1,0 +1,79 @@
+Removed Pin From Net: NetName=0V Pin=C27-1
+Removed Pin From Net: NetName=VBAT_F Pin=C27-2
+Removed Pin From Net: NetName=0V Pin=C31-1
+Removed Pin From Net: NetName=5V Pin=C31-2
+Removed Pin From Net: NetName=0V Pin=C33-1
+Removed Pin From Net: NetName=5V Pin=C33-2
+Removed Pin From Net: NetName=0V Pin=C34-1
+Removed Pin From Net: NetName=5V Pin=C34-2
+Removed Pin From Net: NetName=GLV- Pin=P4-1
+Removed Pin From Net: NetName=5V Pin=R17-1
+Removed Pin From Net: NetName=5V Pin=U7-4
+Removed Pin From Net: NetName=0V Pin=U7-5
+Removed Pin From Net: NetName=VBAT_F Pin=U7-7
+Removed Pin From Net: NetName=VBAT_F Pin=U7-8
+Removed Pin From Net: NetName=VBAT_F Pin=U7-9
+Removed Pin From Net: NetName=0V Pin=U7-10
+Removed Pin From Net: NetName=0V Pin=U7-11
+Removed Member From Class: ClassName=Power Supply Member=C33
+Removed Member From Class: ClassName=Power Supply Member=C34
+Removed Member From Class: ClassName=Power Supply Member=C35
+Removed Member From Class: ClassName=Power Supply Member=C36
+Removed Member From Class: ClassName=Power Supply Member=R19
+Change Footprint: Footprint Not Found 0603
+Change Footprint: Footprint Not Found 0805
+Change Footprint: Footprint Not Found TI-SOT23-6
+Change Component Comment : Designator=C30 Old Comment=1µF New Comment=10uF
+Change Component Comment : Designator=C28 Old Comment=4.7uF New Comment=2.2uF
+Change Component Comment : Designator=C27 Old Comment=4.7uF New Comment=100nF
+Change Component Comment : Designator=U7 Old Comment=LM536015QDSXRQ1 New Comment=LMR50410Y5FQDBVRQ1
+Change Component Designator: OldDesignator=C35 NewDesignator=C31
+Change Component Designator: OldDesignator=C36 NewDesignator=C32
+Change Component Designator: OldDesignator=R18 NewDesignator=R17
+Change Component Designator: OldDesignator=R19 NewDesignator=R18
+Change component parameters: Designator = "C27" ("C27"); Footprint = "1206 CAP"; UniqueID = "\FBAZFRPN\ZNHDXXMS" ("\FBAZFRPN\ZNHDXXMS")
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "490-6049-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "muRata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "GCM188L81H104KA57D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Rating"; Value = "X8L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C28" ("C28"); Footprint = "1206 CAP"; UniqueID = "\FBAZFRPN\JGKJPREF" ("\FBAZFRPN\JGKJPREF")
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "490-14467-2-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "GRM21BR71E225KE11L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Rating"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C30" ("C30"); Footprint = "0805"; UniqueID = "\FBAZFRPN\UQZLRMIR" ("\FBAZFRPN\UQZLRMIR")
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "490-10514-6-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "muRata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material"; Value = "MLCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "GRM21BR6YA106KE43L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Rating"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U7" ("U7"); Footprint = "TI_10_WSON"; UniqueID = "\FBAZFRPN\NXISIUZB" ("\FBAZFRPN\NXISIUZB")
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "296-LMR50410Y5FQDBVRQ1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Voltage"; Value = "4-36V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Current"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Voltage"; Value = "5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LMR50410-Q1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=C30-2
+Added Pin To Net: NetName=0V Pin=U7-2
+Added Pin To Net: NetName=5V Pin=U7-3
+Added Pin To Net: NetName=VBAT_F Pin=U7-4
+Added Pin To Net: NetName=VBAT_F Pin=U7-5
+Added Pin To Net: NetName=NetC27_1 Pin=C27-1
+Added Pin To Net: NetName=NetC27_1 Pin=L2-2
+Added Pin To Net: NetName=NetC27_1 Pin=U7-6
+Added Net: Name=NetC27_1
+Added Pin To Net: NetName=NetC27_2 Pin=C27-2
+Added Pin To Net: NetName=NetC27_2 Pin=U7-1
+Added Net: Name=NetC27_2

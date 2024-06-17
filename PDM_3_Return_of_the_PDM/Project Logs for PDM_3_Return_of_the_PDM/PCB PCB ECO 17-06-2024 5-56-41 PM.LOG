@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=C27 Old Footprint=1206 CAP New Footprint=0603
+Change Component Footprint: Designator=C28 Old Footprint=1206 CAP New Footprint=0805
+Change Component Footprint: Designator=U7 Old Footprint=TI_10_WSON New Footprint=TI-SOT23-6
+Added Member To Class: ClassName=Power Supply Member=Component C31 10uF
+Added Member To Class: ClassName=Power Supply Member=Component C32 10uF
+Added Member To Class: ClassName=Power Supply Member=Component R17 2K
+Added Member To Class: ClassName=Power Supply Member=Component R18 1k

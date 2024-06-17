@@ -1,52 +1,44 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\lwjde\Documents\GitHub\TS_24_PCB_Development\TS_24 PDM_2\PCB.PcbDoc
-Date     : 15/06/2024
-Time     : 9:20:11 PM
+Date     : 17/06/2024
+Time     : 5:51:08 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
-   Violation between Clearance Constraint: (0.459mm < 0.6mm) Between Polygon Region (56 hole(s)) Signal Top And Via (55.3mm,113.3mm) from Signal Top to Signal Bottom 
-   Violation between Clearance Constraint: (0.05mm < 0.6mm) Between Polygon Region (66 hole(s)) Int1 (GND) And Via (55.3mm,113.3mm) from Signal Top to Signal Bottom 
-   Violation between Clearance Constraint: (0.05mm < 0.6mm) Between Polygon Region (70 hole(s)) Int2 (PWR) And Via (55.3mm,113.3mm) from Signal Top to Signal Bottom 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Pad P5-5(36.447mm,116.002mm) on Multi-Layer And Track (36.192mm,115.747mm)(36.447mm,116.002mm) on Signal Bottom 
+   Violation between Clearance Constraint: (Collision < 0.2mm) Between Pad P5-7(46.317mm,116.002mm) on Multi-Layer And Track (46.317mm,116.002mm)(46.317mm,116.002mm) on Signal Bottom 
+   Violation between Clearance Constraint: (0.125mm < 0.203mm) Between Region (0 hole(s)) Signal Top And Via (25.7mm,60.5mm) from Signal Top to Signal Bottom 
 Rule Violations :3
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
+   Violation between Short-Circuit Constraint: Between Pad P5-5(36.447mm,116.002mm) on Multi-Layer And Track (36.192mm,115.747mm)(36.447mm,116.002mm) on Signal Bottom Location : [X = 36.319mm][Y = 115.875mm]
+   Violation between Short-Circuit Constraint: Between Pad P5-7(46.317mm,116.002mm) on Multi-Layer And Track (46.317mm,116.002mm)(46.317mm,116.002mm) on Signal Bottom Location : [X = 46.317mm][Y = 116.002mm]
+Rule Violations :2
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net 0V Between Pad C11-1(34.465mm,76.635mm) on Signal Top And Pad ISO1-9(35.735mm,72.378mm) on Signal Top 
-   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C12B-1(66.562mm,81.174mm) on Signal Bottom And Pad C14B-1(68.539mm,97.835mm) on Signal Bottom 
    Violation between Un-Routed Net Constraint: Net GLV- Between Pad C12B-1(66.562mm,81.174mm) on Signal Bottom And Track (78.2mm,80.933mm)(78.2mm,81.1mm) on Signal Bottom 
    Violation between Un-Routed Net Constraint: Net GLV- Between Pad C12D-1(35.223mm,85.4mm) on Signal Bottom And Pad C12C-1(46.826mm,85.374mm) on Signal Bottom 
-   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C12C-1(46.826mm,85.374mm) on Signal Bottom And Pad C14C-1(48.803mm,102.035mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Pad C12D-1(35.223mm,85.4mm) on Signal Bottom And Pad C14D-1(37.2mm,102.061mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Track (78.2mm,80.933mm)(78.2mm,81.1mm) on Signal Bottom And Pad C14A-1(80.177mm,97.761mm) on Signal Bottom 
    Violation between Un-Routed Net Constraint: Net GLV- Between Pad C25-1(99.6mm,81.7mm) on Signal Top And Pad U6-4(100.9mm,76.72mm) on Signal Top 
-   Violation between Un-Routed Net Constraint: Net 0V Between Pad C3-1(52.088mm,96.124mm) on Signal Top And Via (52.088mm,97.788mm) from Signal Top to Signal Bottom 
-   Violation between Un-Routed Net Constraint: Net CAN1_N Between Track (90.025mm,101.225mm)(90.25mm,101.225mm) on Signal Top And Pad C6-2(92.2mm,101.3mm) on Signal Top 
-   Violation between Un-Routed Net Constraint: Net 0V Between Track (85.8mm,95.5mm)(85.845mm,95.545mm) on Signal Top And Pad C7-1(85.875mm,99.475mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net CAN1_N Between Pad U2-2(90.25mm,101.225mm) on Signal Top And Pad C6-2(92.2mm,101.3mm) on Signal Top 
    Violation between Un-Routed Net Constraint: Net CAN1_P Between Pad C7-2(85.875mm,101.175mm) on Signal Top And Pad U2-1(87.75mm,101.225mm) on Signal Top 
    Violation between Un-Routed Net Constraint: Net GLV- Between Pad P4-1(98.659mm,107.002mm) on Multi-Layer And Pad D8-K(100.9mm,89.1mm) on Signal Bottom 
    Violation between Un-Routed Net Constraint: Net GLV- Between Via (99.6mm,83.3mm) from Signal Top to Signal Bottom And Pad D8-K(100.9mm,89.1mm) on Signal Bottom 
-   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad P1-6(55.7mm,46.44mm) on Signal Top [Unplated] And Pad P1-5(59.6mm,46.44mm) on Signal Top [Unplated] 
-   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad P3-1(50.6mm,49.74mm) on Multi-Layer And Pad P1-6(55.7mm,46.44mm) on Signal Top [Unplated] 
-   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Pad P2-1(27.1mm,47.94mm) on Multi-Layer And Track (34.648mm,46.277mm)(34.648mm,46.277mm) on Signal Top 
-   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (46.6mm,46.2mm)(46.6mm,46.2mm) on Signal Top And Pad P3-1(50.6mm,49.74mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (41.184mm,49.726mm)(41.978mm,50.52mm) on Signal Top And Pad U5-18(43.659mm,46.17mm) on Signal Top 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U5-27(40.83mm,50.059mm) on Signal Top And Track (43.659mm,47.23mm)(44.292mm,47.864mm) on Signal Top 
-   Violation between Un-Routed Net Constraint: Net 0V_(ISO) Between Track (36.334mm,47.837mm)(36.941mm,47.23mm) on Signal Top And Pad U5-5(38.355mm,44.755mm) on Signal Top 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U5-6(38.709mm,44.402mm) on Signal Top And Track (43.659mm,47.23mm)(44.292mm,47.864mm) on Signal Top 
+   Violation between Un-Routed Net Constraint: Net VOUT_1 Between Pad P5-1(50.737mm,111.582mm) on Multi-Layer And Pad R7A-2(78.25mm,96.061mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VOUT_2 Between Pad P5-2(46.317mm,111.582mm) on Multi-Layer And Track (46.317mm,116.002mm)(46.317mm,116.002mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VOUT_2 Between Pad P5-2(46.317mm,111.582mm) on Multi-Layer And Via (55.3mm,113.3mm) from Signal Top to Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VOUT_2 Between Via (55.3mm,113.3mm) from Signal Top to Signal Bottom And Pad R7B-2(66.612mm,96.135mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net VOUT_4 Between Track (36.192mm,115.747mm)(36.447mm,116.002mm) on Signal Bottom And Track (36.518mm,111.582mm)(38.8mm,109.3mm) on Signal Bottom 
+   Violation between Un-Routed Net Constraint: Net GLV- Between Via (48.803mm,103.537mm) from Signal Top to Signal Bottom And Track (68.539mm,97.835mm)(68.539mm,100.838mm) on Signal Bottom 
    Violation between Un-Routed Net Constraint: Net GLV+ Between Track (77.6mm,85.475mm)(78.225mm,84.85mm) on Signal Bottom And Track (79.277mm,82.8mm)(79.29mm,82.787mm) on Int2 (PWR) 
-Rule Violations :21
+   Violation between Un-Routed Net Constraint: Net GLV- Between Via (68.521mm,99.355mm) from Signal Top to Signal Bottom And Track (80.115mm,100.826mm)(80.177mm,100.764mm) on Signal Bottom 
+Rule Violations :17
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.127mm) (Max=3mm) (Preferred=0.152mm) (All)
-   Violation between Width Constraint: Track (70.7mm,75.7mm)(78.3mm,75.7mm) on Signal Bottom Actual Width = 4mm, Target Width = 3mm
-   Violation between Width Constraint: Track (78.3mm,75.7mm)(83.2mm,80.6mm) on Signal Bottom Actual Width = 4mm, Target Width = 3mm
-   Violation between Width Constraint: Track (83.2mm,80.6mm)(97.2mm,94.6mm) on Signal Bottom Actual Width = 6mm, Target Width = 3mm
-   Violation between Width Constraint: Track (97.2mm,94.6mm)(97.2mm,99.846mm) on Signal Bottom Actual Width = 6mm, Target Width = 3mm
-   Violation between Width Constraint: Track (97.2mm,99.846mm)(98.804mm,101.45mm) on Signal Bottom Actual Width = 6mm, Target Width = 3mm
-   Violation between Width Constraint: Track (98.804mm,101.45mm)(104.25mm,101.45mm) on Signal Bottom Actual Width = 6mm, Target Width = 3mm
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.8mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
@@ -55,8 +47,7 @@ Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
-   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Via (99.6mm,83.3mm) from Signal Top to Signal Bottom And Via (99.6mm,83.3mm) from Signal Top to Signal Bottom Pad/Via Touching Holes
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (Disabled)(All),(All)
 Rule Violations :0
@@ -70,20 +61,37 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (Disabled)(All)
 Rule Violations :0
 
-Processing Rule : Room 5V-3V3 (Bounding Region = (62.2mm, 43.9mm, 78.3mm, 67.7mm) (InComponentClass('Power Supply1'))
+Processing Rule : Room CAN (Bounding Region = (47.024mm, 54.374mm, 93.6mm, 102.5mm) (InComponentClass('CAN'))
 Rule Violations :0
 
-Processing Rule : Room Microcontroller (Bounding Region = (24.376mm, 38.956mm, 61.154mm, 58.343mm) (InComponentClass('Microcontroller'))
-   Violation between Room Definition: Between Room Microcontroller (Bounding Region = (24.376mm, 38.956mm, 61.154mm, 58.343mm) (InComponentClass('Microcontroller')) And SOIC Component P1-1.27mm (57.65mm,46.44mm) on Signal Top 
-Rule Violations :1
+Processing Rule : Room HSD1D (Bounding Region = (25.4mm, 83.3mm, 39.7mm, 106.3mm) (InComponentClass('HSD1D'))
+Rule Violations :0
 
 Processing Rule : Room HSD1A (Bounding Region = (68.377mm, 79mm, 82.677mm, 102mm) (InComponentClass('HSD1A'))
 Rule Violations :0
 
-Processing Rule : Room Contoller Peripheral Comms Isolation (Bounding Region = (25.651mm, 57.569mm, 36.878mm, 77.553mm) (InComponentClass('Contoller Peripheral Comms Isolation'))
+Processing Rule : Room TopLevel (Bounding Region = (24.963mm, 104.648mm, 108.589mm, 139.446mm) (InComponentClass('TopLevel'))
 Rule Violations :0
 
-Processing Rule : Room HSD1B (Bounding Region = (56.739mm, 79.074mm, 71.039mm, 102.074mm) (InComponentClass('HSD1B'))
+Processing Rule : Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply'))
+   Violation between Room Definition: Between Component U6-744272121 (100.9mm,69.1mm) on Signal Top And Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SIP Component U8-RK-053.3S/H6 (69.325mm,62.94mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component C21-10uF (91.2mm,69.4mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component C24-100nF (104.4mm,85.7mm) on Signal Bottom 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component C25-100nF (99.6mm,81.7mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component C26-47uF (95.2mm,83.9mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component C35-10uF (76.9mm,63.675mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component C36-10uF (72.624mm,51.862mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component D10-Red (73.6mm,47.7mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component D6-PMEG100T10ELR-QX (101.8mm,81.5mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component D8-SM6T36CAY (103.5mm,89.1mm) on Signal Bottom 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component F1-0ZCF0100AF2A (104.6mm,101.8mm) on Signal Bottom 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component L3-12uH (73.375mm,64.05mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component R16-20K (105.8mm,58.9mm) on Signal Top 
+   Violation between Room Definition: Between Room Power Supply (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply')) And SMT Small Component R19-1k (74.6mm,52.8mm) on Signal Top 
+Rule Violations :15
+
+Processing Rule : Room HSD1C (Bounding Region = (37.003mm, 83.274mm, 51.303mm, 106.274mm) (InComponentClass('HSD1C'))
 Rule Violations :0
 
 Processing Rule : Room High-Side Driver Enable Pin Isolator (Bounding Region = (37.909mm, 57.869mm, 49.135mm, 77.431mm) (InComponentClass('High-Side Driver Enable Pin Isolator'))
@@ -92,28 +100,19 @@ Rule Violations :0
 Processing Rule : Room ADC1 (Bounding Region = (49.55mm, 88.85mm, 59.05mm, 99.45mm) (InComponentClass('ADC1'))
 Rule Violations :0
 
-Processing Rule : Room IPT FILTER + PROC (Bounding Region = (89.869mm, 57.983mm, 108.051mm, 103.581mm) (InComponentClass('Power Supply'))
+Processing Rule : Room Contoller Peripheral Comms Isolation (Bounding Region = (25.651mm, 57.569mm, 36.878mm, 77.553mm) (InComponentClass('Contoller Peripheral Comms Isolation'))
 Rule Violations :0
 
-Processing Rule : Room 24V-5V REG (Bounding Region = (87.3mm, 40mm, 105mm, 66.9mm) (InComponentClass('Power Supply2'))
+Processing Rule : Room Microcontroller (Bounding Region = (25.125mm, 39.04mm, 76.162mm, 65.44mm) (InComponentClass('Microcontroller'))
 Rule Violations :0
 
-Processing Rule : Room TopLevel (Bounding Region = (24.963mm, 104.648mm, 108.589mm, 139.446mm) (InComponentClass('TopLevel'))
-Rule Violations :0
-
-Processing Rule : Room HSD1C (Bounding Region = (37.003mm, 83.274mm, 51.303mm, 106.274mm) (InComponentClass('HSD1C'))
-Rule Violations :0
-
-Processing Rule : Room HSD1D (Bounding Region = (25.4mm, 83.3mm, 39.7mm, 106.3mm) (InComponentClass('HSD1D'))
-Rule Violations :0
-
-Processing Rule : Room CAN (Bounding Region = (47.024mm, 54.374mm, 93.6mm, 102.5mm) (InComponentClass('CAN'))
+Processing Rule : Room HSD1B (Bounding Region = (56.739mm, 79.074mm, 71.039mm, 102.074mm) (InComponentClass('HSD1B'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 32
+Violations Detected : 37
 Waived Violations : 0
 Time Elapsed        : 00:00:01
