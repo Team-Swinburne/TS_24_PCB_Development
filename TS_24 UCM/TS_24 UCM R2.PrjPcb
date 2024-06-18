@@ -98,7 +98,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RSDVPVIC
 
 [Document4]
 DocumentPath=Digital_Outputs.SchDoc
@@ -1207,7 +1207,7 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0

@@ -1,0 +1,52 @@
+Added Component: Designator=R20(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R21(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R22(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R23(0603)
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-10.0KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "FR-07"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=IO-1 Pin=R20-1
+Added Pin To Net: NetName=IO-2 Pin=R21-1
+Added Pin To Net: NetName=IO-3 Pin=R22-1
+Added Pin To Net: NetName=IO-4 Pin=R23-1
+Added Pin To Net: NetName=NetR20_2 Pin=R20-2
+Added Pin To Net: NetName=NetR20_2 Pin=U6-14
+Added Net: Name=NetR20_2
+Added Pin To Net: NetName=NetR21_2 Pin=R21-2
+Added Pin To Net: NetName=NetR21_2 Pin=U6-13
+Added Net: Name=NetR21_2
+Added Pin To Net: NetName=NetR22_2 Pin=R22-2
+Added Pin To Net: NetName=NetR22_2 Pin=U6-12
+Added Net: Name=NetR22_2
+Added Pin To Net: NetName=NetR23_2 Pin=R23-2
+Added Pin To Net: NetName=NetR23_2 Pin=U6-11
+Added Net: Name=NetR23_2
+Added Member To Class: ClassName=U_Digital_Inputs Member=Component R20 10k
+Added Member To Class: ClassName=U_Digital_Inputs Member=Component R21 10k
+Added Member To Class: ClassName=U_Digital_Inputs Member=Component R22 10k
+Added Member To Class: ClassName=U_Digital_Inputs Member=Component R23 10k
