@@ -1,0 +1,72 @@
+Added Component: Designator=HV+ PROTECTED(39300020)
+Add component (AddParameter): Name = "Angle"; Value = "90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM21351-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39300020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=HV+(39300020)
+Add component (AddParameter): Name = "Angle"; Value = "90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM21351-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39300020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=HV- PROTECTED(39300020)
+Add component (AddParameter): Name = "Angle"; Value = "90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM21351-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39300020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=HV-(39300020)
+Add component (AddParameter): Name = "Angle"; Value = "90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM21351-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39300020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=R3(TE_SMF7)
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Metal Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SMF715KJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "7W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15k"; VariantName = "[No Variations]"
+Added Component: Designator=R4(TE_SMF7)
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Metal Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "SMF715KJ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Power"; Value = "7W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "15k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HV+_IN Pin=HV+-1
+Added Pin To Net: NetName=HV+_IN Pin=HV+-2
+Added Pin To Net: NetName=HV+_IN Pin=R3-2
+Added Net: Name=HV+_IN
+Added Pin To Net: NetName=HV+_PROT Pin=HV+ PROTECTED-1
+Added Pin To Net: NetName=HV+_PROT Pin=HV+ PROTECTED-2
+Added Pin To Net: NetName=HV+_PROT Pin=R3-1
+Added Net: Name=HV+_PROT
+Added Pin To Net: NetName=HV-_IN Pin=HV--1
+Added Pin To Net: NetName=HV-_IN Pin=HV--2
+Added Pin To Net: NetName=HV-_IN Pin=R4-2
+Added Net: Name=HV-_IN
+Added Pin To Net: NetName=HV-_PROT Pin=HV- PROTECTED-1
+Added Pin To Net: NetName=HV-_PROT Pin=HV- PROTECTED-2
+Added Pin To Net: NetName=HV-_PROT Pin=R4-1
+Added Net: Name=HV-_PROT
+Added Member To Class: ClassName=TopLevel Member=Component HV+ PROTECTED 39300020
+Added Member To Class: ClassName=TopLevel Member=Component HV+ 39300020
+Added Member To Class: ClassName=TopLevel Member=Component HV- PROTECTED 39300020
+Added Member To Class: ClassName=TopLevel Member=Component HV- 39300020
+Added Member To Class: ClassName=TopLevel Member=Component R3 15k
+Added Member To Class: ClassName=TopLevel Member=Component R4 15k

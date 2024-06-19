@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=CHARGE_SAFETY Pin=ACCUMULATOR PLUG-3
+Removed Pin From Net: NetName=CHARGE_GND_REF Pin=ACCUMULATOR PLUG-5
+Removed Pin From Net: NetName=AIR_PWR Pin=ACCUMULATOR PLUG-6
+Removed Pin From Net: NetName=12V Pin=ACCUMULATOR PLUG-11
+Removed Pin From Net: NetName=GND Pin=ACCUMULATOR PLUG-12
+Removed Pin From Net: NetName=CAN_1_P Pin=ACCUMULATOR PLUG-13
+Removed Pin From Net: NetName=CAN_1_N Pin=ACCUMULATOR PLUG-14
+Removed Pin From Net: NetName=CAN_2_N Pin=ACCUMULATOR PLUG-16
+Added Pin To Net: NetName=CAN_1_N Pin=ACCUMULATOR PLUG-3
+Added Pin To Net: NetName=AIR_PWR Pin=ACCUMULATOR PLUG-5
+Added Pin To Net: NetName=CHARGE_SAFETY Pin=ACCUMULATOR PLUG-6
+Added Pin To Net: NetName=CAN_1_P Pin=ACCUMULATOR PLUG-7
+Added Pin To Net: NetName=12V Pin=ACCUMULATOR PLUG-8
+Added Pin To Net: NetName=GND Pin=ACCUMULATOR PLUG-9
+Added Pin To Net: NetName=CAN_2_N Pin=ACCUMULATOR PLUG-11
+Added Pin To Net: NetName=CHARGE_GND_REF Pin=ACCUMULATOR PLUG-14
+Added Differential Pair: Name=CAN_1
+Added Differential Pair: Name=CAN_2

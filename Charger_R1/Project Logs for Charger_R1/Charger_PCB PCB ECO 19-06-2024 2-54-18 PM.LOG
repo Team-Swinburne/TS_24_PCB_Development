@@ -1,0 +1,54 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Added Component: Designator=CHARGER_DIGITAL(39300020)
+Add component (AddParameter): Name = "Angle"; Value = "90"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM21351-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39300020"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=K2(1860991-1)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/te-connectivity-potter-brumfield-relays/1860991-1/11192373"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "41-1860991-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "1860991-1"; VariantName = "[No Variations]"
+Added Component: Designator=K3(1860991-1)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/te-connectivity-potter-brumfield-relays/1860991-1/11192373"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "41-1860991-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "1860991-1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AIR_PWR Pin=ACCUMULATOR PLUG-4
+Added Pin To Net: NetName=GND Pin=CHARGE BUTTON-3
+Added Pin To Net: NetName=CHARGE_BUTTON_PWR Pin=CHARGE BUTTON-4
+Added Pin To Net: NetName=DISCHARGE RLY PWR Pin=DISCHARGE BUTTON-1
+Added Pin To Net: NetName=GND Pin=DISCHARGE BUTTON-3
+Added Pin To Net: NetName=CHARGE_SAFETY_PWR Pin=K1-1
+Added Pin To Net: NetName=CHARGE_SAFETY_PWR Pin=K1-4
+Added Pin To Net: NetName=CHARGE_BUTTON_PWR Pin=K1-8
+Added Pin To Net: NetName=CHARGE_SAFETY Pin=K1-16
+Added Pin To Net: NetName=CHARGE_BUTTON_OUT Pin=K2-1
+Added Pin To Net: NetName=CHARGE_BUTTON_PWR Pin=K2-4
+Added Pin To Net: NetName=CHARGE RLY PWR Pin=K2-8
+Added Pin To Net: NetName=CHARGE_BUTTON_OUT Pin=K2-9
+Added Pin To Net: NetName=CHARGE_SAFETY_PWR Pin=K2-13
+Added Pin To Net: NetName=GND Pin=K2-16
+Added Pin To Net: NetName=DISCHARGE RLY PWR Pin=K3-1
+Added Pin To Net: NetName=DISCHARGE RLY PWR Pin=K3-4
+Added Pin To Net: NetName=DISCHARGE RLY PWR Pin=K3-8
+Added Pin To Net: NetName=GND Pin=K3-16
+Added Pin To Net: NetName=CHARGE 5V Pin=CHARGER_DIGITAL-1
+Added Pin To Net: NetName=CHARGE 5V Pin=K1-13
+Added Net: Name=CHARGE 5V
+Added Pin To Net: NetName=CHARGE EN (CHARGER) Pin=CHARGER_DIGITAL-2
+Added Pin To Net: NetName=CHARGE EN (CHARGER) Pin=K1-9
+Added Net: Name=CHARGE EN (CHARGER)
+Added Pin To Net: NetName=DISCHARGE_RLY_PWR Pin=DISCHARGE BUTTON-2
+Added Pin To Net: NetName=DISCHARGE_RLY_PWR Pin=DISCHARGE BUTTON-4
+Added Pin To Net: NetName=DISCHARGE_RLY_PWR Pin=MODE SELECT-3
+Added Net: Name=DISCHARGE_RLY_PWR
+Added Member To Class: ClassName=TopLevel Member=Component CHARGER_DIGITAL 39300020
+Added Member To Class: ClassName=TopLevel Member=Component K2 1860991-1
+Added Member To Class: ClassName=TopLevel Member=Component K3 1860991-1
+Added Member To Class: ClassName=TopLevel Member=Component R1 120R

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=DISCHARGE RLY PWR Pin=DISCHARGE BUTTON-1
+Removed Pin From Net: NetName=DISCHARGE RLY PWR Pin=K3-1
+Removed Pin From Net: NetName=DISCHARGE RLY PWR Pin=K3-4
+Added Pin To Net: NetName=DISCHARGE_RLY_PWR Pin=K3-13
+Change Net Name : Old Net Name=DISCHARGE_RLY_PWR New Net Name=DISCHARGE_CONT_PWR
+Added Pin To Net: NetName=DISCHARGE_BUTTON_OUT Pin=DISCHARGE BUTTON-1
+Added Pin To Net: NetName=DISCHARGE_BUTTON_OUT Pin=K3-1
+Added Pin To Net: NetName=DISCHARGE_BUTTON_OUT Pin=K3-4
+Added Pin To Net: NetName=DISCHARGE_BUTTON_OUT Pin=K3-9
+Added Net: Name=DISCHARGE_BUTTON_OUT

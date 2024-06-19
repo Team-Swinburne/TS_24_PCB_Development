@@ -1,0 +1,37 @@
+Change Component Designator: OldDesignator=CHARGE RELAY  NewDesignator=CHARGE RELAY
+Added Component: Designator=K1(1860991-1)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/te-connectivity-potter-brumfield-relays/1860991-1/11192373"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "41-1860991-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "1860991-1"; VariantName = "[No Variations]"
+Added Component: Designator=K2(1860991-1)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/te-connectivity-potter-brumfield-relays/1860991-1/11192373"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "41-1860991-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "1860991-1"; VariantName = "[No Variations]"
+Added Component: Designator=K3(1860991-1)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/te-connectivity-potter-brumfield-relays/1860991-1/11192373"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "41-1860991-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "1860991-1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CHARGE_SAFETY_PWR Pin=K1-1
+Added Pin To Net: NetName=CHARGE_SAFETY_PWR Pin=K1-4
+Added Pin To Net: NetName=CHARGE_BUTTON_PWR Pin=K1-8
+Added Pin To Net: NetName=CHARGE EN (CHARGER) Pin=K1-9
+Added Pin To Net: NetName=CHARGE 5V Pin=K1-13
+Added Pin To Net: NetName=CHARGE_SAFETY Pin=K1-16
+Added Pin To Net: NetName=CHARGE_BUTTON_OUT Pin=K2-1
+Added Pin To Net: NetName=CHARGE_BUTTON_PWR Pin=K2-4
+Added Pin To Net: NetName=CHARGE RLY PWR Pin=K2-8
+Added Pin To Net: NetName=CHARGE_BUTTON_OUT Pin=K2-9
+Added Pin To Net: NetName=CHARGE_SAFETY_PWR Pin=K2-13
+Added Pin To Net: NetName=GND Pin=K2-16
+Added Pin To Net: NetName=DISCHARGE RLY PWR Pin=K3-1
+Added Pin To Net: NetName=DISCHARGE RLY PWR Pin=K3-4
+Added Pin To Net: NetName=DISCHARGE RLY PWR Pin=K3-8
+Added Pin To Net: NetName=GND Pin=K3-16
+Added Member To Class: ClassName=TopLevel Member=Component CHARGE RELAY 39293046
+Added Member To Class: ClassName=TopLevel Member=Component K1 1860991-1
+Added Member To Class: ClassName=TopLevel Member=Component K2 1860991-1
+Added Member To Class: ClassName=TopLevel Member=Component K3 1860991-1
+Added Member To Class: ClassName=TopLevel Member=Component MODE SELECT 39293046
