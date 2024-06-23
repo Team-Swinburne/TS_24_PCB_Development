@@ -1,0 +1,48 @@
+Removed Pin From Net: NetName=CHARGE 5V Pin=CHARGER_DIGITAL-1
+Removed Pin From Net: NetName=CHARGE EN (CHARGER) Pin=CHARGER_DIGITAL-2
+Removed Pin From Net: NetName=GREEN_OUT Pin=GREEN LOOP-1
+Removed Pin From Net: NetName=AIR_PWR Pin=GREEN LOOP-2
+Removed Member From Class: ClassName=TopLevel Member=CHARGER_DIGITAL
+Removed Member From Class: ClassName=TopLevel Member=GREEN LOOP
+Added Component: Designator=CHARGE DIGITAL(39293026)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM3843-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39293026"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=HVD(39293046)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM3844-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39293046"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=POWER(39293046)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM3844-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39293046"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CHARGE 5V Pin=CHARGE DIGITAL-1
+Added Pin To Net: NetName=CHARGE EN (CHARGER) Pin=CHARGE DIGITAL-2
+Added Pin To Net: NetName=GREEN_OUT Pin=HVD-1
+Added Pin To Net: NetName=AIR_PWR Pin=HVD-3
+Added Pin To Net: NetName=12V Pin=POWER-1
+Added Pin To Net: NetName=12V Pin=POWER-2
+Added Pin To Net: NetName=GND Pin=POWER-3
+Added Pin To Net: NetName=GND Pin=POWER-4
+Added Pin To Net: NetName=HVD_IN Pin=HVD-2
+Added Pin To Net: NetName=HVD_IN Pin=HVD-4
+Added Net: Name=HVD_IN
+Added Member To Class: ClassName=TopLevel Member=Component CHARGE DIGITAL 39293026
+Added Member To Class: ClassName=TopLevel Member=Component HVD 39293046
+Added Member To Class: ClassName=TopLevel Member=Component POWER 39293046
+Added Member To Class: ClassName=TopLevel Member=Component R2 120R

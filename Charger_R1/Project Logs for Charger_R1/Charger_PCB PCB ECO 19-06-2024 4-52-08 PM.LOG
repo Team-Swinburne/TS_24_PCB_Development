@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=CHARGE_SAFETY_PWR Pin=K1-4
+Removed Pin From Net: NetName=CHARGE_BUTTON_PWR Pin=K1-8
+Removed Pin From Net: NetName=CHARGE EN (CHARGER) Pin=K1-9
+Removed Pin From Net: NetName=CHARGE 5V Pin=K1-13
+Added Pin To Net: NetName=CHARGE 5V Pin=K1-4
+Added Pin To Net: NetName=CHARGE EN (CHARGER) Pin=K1-8
+Added Pin To Net: NetName=CHARGE_BUTTON_PWR Pin=K1-9
+Added Pin To Net: NetName=CHARGE_SAFETY_PWR Pin=K1-13

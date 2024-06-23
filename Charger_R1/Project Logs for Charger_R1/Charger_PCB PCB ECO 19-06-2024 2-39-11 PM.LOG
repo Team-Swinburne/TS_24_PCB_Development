@@ -1,0 +1,44 @@
+Change Component Designator: OldDesignator=J? NewDesignator=ACCUMULATOR PLUG
+Added Component: Designator=12V BUS(39293086)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM3846-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39293086"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=AIR_PWR BUS(39293086)
+Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "WM3846-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "39293086"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "5.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=K1(1860991-1)
+Add component (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com.au/en/products/detail/te-connectivity-potter-brumfield-relays/1860991-1/11192373"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "41-1860991-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "1860991-1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V Pin=12V BUS-1
+Added Pin To Net: NetName=GND Pin=12V BUS-2
+Added Pin To Net: NetName=12V Pin=12V BUS-3
+Added Pin To Net: NetName=GND Pin=12V BUS-4
+Added Pin To Net: NetName=12V Pin=12V BUS-5
+Added Pin To Net: NetName=GND Pin=12V BUS-6
+Added Pin To Net: NetName=12V Pin=12V BUS-7
+Added Pin To Net: NetName=GND Pin=12V BUS-8
+Added Pin To Net: NetName=AIR_PWR Pin=AIR_PWR BUS-1
+Added Pin To Net: NetName=GND Pin=AIR_PWR BUS-2
+Added Pin To Net: NetName=AIR_PWR Pin=AIR_PWR BUS-3
+Added Pin To Net: NetName=GND Pin=AIR_PWR BUS-4
+Added Pin To Net: NetName=AIR_PWR Pin=AIR_PWR BUS-5
+Added Pin To Net: NetName=GND Pin=AIR_PWR BUS-6
+Added Pin To Net: NetName=AIR_PWR Pin=AIR_PWR BUS-7
+Added Pin To Net: NetName=GND Pin=AIR_PWR BUS-8
+Added Member To Class: ClassName=TopLevel Member=Component 12V BUS 39293086
+Added Member To Class: ClassName=TopLevel Member=Component AIR_PWR BUS 39293086
+Added Member To Class: ClassName=TopLevel Member=Component K1 1860991-1
+Added Member To Class: ClassName=TopLevel Member=Component R? 120R
