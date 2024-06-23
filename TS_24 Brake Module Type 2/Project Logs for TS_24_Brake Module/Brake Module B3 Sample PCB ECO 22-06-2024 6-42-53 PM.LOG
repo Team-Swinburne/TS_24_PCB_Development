@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=0V Pin=C8-1
+Added Pin To Net: NetName=0V Pin=C9-1
+Added Pin To Net: NetName=0V Pin=C10-1
+Added Pin To Net: NetName=0V Pin=U2-2
+Added Room: Name=BSPD
+Added Room: Name=CAN
+Added Room: Name=Microcontroller
+Added Room: Name=Power Supply
+Added Room: Name=Safety Loop
+Added Room: Name=TopLevel
