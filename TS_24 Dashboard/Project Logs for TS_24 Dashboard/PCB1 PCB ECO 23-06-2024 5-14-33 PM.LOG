@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=CAN1_P Pin=P4-2
+Removed Pin From Net: NetName=CAN1_N Pin=P4-3
+Added Pin To Net: NetName=CAN1_N Pin=P4-2
+Added Pin To Net: NetName=CAN1_P Pin=P4-3
+Added Member To Class: ClassName=CAN Member=Component U3 NUP2105L
