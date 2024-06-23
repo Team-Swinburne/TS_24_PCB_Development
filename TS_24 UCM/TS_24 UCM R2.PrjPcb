@@ -115,7 +115,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IVNLAVIP
 
 [Document5]
 DocumentPath=Microcontroller.SchDoc
@@ -169,7 +169,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DRQAIXYO
 
 [Document8]
-DocumentPath=TS_24 UCM R1.PcbDoc
+DocumentPath=..\..\..\2024\PCB Fabrication\Sourceman_23_06_2024\TS_24 UCM R1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
