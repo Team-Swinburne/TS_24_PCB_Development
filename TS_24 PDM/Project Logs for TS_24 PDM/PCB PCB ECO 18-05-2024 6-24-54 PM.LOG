@@ -1,9 +1,0 @@
-Added Component: Designator=TP?(SMD Test Point 1mm)
-Add component (AddParameter): Name = "Angle"; Value = "0"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "Contact"; Value = "NA"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "Flange"; Value = "No"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "Part Number"; Value = "SMD Test Point Small"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "Pitch"; Value = "0mm"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "Positions"; Value = "1"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "Row Spacing"; Value = "0"; VariantName = "[No Variations]"
-Added Member To Class: ClassName=Microcontroller Member=Component TP? Test Point Small

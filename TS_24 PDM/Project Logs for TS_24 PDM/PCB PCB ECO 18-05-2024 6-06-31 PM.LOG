@@ -1,6 +1,0 @@
-Added Pin To Net: NetName=5V Pin=R2-1
-Change Net Name : Old Net Name=NetC5_2 New Net Name=_CAN1_N
-Change Net Name : Old Net Name=NetC6_2 New Net Name=_CAN1_P
-Change Net Name : Old Net Name=NetC7_2 New Net Name=VBAT_C
-Change Net Name : Old Net Name=NetC18_1 New Net Name=Switch
-Added Differential Pair: Name=_CAN1

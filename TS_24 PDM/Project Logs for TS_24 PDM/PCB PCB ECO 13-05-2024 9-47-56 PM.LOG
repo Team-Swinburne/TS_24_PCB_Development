@@ -1,6 +1,0 @@
-Removed Member From Class: ClassName=HSD1 Member=C35A
-Added Pin To Net: NetName=0V_(ISO) Pin=C22-1
-Added Member To Class: ClassName=ADC2 Member=Component C35B (C35) 1µF
-Added Member To Class: ClassName=HSD1 Member=Component C36A (C36) 100nF
-Added Member To Class: ClassName=HSD2 Member=Component C37B (C37) 100nF
-Added Member To Class: ClassName=HSD4 Member=Component C37D (C37) 100nF
