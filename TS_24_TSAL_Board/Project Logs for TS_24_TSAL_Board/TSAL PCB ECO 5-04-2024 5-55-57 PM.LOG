@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=TSAL_RED_GND Pin=K1-9
-Removed Pin From Net: NetName=GLV+ Pin=K1-13
-Added Pin To Net: NetName=GLV+ Pin=K1-4
-Added Pin To Net: NetName=TSAL_RED_GND Pin=K1-8
-Add Pin To Net: Unknown Pin: Pin P2-2
-Add Pin To Net: Unknown Pin: Pin P3-2
