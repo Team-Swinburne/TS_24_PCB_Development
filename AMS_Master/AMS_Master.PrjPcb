@@ -287,6 +287,27 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AKJHPPRO
 
+[Document15]
+DocumentPath=GPIO_Ex.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HMCFNYLJ
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for AMS_Master\Design Rule Check - AMS_Master_A1.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
