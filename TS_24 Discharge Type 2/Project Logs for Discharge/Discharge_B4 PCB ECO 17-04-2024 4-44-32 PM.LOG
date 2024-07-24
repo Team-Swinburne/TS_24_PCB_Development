@@ -1,5 +1,0 @@
-Removed Member From Class: ClassName=Safety Loop Member=P7
-Added Pin To Net: NetName=GL_IN Pin=P7-2
-Add Pin To Net: Unknown Pin: Pin P12-2
-Change Net Name : Old Net Name=GL_OUT New Net Name=GL_INT
-Added Member To Class: ClassName=TopLevel Member=Component P7 2.54mm

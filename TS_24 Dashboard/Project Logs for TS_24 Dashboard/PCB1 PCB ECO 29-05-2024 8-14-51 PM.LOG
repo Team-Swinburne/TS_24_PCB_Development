@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=0V Pin=D2-K
-Added Pin To Net: NetName=0V_(ISO) Pin=D2-K
-Added Member To Class: ClassName=Power Supply Member=Component C12 10uF
-Added Member To Class: ClassName=U_Microcontroller Member=Component U4 STM32F103T8U6

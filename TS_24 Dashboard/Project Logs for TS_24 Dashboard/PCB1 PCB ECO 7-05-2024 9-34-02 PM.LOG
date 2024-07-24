@@ -1,6 +1,0 @@
-Removed Member From Class: ClassName=Power Supply Member=R8
-Added Pin To Net: NetName=GLV- Pin=D5-A
-Added Pin To Net: NetName=NetC15_2 Pin=D5-K
-Added Member To Class: ClassName=U_Microcontroller Member=Component R7 10k
-Added Member To Class: ClassName=U_Microcontroller Member=Component R8 10k
-Added Member To Class: ClassName=Power Supply Member=Component R9 20K
