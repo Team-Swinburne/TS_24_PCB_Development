@@ -1,6 +1,0 @@
-Added Pin To Net: NetName=GLV- Pin=C14-2
-Added Pin To Net: NetName=GLV- Pin=P1-5
-Added Pin To Net: NetName=GLV- Pin=U4-2
-Change Net Name : Old Net Name=CAN-H New Net Name=CAN2_P
-Change Net Name : Old Net Name=GLV- New Net Name=CAN2_N
-Added Differential Pair: Name=CAN2

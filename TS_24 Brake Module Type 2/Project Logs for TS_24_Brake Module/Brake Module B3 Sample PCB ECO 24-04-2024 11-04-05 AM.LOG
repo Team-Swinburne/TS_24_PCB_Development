@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=BPSD LATCH Pin=R20-2
-Removed Pin From Net: NetName=BPSD LATCH Pin=U7-10
-Removed Pin From Net: NetName=BPSD LATCH Pin=U8-9
-Added Pin To Net: NetName=BSPD LATCH Pin=R20-2
-Added Pin To Net: NetName=BSPD LATCH Pin=U8-9
-Added Net: Name=BSPD LATCH

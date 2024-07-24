@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=GL_INT Pin=P7-1
-Removed Pin From Net: NetName=GL_OUT Pin=P7-2
-Added Pin To Net: NetName=GL_OUT Pin=P7-1
-Added Pin To Net: NetName=GL_INT Pin=P7-2
-Add Pin To Net: Unknown Pin: Pin P12-2
