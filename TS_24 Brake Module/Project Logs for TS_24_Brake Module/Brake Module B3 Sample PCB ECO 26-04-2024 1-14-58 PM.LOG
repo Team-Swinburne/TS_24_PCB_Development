@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=0V_(ISO) Pin=D7-K
-Removed Pin From Net: NetName=CAN_TX_INDC Pin=R7-2
-Removed Pin From Net: NetName=CAN_TX_INDC Pin=U7-32
-Removed Pin From Net: NetName=CAN_RX_INDC Pin=U7-33
-Removed Pin From Net: NetName=HB Pin=U7-34
-Removed Member From Class: ClassName=Microcontroller Member=D7
-Removed Member From Class: ClassName=Microcontroller Member=R7
-Added Pin To Net: NetName=HB Pin=U7-32
-Added Pin To Net: NetName=CAN_TX_INDC Pin=U7-34

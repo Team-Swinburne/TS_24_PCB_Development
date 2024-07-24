@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=GL_IN Pin=P7-2
-Added Pin To Net: NetName=GL_INT Pin=P7-2
-Added Room: Name=TopLevel

@@ -1,6 +1,0 @@
-Added Pin To Net: NetName=CS1 Pin=U4_TB1-5
-Added Pin To Net: NetName=CS6 Pin=U4_TB6-5
-Change Net Name : Old Net Name=NetU4_TB2_5 New Net Name=CS2
-Change Net Name : Old Net Name=NetU4_TB3_5 New Net Name=CS3
-Change Net Name : Old Net Name=NetU4_TB4_5 New Net Name=CS4
-Change Net Name : Old Net Name=NetU4_TB5_5 New Net Name=CS5

@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=VBAT_F Pin=D2-A
-Removed Pin From Net: NetName=0V Pin=R5-1
-Removed Member From Class: ClassName=Power Supply Member=D2
-Removed Member From Class: ClassName=Power Supply Member=R5

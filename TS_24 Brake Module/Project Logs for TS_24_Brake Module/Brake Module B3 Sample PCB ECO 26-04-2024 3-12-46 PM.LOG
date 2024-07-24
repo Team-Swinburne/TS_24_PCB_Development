@@ -1,8 +1,0 @@
-Change Component Footprint: Designator=R27 Old Footprint=3339P1103LF New Footprint=3339P-1-1103LF
-Change Component Comment : Designator=R27 Old Comment=3339P-1-103LF New Comment=10K (Var)
-Change component parameters: Designator = "R27" ("R27"); Footprint = "3339P1103LF"; UniqueID = "\UXYJAVLH\PYKECNFH" ("\UXYJAVLH\PYKECNFH")
-Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bournes Inc"; VariantName = "[No Variations]"
-Change component parameters (AddParameter): Name = "Part Number"; Value = "3339P-1-1103LF"; VariantName = "[No Variations]"
-Change component parameters (AddParameter): Name = "Rated Power"; Value = "0.5W"; VariantName = "[No Variations]"
-Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1"; VariantName = "[No Variations]"
-Change component parameters (AddParameter): Name = "Value"; Value = "10K (Var)"; VariantName = "[No Variations]"
